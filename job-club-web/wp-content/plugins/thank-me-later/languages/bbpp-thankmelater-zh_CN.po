@@ -1,0 +1,499 @@
+# Copyright (C) 2013 
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version: bbpp_thankmelater\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/thank-me-later\n"
+"POT-Creation-Date: 2013-01-13 03:36:26+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2013-06-21 17:08-0000\n"
+"Last-Translator: \n"
+"Language-Team: www.chunxiao.me <permaylau@gmail.com>\n"
+"Language: Simplified Chinese\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _e;__\n"
+
+#: Message.php:745 Message.php:757
+msgid "This must be fewer than 250 letters long."
+msgstr "此值必须小于255个字符长度。"
+
+#: Message.php:749 Message.php:761 Message.php:765
+msgid "This must not be blank."
+msgstr "此值不能为空。"
+
+#: Message.php:753
+msgid "This must be a real email address."
+msgstr "该值是无效的。"
+
+#: Message.php:769 Message.php:822
+msgid "This must be a number."
+msgstr "该值必须是一个数字。"
+
+#: Message.php:773
+msgid "This must be a real length of time."
+msgstr "请选择一个值。"
+
+#: Message.php:777
+msgid "You must select some tags."
+msgstr "请提供标签列表"
+
+#: Message.php:791
+msgid "You must select some categories."
+msgstr "请提供分类列表"
+
+#: Message.php:805 Message.php:817
+msgid "You must select some posts."
+msgstr "请提供文章列表。"
+
+#: admin/AdminScreenMessage.php:86 upgrade/Upgrade3_0.php:52
+msgctxt "post title - blog name"
+msgid "%s - %s"
+msgstr "%s - %s"
+
+#: admin/AdminScreenMessage.php:91 upgrade/Upgrade3_0.php:57
+msgid "Hi %s,"
+msgstr "嗨 %s,"
+
+#: admin/AdminScreenMessage.php:93 upgrade/Upgrade3_0.php:59
+msgid ""
+"Thank you for your comment on [post_title]. Please check back soon for a "
+"response."
+msgstr "感情您对[post_title]的评论，请尽快检查关于您的评论的相关回复."
+
+#: admin/AdminScreenMessage.php:98 upgrade/Upgrade3_0.php:64
+msgid "Return to your comment."
+msgstr "返回查看您的评论"
+
+#: admin/AdminScreenMessage.php:102 upgrade/Upgrade3_0.php:68
+msgid "Return to your comment: [comment_url]"
+msgstr "返回您的评论: [comment_url]"
+
+#: admin/AdminScreenMessage.php:107 upgrade/Upgrade3_0.php:73
+msgid "You posted this comment on %s: %s"
+msgstr "您发布的评论如下 %s: %s"
+
+#: admin/AdminScreenMessage.php:232
+msgid "This is a sample post created by Thank Me Later."
+msgstr "这是一个由插件自身生产的评论样本"
+
+#: admin/AdminScreenMessage.php:234
+msgid "Sample post title"
+msgstr "文章标题样本"
+
+#: admin/AdminScreenMessage.php:248
+msgctxt "placeholder name"
+msgid "John Doe"
+msgstr "张三"
+
+#: admin/AdminScreenMessage.php:249
+msgctxt "placeholder e-mail"
+msgid "john.doe@xyz.com"
+msgstr "xxx@xxx.com"
+
+#: admin/AdminScreenMessage.php:250
+msgid ""
+"This is a sample comment used by Thank Me Later. It is not displayed on any "
+"blog posts."
+msgstr "这个评论样本为插件自身使用，它不会在任何一篇文章中显示。"
+
+#: admin/AdminScreenMessage.php:296 admin/messages/MessageListTable.php:77
+msgctxt "separator in list of post names"
+msgid ", "
+msgstr ","
+
+#: admin/AdminScreenMessage.php:301 admin/messages/MessageListTable.php:81
+msgid "Targets 0 posts"
+msgstr "针对 0 文章。"
+
+#: admin/AdminScreenMessage.php:315 admin/messages/MessageListTable.php:94
+msgid "Targets %2$s"
+msgid_plural "Targets %s and %s"
+msgstr[0] ""
+
+#: admin/AdminScreenMessage.php:331 admin/messages/MessageListTable.php:113
+msgid "Targets %s and %s%d other post%s"
+msgid_plural "Targets %s and %s%d other posts%s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/AdminScreenMessage.php:340 admin/messages/MessageListTable.php:122
+msgid "Targets all posts."
+msgstr "针对所有文章。"
+
+#: admin/messages/MessageListTable.php:37
+msgctxt "verb"
+msgid "Edit"
+msgstr "编辑"
+
+#: admin/messages/MessageListTable.php:38
+#: admin/messages/MessageListTable.php:167
+msgctxt "verb"
+msgid "Delete"
+msgstr "删除"
+
+#: admin/messages/MessageListTable.php:146
+msgid "Subject"
+msgstr "主题"
+
+#: admin/messages/MessageListTable.php:147
+msgid "Targeting"
+msgstr "目标确定"
+
+#: admin/messages/edit.php:50
+msgid "Edit Message"
+msgstr "编辑邮件"
+
+#: admin/messages/edit.php:52
+msgid "New Message"
+msgstr "新邮件"
+
+#: admin/messages/edit.php:56 admin/messages/overview.php:19
+msgid "Add New"
+msgstr "新建"
+
+#: admin/messages/edit.php:63
+msgid "Your message was not saved. Correct the errors below."
+msgstr "您的邮件无法被保存。请纠正错误下面高亮显示的错误。"
+
+#: admin/messages/edit.php:73
+msgid "From Name"
+msgstr "发件人姓名"
+
+#: admin/messages/edit.php:81
+msgid "From Email"
+msgstr "发件人Email地址"
+
+#: admin/messages/edit.php:89 thankmelater.php:293
+msgctxt "noun"
+msgid "Subject"
+msgstr "主题"
+
+#: admin/messages/edit.php:97
+msgctxt "noun"
+msgid "Message"
+msgstr "邮件"
+
+#: admin/messages/edit.php:108
+msgctxt "noun"
+msgid "Preview"
+msgstr "预览"
+
+#: admin/messages/edit.php:112
+msgctxt "noun"
+msgid "HTML"
+msgstr "HTML"
+
+#: admin/messages/edit.php:115
+msgctxt "noun"
+msgid "Text"
+msgstr "纯文本"
+
+#: admin/messages/edit.php:120
+msgid "Enable Javascript to see this preview."
+msgstr "请启用Javascript查看邮件预览。"
+
+#: admin/messages/edit.php:133
+msgid "Show shortcode list"
+msgstr "显示短代码参考"
+
+#: admin/messages/edit.php:134
+msgid "Hide shortcode list"
+msgstr "隐藏短代码参考"
+
+#: admin/messages/edit.php:143
+msgid "When to send emails"
+msgstr "时间表"
+
+#: admin/messages/edit.php:147
+msgid "Send after time"
+msgstr "最小延迟"
+
+#: admin/messages/edit.php:155
+msgid "minutes"
+msgstr "分钟"
+
+#: admin/messages/edit.php:156
+msgid "hours"
+msgstr "时"
+
+#: admin/messages/edit.php:157
+msgid "days"
+msgstr "天"
+
+#: admin/messages/edit.php:158
+msgid "weeks"
+msgstr "周"
+
+#: admin/messages/edit.php:160
+msgid "The email will be sent this amount of time after the comment is posted."
+msgstr "评论发表后的这段时间内将发送电子邮件。"
+
+#: admin/messages/edit.php:165
+msgid "Send limit"
+msgstr "最大发送限制"
+
+#: admin/messages/edit.php:169
+msgid ""
+"The email will be sent no more than this number of times. Enter '0' for no "
+"limit."
+msgstr "在不超过设置的次数情况下，Email将会被发送。输入'0'意味着没有限制。"
+
+#: admin/messages/edit.php:175
+msgctxt "noun"
+msgid "Targeting"
+msgstr "目标确定"
+
+#: admin/messages/edit.php:190
+msgctxt "noun"
+msgid "Tags"
+msgstr "标签"
+
+#: admin/messages/edit.php:213
+msgid "The email will be sent for posts with any of the chosen tags."
+msgstr "电子邮件将会发送至任意选定的标签下的任意文章"
+
+#: admin/messages/edit.php:215
+msgid "Your blog does not have any tags."
+msgstr "你的博客网站没有任何标签"
+
+#: admin/messages/edit.php:221
+msgctxt "noun"
+msgid "Categories"
+msgstr "分类"
+
+#: admin/messages/edit.php:244
+msgid "The email will be sent for posts in any of the chosen categories."
+msgstr "Email将会被发送至，任意选定的分类下的任意文章。"
+
+#: admin/messages/edit.php:246 admin/messages/edit.php:277
+msgid "Your blog does not have any categories."
+msgstr "你的博客网站没有任何分类"
+
+#: admin/messages/edit.php:252
+msgctxt "noun"
+msgid "Posts"
+msgstr "文章"
+
+#: admin/messages/edit.php:275
+msgid "The email will be sent for any chosen posts."
+msgstr "电子邮件将会发送至任意一篇被选定的文章"
+
+#: admin/messages/edit.php:286
+msgid "Save Message"
+msgstr "保存邮件"
+
+#: admin/messages/overview.php:16 thankmelater.php:251 thankmelater.php:252
+msgctxt "noun"
+msgid "Messages"
+msgstr "邮件"
+
+#: admin/messages/overview.php:26
+msgid "Message deleted."
+msgid_plural "%d messages deleted."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/messages/overview.php:34
+msgid "Message updated!"
+msgid_plural "%d messages updated!"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/messages/overview.php:46
+msgid "Created by %s"
+msgstr "开发者"
+
+#: admin/messages/overview.php:49
+msgid "Mailing List"
+msgstr "邮件列表"
+
+#: admin/messages/shortcode_reference.php:1
+msgid "Shortcode List"
+msgstr "短代码参考"
+
+#: admin/messages/shortcode_reference.php:2
+msgid ""
+"You can use the following shortcodes in the from name, from email, subject "
+"and message:"
+msgstr "你可以在发件人姓名,发件人邮件地址,发件主题和邮件内容中，使用以下段代码"
+
+#: admin/messages/shortcode_reference.php:7
+msgctxt "noun"
+msgid "Shortcode"
+msgstr "短代码"
+
+#: admin/messages/shortcode_reference.php:8
+msgctxt "noun"
+msgid "Options"
+msgstr "属性"
+
+#: admin/messages/shortcode_reference.php:9
+#: admin/messages/shortcode_reference.php:176
+msgid "Description"
+msgstr "描述"
+
+#: admin/messages/shortcode_reference.php:17
+msgid "Set to 1 if used in HTML attribute"
+msgstr "如果使用HTML属性，请设置为“1”"
+
+#: admin/messages/shortcode_reference.php:21
+msgid "The URL for the post author's page."
+msgstr "文章作者页面的URL超链接"
+
+#: admin/messages/shortcode_reference.php:28
+#: admin/messages/shortcode_reference.php:40
+#: admin/messages/shortcode_reference.php:51
+#: admin/messages/shortcode_reference.php:64
+#: admin/messages/shortcode_reference.php:102
+#: admin/messages/shortcode_reference.php:129
+#: admin/messages/shortcode_reference.php:159
+msgid "Set to 1 if used in HTML attribute."
+msgstr "如果使用HTML属性，请设置为“1”"
+
+#: admin/messages/shortcode_reference.php:29
+msgid "Maximum number of characters to show."
+msgstr "可以显示的最大字符数。"
+
+#: admin/messages/shortcode_reference.php:33
+msgid "The comment content."
+msgstr "评论内容"
+
+#: admin/messages/shortcode_reference.php:44
+msgid "The URL for the comment."
+msgstr "评论URL链接"
+
+#: admin/messages/shortcode_reference.php:52
+msgid "%sDate format%s. e.g. 'd M Y' for '14 Jan 2013'."
+msgstr "%s日期格式%s.例如'年月日' 为'2013年1月14日'."
+
+#: admin/messages/shortcode_reference.php:53
+msgid "Set to 1 for GMT date/time."
+msgstr "GMT日期/时间设置为1"
+
+#: admin/messages/shortcode_reference.php:57
+msgid "The date of the comment."
+msgstr "评论日期"
+
+#: admin/messages/shortcode_reference.php:68
+msgid "The email address of the commenter."
+msgstr "评论者的email地址"
+
+#: admin/messages/shortcode_reference.php:75
+#: admin/messages/shortcode_reference.php:148
+msgid "Set to 1 to apply shortcodes inside of tag."
+msgstr "在标签支持段代码，请设置为\"1\""
+
+#: admin/messages/shortcode_reference.php:79
+msgid "Content to show in HTML messages only."
+msgstr "仅显示HTML邮件中的内容"
+
+#: admin/messages/shortcode_reference.php:87
+msgid "The ID of the comment."
+msgstr "评论ID"
+
+#: admin/messages/shortcode_reference.php:95
+msgid "The IP address of the commenter."
+msgstr "评论者的IP地址"
+
+#: admin/messages/shortcode_reference.php:106
+msgid "The name of the commenter."
+msgstr "评论者的姓名"
+
+#: admin/messages/shortcode_reference.php:114
+msgid ""
+"A paragraph of text (paragraphs are added automatically when leaving two "
+"blank lines between text)."
+msgstr "文本段落（当文本之间留下两个空行时，段落会自动添加）"
+
+#: admin/messages/shortcode_reference.php:122
+msgid "The ID of the post."
+msgstr "文章ID"
+
+#: admin/messages/shortcode_reference.php:133
+msgid "The post title."
+msgstr "文章标题"
+
+#: admin/messages/shortcode_reference.php:141
+msgid "Hide a section of message (keeping for future reference)."
+msgstr "隐藏部分信息（保存以供将来参考）"
+
+#: admin/messages/shortcode_reference.php:152
+msgid "Content to show in text messages only."
+msgstr "只在邮件文本中显示的内容"
+
+#: admin/messages/shortcode_reference.php:163
+msgid "The user agent of the commenter."
+msgstr "评论者的UA字串"
+
+#: admin/messages/shortcode_reference.php:169
+msgid "Templates"
+msgstr "模板"
+
+#: admin/messages/shortcode_reference.php:170
+msgid ""
+"You can wrap your message in one of the following tags to use a HTML "
+"template:"
+msgstr "在HTML模板中，您可以使用下列标签包裹您的邮件："
+
+#: admin/messages/shortcode_reference.php:175
+msgid "Shortcode"
+msgstr "短代码"
+
+#: admin/messages/shortcode_reference.php:183
+msgid "A simple template."
+msgstr "一个简单的模板"
+
+#: admin/messages/targets.php:16
+msgctxt "noun"
+msgid "Target Posts"
+msgstr "有针对性的帖子"
+
+#: admin/messages/targets.php:20
+msgid "Return to messages"
+msgstr "返回到邮件"
+
+#: admin/messages/targets.php:22
+msgid "The following posts are targeted by this message:"
+msgstr "下列文章是针对此邮件的"
+
+#: admin/messages/targets.php:29
+msgid "%s (ID: %d)"
+msgstr "%s (ID: %d)"
+
+#: admin/statistics/index.php:18
+msgctxt "noun"
+msgid "Stats"
+msgstr "统计"
+
+#: admin/statistics/index.php:25
+msgid "total emails sent"
+msgstr "自插件安装以来发送的邮件"
+
+#: admin/statistics/index.php:29
+msgid "due to be sent"
+msgstr "预定发送"
+
+#: admin/statistics/index.php:35
+msgid "Emails sent in the last 30 days"
+msgstr "在过去的30天内发送的邮件"
+
+#: shortcodes/date.php:12
+msgctxt "date syntax"
+msgid "d M Y"
+msgstr "年月日"
+
+#: thankmelater.php:242 thankmelater.php:243
+msgid "Thank Me Later"
+msgstr "邮件鸣谢"
+
+#: thankmelater.php:259 thankmelater.php:260
+msgid "Stats"
+msgstr "统计"
+
+#: thankmelater.php:292
+msgctxt ""
+"'From' header in e-mail client, preceding from name and e-mail address"
+msgid "From"
+msgstr "发件人"

@@ -1,0 +1,872 @@
+# Copyright (C) 2014 
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version:  \n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/thank-me-later\n"
+"POT-Creation-Date: 2014-07-29 21:25:33+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2014-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: Message.php:789 Message.php:801
+msgid "This must be fewer than 250 letters long."
+msgstr ""
+
+#: Message.php:793 Message.php:805 Message.php:809
+#: admin/AdminScreenOptOut.php:84 admin/AdminScreenOptOut.php:92
+msgid "This must not be blank."
+msgstr ""
+
+#: Message.php:797
+msgid "This must be a real email address."
+msgstr ""
+
+#: Message.php:813 Message.php:860
+msgid "This must be a number."
+msgstr ""
+
+#: Message.php:817
+msgid "This must be a real length of time."
+msgstr ""
+
+#: Message.php:821 Message.php:827
+msgid "You must select some tags."
+msgstr ""
+
+#: Message.php:832 Message.php:838
+msgid "You must select some categories."
+msgstr ""
+
+#: Message.php:843 Message.php:855
+msgid "You must select some posts."
+msgstr ""
+
+#: Message.php:864
+msgid "Select an option."
+msgstr ""
+
+#: admin/AdminScreenMessage.php:86 upgrade/Upgrade3_0.php:54
+msgctxt "post title - blog name"
+msgid "%s - %s"
+msgstr ""
+
+#: admin/AdminScreenMessage.php:92 upgrade/Upgrade3_0.php:60
+msgid "Hi %s,"
+msgstr ""
+
+#. translators: the string "[post_title]" will be replaced with the blog post's
+#. title. Please do not remove this string.
+#: admin/AdminScreenMessage.php:95 upgrade/Upgrade3_0.php:63
+msgid ""
+"Thank you for your comment on [post_title]. Please check back soon for a "
+"response."
+msgstr ""
+
+#: admin/AdminScreenMessage.php:100 upgrade/Upgrade3_0.php:68
+msgid "Return to your comment."
+msgstr ""
+
+#. translators: the string "[comment_url]" will be replaced with the URL to the
+#. user's comment. Please do not remove this string.
+#: admin/AdminScreenMessage.php:105 upgrade/Upgrade3_0.php:73
+msgid "Return to your comment: [comment_url]"
+msgstr ""
+
+#: admin/AdminScreenMessage.php:110 upgrade/Upgrade3_0.php:78
+msgid "You posted this comment on %s: %s"
+msgstr ""
+
+#: admin/AdminScreenMessage.php:114 upgrade/Upgrade3_0.php:82
+msgid "Thank you!"
+msgstr ""
+
+#: admin/AdminScreenMessage.php:264
+msgid "This is a sample post created by Thank Me Later."
+msgstr ""
+
+#: admin/AdminScreenMessage.php:266
+msgid "Sample post title"
+msgstr ""
+
+#: admin/AdminScreenMessage.php:280
+msgctxt "placeholder name"
+msgid "John Doe"
+msgstr ""
+
+#: admin/AdminScreenMessage.php:281
+msgctxt "placeholder e-mail"
+msgid "john.doe@example.com"
+msgstr ""
+
+#: admin/AdminScreenMessage.php:282
+msgid ""
+"This is a sample comment used by Thank Me Later. It is not displayed on any "
+"blog posts."
+msgstr ""
+
+#: admin/AdminScreenMessage.php:328 admin/messages/MessageListTable.php:77
+msgctxt "separator in list of post names"
+msgid ", "
+msgstr ""
+
+#: admin/AdminScreenMessage.php:333 admin/messages/MessageListTable.php:81
+msgid "Targets 0 posts"
+msgstr ""
+
+#. translators: %2$s will be replaced with post name. In plural version, the
+#. first %s is a seperated list of post titles, the second %s is the title of
+#. the last post
+#: admin/AdminScreenMessage.php:349 admin/messages/MessageListTable.php:96
+msgid "Targets %2$s"
+msgid_plural "Targets %s and %s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/AdminScreenMessage.php:369 admin/messages/MessageListTable.php:116
+msgid "Targets %s and %s%d other post%s"
+msgid_plural "Targets %s and %s%d other posts%s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/AdminScreenMessage.php:378 admin/messages/MessageListTable.php:125
+msgid "Targets all posts"
+msgstr ""
+
+#: admin/AdminScreenOptOut.php:70 admin/AdminScreenOptOut.php:75
+#: admin/AdminScreenOptOut.php:80 admin/AdminScreenOptOut.php:88
+msgid "You must select an option."
+msgstr ""
+
+#: admin/install/done.php:14
+msgid "Thank Me Later is now ready to use. Enjoy!"
+msgstr ""
+
+#: admin/install/done.php:18
+msgid "Thank <em>you</em>"
+msgstr ""
+
+#: admin/install/done.php:20
+msgid ""
+"When I released Thank Me Later 6 years ago, I never expected it to become as "
+"popular as it is today. In that time, I have seen the plugin downloaded over "
+"130,000 times and used by perhaps tens of thousands of bloggers across the "
+"world. It is now available in 6 other languages thanks to translators "
+"contributing their time and effort to the plugin."
+msgstr ""
+
+#: admin/install/done.php:22
+msgid ""
+"Seeing the plugin used so widely gives me great satisfaction. Feedback has "
+"been overwhelmingly positive, and this has driven me to continue maintaining "
+"the software and to add new features."
+msgstr ""
+
+#: admin/install/done.php:24
+msgid ""
+"However, managing to maintain the plugin and provide support to users is not "
+"easy. It takes an incredible amount of my personal time, for which I am not "
+"remunerated."
+msgstr ""
+
+#: admin/install/done.php:26
+msgid ""
+"Thank Me Later is free and open source, but I do accept donations from those "
+"who have a few pounds or dollars to spare. A small donation will motivate me "
+"to continue working on this project. If you have been a long time user of "
+"Thank Me Later, I hope you will consider making a small donation."
+msgstr ""
+
+#: admin/install/done.php:34
+msgid "Amount:"
+msgstr ""
+
+#: admin/install/done.php:37
+msgid "AUD"
+msgstr ""
+
+#: admin/install/done.php:38
+msgid "CAD"
+msgstr ""
+
+#: admin/install/done.php:39
+msgid "EUR"
+msgstr ""
+
+#: admin/install/done.php:40
+msgid "GBP"
+msgstr ""
+
+#: admin/install/done.php:41
+msgid "USD"
+msgstr ""
+
+#: admin/install/done.php:47
+msgid "PayPal"
+msgstr ""
+
+#: admin/install/done.php:50
+msgid "I also accept Bitcoin donations:"
+msgstr ""
+
+#: admin/install/done.php:52
+msgid ""
+"If you cannot donate, please consider sharing your feedback by %swriting a "
+"review at Wordpress.org%s. And of course, please report any bugs or problems "
+"might you come across."
+msgstr ""
+
+#: admin/install/done.php:54
+msgid ""
+"And finally, I would like to reiterate my thanks&mdash;to the translators, "
+"the bloggers who have shared the plugin with their audiences and, most "
+"importantly, <em>you</em>."
+msgstr ""
+
+#: admin/install/done.php:56
+msgid "Thanks,<br />%sBrendon%s."
+msgstr ""
+
+#: admin/install/install.php:19
+msgid "Install Thank Me Later 3.3"
+msgstr ""
+
+#: admin/install/install.php:23
+msgid "Email open tracking"
+msgstr ""
+
+#: admin/install/install.php:25
+msgid "This version of Thank Me Later introduces email open tracking."
+msgstr ""
+
+#: admin/install/install.php:28
+msgid "View number of opened Thank Me Later emails from the 'Stats' page."
+msgstr ""
+
+#: admin/install/install.php:29
+msgid "You can enable and disable tracking from each message's options page."
+msgstr ""
+
+#: admin/install/install.php:30
+msgid ""
+"You should notify commenters that your emails may contain tracking code."
+msgstr ""
+
+#: admin/install/install.php:33
+msgid "Please decide whether you would like to enable email tracking."
+msgstr ""
+
+#: admin/install/install.php:39
+msgid "Enable Email Open Tracking"
+msgstr ""
+
+#: admin/messages/MessageListTable.php:37
+msgctxt "verb"
+msgid "Edit"
+msgstr ""
+
+#: admin/messages/MessageListTable.php:38
+#: admin/messages/MessageListTable.php:170
+msgctxt "verb"
+msgid "Delete"
+msgstr ""
+
+#: admin/messages/MessageListTable.php:149 admin/messages/edit.php:67
+#: thankmelater.php:399
+msgctxt "noun"
+msgid "Subject"
+msgstr ""
+
+#: admin/messages/MessageListTable.php:150 admin/messages/edit.php:153
+msgctxt "noun"
+msgid "Targeting"
+msgstr ""
+
+#: admin/messages/edit.php:28
+msgid "Edit Message"
+msgstr ""
+
+#: admin/messages/edit.php:30
+msgid "New Message"
+msgstr ""
+
+#: admin/messages/edit.php:34 admin/messages/overview.php:19
+msgid "Add New"
+msgstr ""
+
+#: admin/messages/edit.php:41
+msgid "Your message was not saved. Correct the errors below."
+msgstr ""
+
+#: admin/messages/edit.php:51
+msgid "From Name"
+msgstr ""
+
+#: admin/messages/edit.php:59
+msgid "From Email"
+msgstr ""
+
+#: admin/messages/edit.php:75
+msgctxt "noun"
+msgid "Message"
+msgstr ""
+
+#: admin/messages/edit.php:86
+msgctxt "noun"
+msgid "Preview"
+msgstr ""
+
+#: admin/messages/edit.php:90
+msgctxt "noun"
+msgid "HTML"
+msgstr ""
+
+#: admin/messages/edit.php:93
+msgctxt "noun"
+msgid "Text"
+msgstr ""
+
+#: admin/messages/edit.php:98
+msgid "Enable Javascript to see this preview."
+msgstr ""
+
+#: admin/messages/edit.php:111
+msgid "Show shortcode list"
+msgstr ""
+
+#: admin/messages/edit.php:112
+msgid "Hide shortcode list"
+msgstr ""
+
+#: admin/messages/edit.php:121
+msgid "When to send emails"
+msgstr ""
+
+#: admin/messages/edit.php:125
+msgid "Send after time"
+msgstr ""
+
+#: admin/messages/edit.php:133
+msgid "minutes"
+msgstr ""
+
+#: admin/messages/edit.php:134
+msgid "hours"
+msgstr ""
+
+#: admin/messages/edit.php:135
+msgid "days"
+msgstr ""
+
+#: admin/messages/edit.php:136
+msgid "weeks"
+msgstr ""
+
+#: admin/messages/edit.php:138
+msgid "The email will be sent this amount of time after the comment is posted."
+msgstr ""
+
+#: admin/messages/edit.php:143
+msgid "Send limit"
+msgstr ""
+
+#: admin/messages/edit.php:147
+msgid ""
+"The email will be sent no more than this number of times. Enter '0' for no "
+"limit."
+msgstr ""
+
+#: admin/messages/edit.php:168
+msgctxt "noun"
+msgid "Tags"
+msgstr ""
+
+#: admin/messages/edit.php:191
+msgid "The email will be sent for posts with any of the chosen tags."
+msgstr ""
+
+#: admin/messages/edit.php:193
+msgid "Your blog does not have any tags."
+msgstr ""
+
+#: admin/messages/edit.php:199
+msgctxt "noun"
+msgid "Categories"
+msgstr ""
+
+#: admin/messages/edit.php:222
+msgid "The email will be sent for posts in any of the chosen categories."
+msgstr ""
+
+#: admin/messages/edit.php:224
+msgid "Your blog does not have any categories."
+msgstr ""
+
+#: admin/messages/edit.php:230
+msgctxt "noun"
+msgid "Posts"
+msgstr ""
+
+#: admin/messages/edit.php:253
+msgid "The email will be sent for any chosen posts."
+msgstr ""
+
+#: admin/messages/edit.php:255
+msgid "Your blog does not have any posts."
+msgstr ""
+
+#: admin/messages/edit.php:262
+msgctxt "noun"
+msgid "Tracking"
+msgstr ""
+
+#: admin/messages/edit.php:266
+msgid "Track opens"
+msgstr ""
+
+#: admin/messages/edit.php:270
+msgid "Track number of times email is opened."
+msgstr ""
+
+#: admin/messages/edit.php:272
+msgid "You can view open statistics on the 'Stats' page."
+msgstr ""
+
+#: admin/messages/edit.php:280
+msgid "Save Message"
+msgstr ""
+
+#: admin/messages/overview.php:16 thankmelater.php:337 thankmelater.php:338
+msgctxt "noun"
+msgid "Messages"
+msgstr ""
+
+#: admin/messages/overview.php:26
+msgid "Message deleted."
+msgid_plural "%d messages deleted."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/messages/overview.php:34
+msgid "Message updated!"
+msgid_plural "%d messages updated!"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/messages/overview.php:48
+msgid "Created by %s"
+msgstr ""
+
+#: admin/messages/overview.php:51
+msgid "Mailing List"
+msgstr ""
+
+#: admin/messages/overview.php:52
+msgid "Rate This Plugin"
+msgstr ""
+
+#: admin/messages/overview.php:53
+msgid "Help"
+msgstr ""
+
+#: admin/messages/shortcode_reference.php:1
+msgid "Shortcode List"
+msgstr ""
+
+#: admin/messages/shortcode_reference.php:2
+msgid ""
+"You can use the following shortcodes in the from name, from email, subject "
+"and message:"
+msgstr ""
+
+#: admin/messages/shortcode_reference.php:7
+#: admin/messages/shortcode_reference.php:218
+msgctxt "noun"
+msgid "Shortcode"
+msgstr ""
+
+#: admin/messages/shortcode_reference.php:8
+#: admin/messages/shortcode_reference.php:219
+msgctxt "noun"
+msgid "Options"
+msgstr ""
+
+#: admin/messages/shortcode_reference.php:9
+#: admin/messages/shortcode_reference.php:221
+msgid "Description"
+msgstr ""
+
+#: admin/messages/shortcode_reference.php:17
+msgid "Set to 1 if used in HTML attribute"
+msgstr ""
+
+#: admin/messages/shortcode_reference.php:21
+msgid "The URL for the post author's page."
+msgstr ""
+
+#: admin/messages/shortcode_reference.php:28
+#: admin/messages/shortcode_reference.php:40
+#: admin/messages/shortcode_reference.php:51
+#: admin/messages/shortcode_reference.php:64
+#: admin/messages/shortcode_reference.php:123
+#: admin/messages/shortcode_reference.php:161
+#: admin/messages/shortcode_reference.php:202
+msgid "Set to 1 if used in HTML attribute."
+msgstr ""
+
+#: admin/messages/shortcode_reference.php:29
+msgid "Maximum number of characters to show."
+msgstr ""
+
+#: admin/messages/shortcode_reference.php:33
+msgid "The comment content."
+msgstr ""
+
+#: admin/messages/shortcode_reference.php:44
+msgid "The URL for the comment."
+msgstr ""
+
+#: admin/messages/shortcode_reference.php:52
+msgid "%sDate format%s. e.g. 'd M Y' for '14 Jan 2013'."
+msgstr ""
+
+#: admin/messages/shortcode_reference.php:53
+msgid "Set to 1 for GMT date/time."
+msgstr ""
+
+#: admin/messages/shortcode_reference.php:57
+msgid "The date of the comment."
+msgstr ""
+
+#: admin/messages/shortcode_reference.php:68
+msgid "The email address of the commenter."
+msgstr ""
+
+#: admin/messages/shortcode_reference.php:76
+msgid "Insert a h1-h6 heading."
+msgstr ""
+
+#: admin/messages/shortcode_reference.php:83
+#: admin/messages/shortcode_reference.php:191
+msgid "Set to 1 to apply shortcodes inside of tag."
+msgstr ""
+
+#: admin/messages/shortcode_reference.php:87
+msgid "Content to show in HTML messages only."
+msgstr ""
+
+#: admin/messages/shortcode_reference.php:95
+msgid "The ID of the comment."
+msgstr ""
+
+#: admin/messages/shortcode_reference.php:102
+msgid "URL of the image."
+msgstr ""
+
+#: admin/messages/shortcode_reference.php:103
+msgid "Width in pixels."
+msgstr ""
+
+#: admin/messages/shortcode_reference.php:104
+msgid "Height in pixels."
+msgstr ""
+
+#: admin/messages/shortcode_reference.php:108
+msgid "Inserts an image."
+msgstr ""
+
+#: admin/messages/shortcode_reference.php:116
+msgid "The IP address of the commenter."
+msgstr ""
+
+#: admin/messages/shortcode_reference.php:127
+msgid "The name of the commenter."
+msgstr ""
+
+#: admin/messages/shortcode_reference.php:134
+msgid "Set to 1 if you want the opt out URL only. Default: '1'"
+msgstr ""
+
+#: admin/messages/shortcode_reference.php:138
+msgid "Get opt out message/URL"
+msgstr ""
+
+#: admin/messages/shortcode_reference.php:146
+msgid ""
+"A paragraph of text (paragraphs are added automatically when leaving two "
+"blank lines between text)."
+msgstr ""
+
+#: admin/messages/shortcode_reference.php:154
+msgid "The ID of the post."
+msgstr ""
+
+#: admin/messages/shortcode_reference.php:165
+msgid "The post title."
+msgstr ""
+
+#: admin/messages/shortcode_reference.php:173
+msgid "Hide a section of message (keeping for future reference)."
+msgstr ""
+
+#: admin/messages/shortcode_reference.php:180
+msgid "Name of the template part. Default: 'main'"
+msgstr ""
+
+#: admin/messages/shortcode_reference.php:184
+msgid "A template part."
+msgstr ""
+
+#: admin/messages/shortcode_reference.php:195
+msgid "Content to show in text messages only."
+msgstr ""
+
+#: admin/messages/shortcode_reference.php:206
+msgid "The user agent of the commenter."
+msgstr ""
+
+#: admin/messages/shortcode_reference.php:212
+msgid "Templates"
+msgstr ""
+
+#: admin/messages/shortcode_reference.php:213
+msgid ""
+"You can wrap your message in one of the following tags to use a HTML "
+"template:"
+msgstr ""
+
+#: admin/messages/shortcode_reference.php:220
+msgid "Template parts"
+msgstr ""
+
+#: admin/messages/shortcode_reference.php:229
+#: admin/messages/shortcode_reference.php:250
+msgid "Background color for email, in hexadecimal format. Default: '#F6F6F6'"
+msgstr ""
+
+#: admin/messages/shortcode_reference.php:230
+#: admin/messages/shortcode_reference.php:251
+msgid "Background color for content, in hexadecimal format. Default: '#FFFFFF'"
+msgstr ""
+
+#: admin/messages/shortcode_reference.php:235
+#: admin/messages/shortcode_reference.php:256
+msgid ""
+"Content for the pre-header banner. You can insert a 600px width banner image "
+"here."
+msgstr ""
+
+#: admin/messages/shortcode_reference.php:236
+#: admin/messages/shortcode_reference.php:257
+msgid "Header content"
+msgstr ""
+
+#: admin/messages/shortcode_reference.php:237
+#: admin/messages/shortcode_reference.php:258
+msgid "Main page content"
+msgstr ""
+
+#: admin/messages/shortcode_reference.php:238
+#: admin/messages/shortcode_reference.php:260
+msgid "Footer content"
+msgstr ""
+
+#: admin/messages/shortcode_reference.php:242
+msgid "A simple template with header, main body and footer."
+msgstr ""
+
+#: admin/messages/shortcode_reference.php:249
+msgid ""
+"Set to 'left' for a left sidebar. Set to 'right' for a right sidebar. "
+"Default: 'right'"
+msgstr ""
+
+#: admin/messages/shortcode_reference.php:259
+msgid "Sidebar content"
+msgstr ""
+
+#: admin/messages/shortcode_reference.php:264
+msgid "A template with a sidebar."
+msgstr ""
+
+#: admin/messages/targets.php:16
+msgctxt "noun"
+msgid "Target Posts"
+msgstr ""
+
+#: admin/messages/targets.php:20
+msgid "Return to messages"
+msgstr ""
+
+#: admin/messages/targets.php:22
+msgid "The following posts are targeted by this message:"
+msgstr ""
+
+#: admin/messages/targets.php:31
+msgid "%s (ID: %d)"
+msgstr ""
+
+#: admin/opt-out/options.php:52
+msgctxt "noun"
+msgid "Opt out options"
+msgstr ""
+
+#: admin/opt-out/options.php:59
+msgid "Your options were not saved. Correct the errors below."
+msgstr ""
+
+#: admin/opt-out/options.php:67
+msgid "Your options were saved."
+msgstr ""
+
+#: admin/opt-out/options.php:77 admin/opt-out/options.php:80
+msgid "Level"
+msgstr ""
+
+#: admin/opt-out/options.php:90
+msgid "Disabled"
+msgstr ""
+
+#: admin/opt-out/options.php:101
+msgid "Show opt out link in email (recommended)"
+msgstr ""
+
+#: admin/opt-out/options.php:112
+msgid "Give readers a choice on the comment form"
+msgstr ""
+
+#: admin/opt-out/options.php:120 admin/opt-out/options.php:123
+msgid "Comment form choice"
+msgstr ""
+
+#: admin/opt-out/options.php:133
+msgid "Ask readers to opt out (recommended)"
+msgstr ""
+
+#: admin/opt-out/options.php:144
+msgid "Ask readers to opt in"
+msgstr ""
+
+#: admin/opt-out/options.php:152 admin/opt-out/options.php:155
+#: admin/opt-out/options.php:189
+msgid "Choice message"
+msgstr ""
+
+#: admin/opt-out/options.php:165
+msgid "Do not email me about this comment"
+msgstr ""
+
+#: admin/opt-out/options.php:176 admin/opt-out/options.php:210
+msgid "Custom:"
+msgstr ""
+
+#: admin/opt-out/options.php:199
+msgid "You can email me about this comment"
+msgstr ""
+
+#: admin/opt-out/options.php:227
+msgid "Save Options"
+msgstr ""
+
+#: admin/opt-out/options.php:234
+msgid "Opt out list"
+msgstr ""
+
+#: admin/opt-out/options.php:236
+msgid "The following email addresses have opted out of your thank you emails:"
+msgstr ""
+
+#: admin/opt-out/options.php:251
+msgid "Remove email"
+msgstr ""
+
+#: admin/statistics/index.php:19
+msgctxt "noun"
+msgid "Stats"
+msgstr ""
+
+#: admin/statistics/index.php:26
+msgid "total emails sent"
+msgstr ""
+
+#: admin/statistics/index.php:30
+msgid "total opens"
+msgstr ""
+
+#: admin/statistics/index.php:34
+msgid "due to be sent"
+msgstr ""
+
+#: admin/statistics/index.php:40
+msgid "Emails sent in the last 30 days"
+msgstr ""
+
+#: admin/statistics/index.php:46
+msgid "Emails opened in the last 30 days"
+msgstr ""
+
+#: opt_out_success.php:10 opt_out_success.php:15 thankmelater.php:353
+#: thankmelater.php:354
+msgid "Opt out"
+msgstr ""
+
+#: opt_out_success.php:16
+msgid ""
+"You have opted out of future emails. We will no longer send you emails after "
+"you comment."
+msgstr ""
+
+#: opt_out_success.php:17
+msgid "Continue to website."
+msgstr ""
+
+#: shortcodes/date.php:12
+msgctxt "date syntax"
+msgid "d M Y"
+msgstr ""
+
+#: shortcodes/opt_out.php:22
+msgid ""
+"We sent you this email because you left a comment on our blog. %sUnsubscribe "
+"from future emails%s."
+msgstr ""
+
+#: shortcodes/opt_out.php:23
+msgid ""
+"We sent you this email because you left a comment on our blog. Click this "
+"URL to unsubscribe from future emails: %s"
+msgstr ""
+
+#: strings.php:5 thankmelater.php:328 thankmelater.php:329
+msgid "Thank Me Later"
+msgstr ""
+
+#: strings.php:6
+msgid "Send a 'thank you' email to your blog's commenters."
+msgstr ""
+
+#: thankmelater.php:301
+msgid "Thank Me Later Installation."
+msgstr ""
+
+#: thankmelater.php:303
+msgid ""
+"Your installation of Thank Me Later is not complete. %sComplete Install%s"
+msgstr ""
+
+#: thankmelater.php:345 thankmelater.php:346
+msgid "Stats"
+msgstr ""
+
+#: thankmelater.php:363 thankmelater.php:364
+msgid "Install"
+msgstr ""
+
+#: thankmelater.php:398
+msgctxt ""
+"'From' header in e-mail client, preceding from name and e-mail address"
+msgid "From"
+msgstr ""

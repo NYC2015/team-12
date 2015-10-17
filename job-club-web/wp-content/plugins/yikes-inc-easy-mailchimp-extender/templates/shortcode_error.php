@@ -1,0 +1,1 @@
+<p><?php _e('There was an error calling the mailchimp list.','yikes-inc-easy-mailchimp-extender'); ?></p>

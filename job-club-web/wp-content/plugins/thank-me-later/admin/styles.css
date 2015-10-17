@@ -1,0 +1,312 @@
+.bbpp-thankmelater-multiselect {
+	min-height: 42px;
+	max-height: 125px;
+	overflow: auto;
+	padding: 0 .9em;
+	border: 1px solid #DFDFDF;
+	background-color: white;
+	width: 23.2em;
+}
+.bbpp-thankmelater-multiselect ul {
+	list-style: none;
+	padding: 0;
+}
+.bbpp-thankmelater-multiselect ul li {
+	margin: 0;
+	padding: 0;
+	line-height: 19px;
+}
+
+.bbpp-thankmelater-message {
+	width: 40%;
+	display: inline-block;
+	vertical-align: top;
+	height: 309px;
+}
+.bbpp-thankmelater-message-preview {
+	width: 59%;
+	height: 309px;
+	display: inline-block;
+	vertical-align: top;
+	background:#F1F1F1;
+	position: relative;
+}
+.bbpp-thankmelater-message-preview-inside {
+	padding: 0 12px 0 10px;
+}
+h3.bbpp-thankmelater-message-preview-title {
+	margin: 0;
+	padding: 0;
+	font-size: 1.17em;
+	display: inline-block;
+}
+ul.bbpp-thankmelater-message-preview-selector {
+	display: inline-block;
+	list-style: none;
+	margin: 12px 0 3px 10px;
+	padding: 0;
+	line-height: 1.4em;
+}
+ul.bbpp-thankmelater-message-preview-selector li {
+	border: transparent;
+	padding: 3px 5px 5px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	border-style: solid;
+	border-width: 1px;
+	position: relative;
+	display: inline;
+	line-height: 1.35em;
+	margin-bottom: 6px;
+}
+ul.bbpp-thankmelater-message-preview-selector li.current {
+	background: #f9f9f9;
+	border: 1px solid #DFDFDF;
+	border-bottom: 1px solid #FFFFFF;
+	z-index: 4000;
+}
+ul.bbpp-thankmelater-message-preview-selector li a {
+	text-decoration: none;
+}
+ul.bbpp-thankmelater-message-preview-selector li.current a {
+	color: #333;
+}
+.bbpp-thankmelater-message-preview-preview {
+	border: 1px solid #DFDFDF;
+	background: #FFF;
+	padding: 0px;
+	overflow: hidden;
+	height: 260px;
+}
+#bbpp-thankmelater-message-preview-wrap {
+	position: relative;
+	/*display: inline;*/
+}
+#bbpp-thankmelater-message-preview-loading {
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	display: none;
+}
+#bbpp-thankmelater-message-preview-loading-bg {
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background: #FFF;
+	width: 100%;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity=40);
+	-moz-opacity:0.4;
+	-khtml-opacity: 0.4;
+	opacity: 0.4;
+}
+#bbpp-thankmelater-message-preview-loading-loader {
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background: #FFF;
+	background: url(ajax-loader.gif) 50% 50% no-repeat;
+}
+
+ul.bbpp-thankmelater-message-preview-headers {
+	list-style: none;
+	margin: 0;
+	font-family: Consolas,Monaco,monospace;
+	font-size: 14px;
+	background: #f9f9f9;
+	border-bottom: 1px solid #000;
+	padding: 5px;
+}
+
+.bbpp-thankmelater-message-preview-hname {
+	font-weight: bold;
+	display: inline-block;
+	width: 100px;
+	overflow: hidden;
+	vertical-align: top;
+}
+
+.bbpp-thankmelater-message-preview-hval {
+	display: inline-block;
+	font-size: 12px;
+	vertical-align: top;
+}
+
+#bbpp-thankmelater-message-preview-text {
+	position: relative;
+}
+
+.bbpp-thankmelater-message-preview-message-text {
+	overflow: auto;
+	height: 197px;
+	margin: 0;
+	padding: 0px;
+	position: absolute;
+	width: 100%;
+	word-wrap: break-word;
+	white-space: pre-wrap;
+}
+
+
+.bbpp-thankmelater-message-preview-message-html {
+	overflow: auto;
+	height: 197px;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+#bbpp-thankmelater-targeting-stitle {
+	display: inline-block;
+}
+
+#bbpp-thankmelater-targeting-summary-wrap {
+	display: inline-block;
+	margin-left: 20px;
+	font-weight: bold;
+	position: relative;
+}
+
+#bbpp-thankmelater-targeting-summary-wrap {
+	background: #FF9;
+	padding: 2px 4px;
+}
+
+#bbpp-thankmelater-targeting-loading {	
+	display: none;
+}
+#bbpp-thankmelater-targeting-loading-bg {
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background: #FFF;
+	width: 100%;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity=40);
+	-moz-opacity:0.4;
+	-khtml-opacity: 0.4;
+	opacity: 0.4;
+}
+#bbpp-thankmelater-targeting-loading-loader {
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background: #FFF;
+	background: url(ajax-loader.gif) 50% 50% no-repeat;
+}
+
+.thank-me-later_page_bbpp_thankmelater_message .column-targeting {
+	width: 25%;
+}
+
+#bbpp-thankmelater-sends-graph,
+.bbpp-thankmelater-stats-graph {
+	width: 780px;
+	height: 300px;
+}
+
+#bbpp-thankmelater-stats-summary ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#bbpp-thankmelater-stats-summary ul li {
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	background: #F1F1F1;
+	border: 2px solid #E6E6E6;
+	width: 150px;
+	height: 88px;
+	position: relative;
+}
+
+#bbpp-thankmelater-stats-summary ul li + li {
+	margin-left: 20px;
+}
+
+h3.bbpp-thankmelater-stats-descriptor {
+	font-size: 14px;
+	line-height: 14px;
+	position: absolute;
+	top: 50px;
+	left: 10px;
+	right: 10px;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+.bbpp-thankmelater-stats-num {
+	position: absolute;
+	top: 10px;
+	left: 0px;
+	right: 0px;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	font-size: 30px;
+	line-height: 30px;
+}
+
+#bbpp-thankmelater-shortcode-reference-a-hide {
+	display: none;
+}
+
+.no-js #bbpp-thankmelater-shortcode-reference-a-hide {
+	display: none;
+}
+.no-js #bbpp-thankmelater-shortcode-reference-a-show {
+	display: none;
+}
+
+.js #bbpp-thankmelater-shortcode-reference {
+	display: none;
+}
+
+#bbpp-thankmelater-shortcode-reference {
+	border: 1px solid #CCC;
+	padding: 5px;
+}
+
+#bbpp-thankmelater-shortcode-reference h3 {
+	margin: 0 0 1em 0;
+}
+
+#bbpp-thankmelater-shortcode-reference ul {
+	margin: 0;
+	padding: 0
+}
+
+#bbpp-thankmelater-shortcode-reference table {
+	width: 100%;
+}
+
+#bbpp-thankmelater-install {
+        background: #FFFFFF;
+        border: 4px solid #EEEEEE;
+        padding: 40px;
+        margin: 20px;
+}
+
+.bbpp-thankmelater-install-message {
+        font-size: 2em;
+        margin: 0 0 1em 0;
+        padding: 0;
+}
+
+#bbpp-thankmelater-install ul {
+        list-style: disc;
+        padding: 0 0 0 40px;
+}

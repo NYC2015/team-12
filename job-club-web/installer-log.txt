@@ -1,0 +1,177 @@
+********************************************************************************
+DUPLICATOR INSTALL-LOG
+STEP1 START @ 10:37:45
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+VERSION:	0.5.28
+PHP:		5.3.28 | SAPI: apache2handler
+SERVER:		Apache/2.4.9 (Unix) PHP/5.3.28 mod_wsgi/3.4 Python/2.7.6 OpenSSL/1.0.1g
+DOC ROOT:	/Applications/AMPPS/www/cfg-crowdfunding
+DOC ROOT 755:	true
+LOG FILE 644:	true
+BUILD NAME:	20150907_ctcf_55ee1d9c317174300150907232828
+REQUEST URL:	http://localhost/cfg-crowdfunding/installer.php
+
+********************************************************************************
+ARCHIVE SETUP
+********************************************************************************
+NAME:	archive.zip
+SIZE:	66.87MB
+ZIP:	Enabled (ZipArchive Support)
+
+--------------------------------------
+WARNING: This package set may be incompatible!  
+Below is a summary of the package this installer was built with and the package used. 
+To guarantee accuracy the installer and archive should match. For details see the online FAQs.
+CREATED WITH:	20150907_ctcf_55ee1d9c317174300150907232828_archive.zip 
+PROCESSED WITH:	archive.zip  
+--------------------------------------
+
+EXTRACTING
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 4716
+    [filename] => /Applications/AMPPS/www/cfg-crowdfunding/archive.zip
+    [comment] => 
+)
+COMPLETE: true
+
+WEB SERVER CONFIGURATION FILE RESET:
+- Backup of .htaccess/web.config made to .orig
+- Reset of .htaccess/web.config files
+
+UPDATED FILES:
+- SQL FILE:  '/Applications/AMPPS/www/cfg-crowdfunding/installer-data.sql'
+- WP-CONFIG: '/Applications/AMPPS/www/cfg-crowdfunding/wp-config.php'
+
+ARCHIVE RUNTIME: 3.4731 sec.
+
+
+********************************************************************************
+DATABASE-ROUTINES
+********************************************************************************
+--------------------------------------
+SERVER ENVIROMENT
+--------------------------------------
+MYSQL VERSION:	5.6.17
+TIMEOUT:	5000
+MAXPACK:	1048576
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+ERRORS FOUND:	0
+DROP TABLE:	
+QUERIES RAN:	1251
+
+ctcf_bbpp_thankmelater_messages: (1)
+ctcf_bbpp_thankmelater_opens: (0)
+ctcf_bbpp_thankmelater_opt_outs: (0)
+ctcf_bbpp_thankmelater_schedules: (0)
+ctcf_commentmeta: (0)
+ctcf_comments: (2)
+ctcf_duplicator_packages: (2)
+ctcf_ign_adaptive_pay_settings: (0)
+ctcf_ign_aweber_settings: (0)
+ctcf_ign_deck_settings: (1)
+ctcf_ign_form: (0)
+ctcf_ign_mailchimp_subscription: (0)
+ctcf_ign_pay_info: (10)
+ctcf_ign_pay_selection: (1)
+ctcf_ign_pay_settings: (1)
+ctcf_ign_prod_default_settings: (1)
+ctcf_ign_product_settings: (0)
+ctcf_ign_products: (3)
+ctcf_ign_settings: (1)
+ctcf_links: (0)
+ctcf_mappress_maps: (0)
+ctcf_mappress_posts: (0)
+ctcf_options: (279)
+ctcf_postmeta: (485)
+ctcf_posts: (249)
+ctcf_term_relationships: (44)
+ctcf_term_taxonomy: (22)
+ctcf_terms: (22)
+ctcf_usermeta: (90)
+ctcf_users: (5)
+Removed '74' cache/transient rows
+
+SECTION RUNTIME: 0.7849 sec.
+
+********************************************************************************
+STEP1 COMPLETE @ 10:37:49 - TOTAL RUNTIME: 4.2602 sec.
+********************************************************************************
+
+
+
+********************************************************************************
+DUPLICATOR INSTALL-LOG
+STEP2 START @ 10:38:21
+NOTICE: Do not post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	latin1
+CHARSET CLIENT:	 utf8 
+
+--------------------------------------
+SERIALIZER ENGINE
+[*] scan every column
+[~] scan only text columns
+[^] no searchable columns
+--------------------------------------
+ctcf_bbpp_thankmelater_messages~ (1)
+ctcf_bbpp_thankmelater_opens^ (0)
+ctcf_bbpp_thankmelater_opt_outs^ (0)
+ctcf_bbpp_thankmelater_schedules^ (0)
+ctcf_commentmeta^ (0)
+ctcf_comments~ (2)
+ctcf_duplicator_packages^ (0)
+ctcf_ign_adaptive_pay_settings^ (0)
+ctcf_ign_aweber_settings^ (0)
+ctcf_ign_deck_settings~ (1)
+ctcf_ign_form^ (0)
+ctcf_ign_mailchimp_subscription^ (0)
+ctcf_ign_pay_info~ (10)
+ctcf_ign_pay_selection~ (1)
+ctcf_ign_pay_settings~ (1)
+ctcf_ign_prod_default_settings~ (1)
+ctcf_ign_product_settings^ (0)
+ctcf_ign_products~ (3)
+ctcf_ign_settings~ (1)
+ctcf_links^ (0)
+ctcf_mappress_maps^ (0)
+ctcf_mappress_posts^ (0)
+ctcf_options~ (204)
+ctcf_postmeta~ (485)
+ctcf_posts~ (249)
+ctcf_term_relationships~ (44)
+ctcf_term_taxonomy~ (22)
+ctcf_terms~ (22)
+ctcf_usermeta~ (90)
+ctcf_users~ (5)
+--------------------------------------
+SEARCH1:	'http://52.3.44.99' 
+REPLACE1:	'http://localhost/cfg-crowdfunding' 
+SEARCH2:	'/var/www/html/' 
+REPLACE2:	'/Applications/AMPPS/www/cfg-crowdfunding/' 
+SCANNED:	Tables:30 | Rows:1142 | Cells:9502 
+UPDATED:	Tables:1 | Rows:287 |Cells:417 
+ERRORS:		0 
+RUNTIME:	0.633500 sec
+
+********************************************************************************
+START FINAL CLEANUP: 10:38:21
+********************************************************************************
+UPDATE `ctcf_blogs` SET domain = 'localhost' WHERE domain = '52.3.44.99'
+
+--------------------------------------
+WARNINGS
+--------------------------------------
+No Warnings Found
+
+
+WEB SERVER CONFIGURATION FILE BASIC SETUP:
+created basic .htaccess file.  If using IIS web.config this process will need to be done manually.
+********************************************************************************
+STEP 2 COMPLETE @ 10:38:21 - TOTAL RUNTIME: 0.6378 sec.
+********************************************************************************

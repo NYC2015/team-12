@@ -1,0 +1,182 @@
+/* @group Comments */
+
+#comments-title {
+	color: #666;
+	font-size: 10px;
+	font-weight: 500;
+	line-height: 2.6em;
+	padding: 0 0 2.6em;
+	text-transform: uppercase;
+}
+.nopassword,
+.nocomments {
+	color: #aaa;
+	font-size: 24px;
+	font-weight: 100;
+	margin: 26px 0;
+	text-align: center;
+}
+.commentlist .commentarrow {
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 10px 5px 10px 0;
+	border-color: transparent #ddd transparent transparent;
+	position: absolute;
+	left: -5px;
+	top: 10px;
+}
+.children .commentarrow {
+	display: none;
+}
+.commentlist {
+	list-style: none;
+	margin: 0 0 0 auto;
+	width: 90%;
+}
+.commentlist > li.comment {
+	border: 1px solid #ddd;
+	margin: 0 0 1.625em;
+	padding: 1.625em;
+	position: relative;
+	background-color: #fbfcfb;
+}
+.commentlist article.comment {
+	padding-bottom: 15px;
+}
+.commentlist .pingback {
+	margin: 0 0 1.625em;
+	padding: 0 1.625em;
+}
+.commentlist .comment-author {
+	font-size: 1em;
+}
+.commentlist time {
+	font-size: .6em;
+	display: block;
+	margin: 0;
+}
+.commentlist .children {
+	list-style: none;
+	margin: 0;
+}
+.commentlist .children li.comment {
+	margin: 0;
+	padding: 1.625em 1.625em 0 50px;
+	position: relative;
+	border-top: 1px dashed #ddd;
+	background-color: #fafcfa;
+}
+.commentlist .children li.comment .fn {
+	display: block;
+}
+.comment-meta .fn {
+	font-style: normal;
+	font-weight: bold;
+	display: block;
+}
+.comment-meta .fn span {
+	font-style: normal;
+	font-weight: lighter;
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+	color: #41aac7;
+	background: #e6e6e6;
+	width: 100%;
+	text-align: left;
+	padding: 3px 0;
+	text-transform: uppercase;
+	font-size: 11px;
+	text-indent: 30px;
+}
+.comment-meta {
+	color: #666;
+	line-height: 1em;
+}
+.commentlist .children li.comment .comment-meta {
+	line-height: 1.625em;
+	margin-left: 3em;
+	margin-bottom: 20px;
+}
+.commentlist .children li.comment .comment-author {
+	line-height: 1em;
+	margin-left: 30px;
+}
+.commentlist .children li.comment .comment-author cite, .commentlist .children li.comment .comment-author span {
+	display: block;
+}
+.commentlist .children li.comment .comment-content {
+	margin: 1.625em 0 0;
+	word-wrap: break-word;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	hyphens: auto;
+}
+.comment-meta a {
+	font-weight: bold;
+}
+.commentlist img.avatar {
+	
+}
+.commentlist .avatar {
+	left: -54px;
+	padding: 0;
+	position: absolute;
+	top: 0;
+	border: 1px solid #fefffe;
+}
+.commentlist .children .avatar {
+	background: none;
+	left: 30px;
+	padding: 0;
+	top: 20px;
+}
+a.comment-reply-link {
+	background: #eee;
+	color: #666;
+	display: inline-block;
+	font-size: 11px;
+	padding: 3px 8px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+a.comment-reply-link:hover,
+a.comment-reply-link:focus,
+a.comment-reply-link:active {
+	background: #888;
+	color: #fff;
+}
+a.comment-reply-link > span {
+	display: inline-block;
+	position: relative;
+	top: -1px;
+}
+
+/* Post author highlighting */
+.commentlist > li.bypostauthor {
+	background: #eee;
+	border-color: #d3d3d3;
+}
+.commentlist > li.bypostauthor .comment-meta {
+	color: #575757;
+}
+.commentlist > li.bypostauthor .comment-meta a:focus,
+.commentlist > li.bypostauthor .comment-meta a:active,
+.commentlist > li.bypostauthor .comment-meta a:hover {
+}
+.commentlist .children > li.bypostauthor .avatar {
+	top: 30px;
+}
+.commentlist .children > li.bypostauthor .comment-author {
+	margin: 10px 0 0 30px;
+}
+
+/* Post Author threaded comments */
+.commentlist .children > li.bypostauthor {
+	background: #eee;
+	border: none;
+}
+
+/* @end */

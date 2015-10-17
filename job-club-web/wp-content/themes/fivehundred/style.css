@@ -1,0 +1,2925 @@
+/*
+Theme Name: 500 Framework
+Theme URI: http://Theme500.com/
+Description: Theme 500 is the original WordPress crowdfunding theme, built for the IgnitionDeck plugin in order to offer a beautiful grid-based layout for projects, a first of its kind project template, and easy to install child themes.
+Author: Virtuous Giant
+Version: 1.5.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: light, white, blue, one-column, two-columns, right-sidebar, theme-options, full-width-template, custom-menu
+*/
+
+@import url('style-reset.css');
+@import url('style-widgets.css');
+@import url('style-comments.css');
+
+/* @group Basic Wordpress Styles */
+
+/* Images
+-------------------------------------------------------------- */
+
+.entry-content img {
+	margin: 0 0 1.5em 0;
+}
+.entry-content img.transparent {
+	border: none;
+	padding: 0;
+	background-color: transparent;
+}
+.entry-content img.size-projectpage-large {
+	width: 100%;
+	height: auto;
+	padding: 0;
+}
+.entry-content img.singlethumb {
+	margin: -11px 0 0 0 !important;
+}
+.entry-content img {
+	max-width: 100%;
+	height: auto;
+}
+.alignleft,
+img.alignleft {
+	display: inline;
+	float: left;
+    margin-right: 1.5em;
+}
+.alignright,
+img.alignright {
+	display: inline;
+	float:  right;
+ 	margin-left: 1.5em;
+}
+.aligncenter,
+img.aligncenter {
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.wp-caption {
+	text-align: center;
+	margin-bottom: 1.5em;
+	background: rgb(252,252,252);
+	border: 1px solid #ddd;
+	font-size: .8em;
+}
+.wp-caption img {
+	border: 0 none;
+	margin: 4px 0 0 0;
+	padding: 0;
+}
+.wp-caption p.wp-caption-text {
+	margin: 0 !important;
+}
+.wp-smiley { 
+	max-height: 1em;
+	margin:0 !important;
+}
+.gallery dl {
+	margin: 0;
+}
+.gallery-caption {
+	margin:-1.5em 0 0 0;
+}
+
+/* Pullquotes
+-------------------------------------------------------------- */
+
+blockquote.left {
+	float: left;
+	margin-left: 0;
+	margin-right: 20px;
+	text-align: right;
+	width: 33%;
+}
+blockquote.right {
+	float: right;
+	margin-left: 20px;
+	margin-right: 0;
+	text-align: left;
+	width: 33%;
+}
+
+/* @end */
+
+/* @group Basic Layout */
+html, body {
+  height: auto;
+}
+body {
+	margin: 0;
+}
+strong, b {
+	font-weight: bold;
+}
+em, i {
+	font-style: italic;
+}
+header#header {
+	padding: 10px 0;
+	margin: 0 auto;
+	width: 90%;
+	max-width: 960px;
+	position: relative;
+	    height: 70px; /*quic fix*/
+}
+#branding {
+	max-width: 300px;
+	margin: 0;
+	display: inline-block;
+	vertical-align: middle;
+}
+#branding img#logo {
+	max-height: 50px;
+	max-width: 300px;
+}
+#branding img#logo:hover {
+	max-height: 50px;
+	max-width: 300px;
+	opacity: .9;
+}
+#site-description {
+	position: relative;
+	margin: 0 auto 10px auto;
+	width: 100%;
+	max-width: 960px;
+}
+
+.home #site-description {
+	width: 100%;
+}
+
+#container {
+	width: 90%;
+	min-width: 320px;
+	max-width: 960px;
+	margin: 0 auto;
+	clear: both;
+	padding: 0;
+}
+#wrapper {
+	min-height: 100%;
+	/* equal to footer height */
+	margin: 0;
+	margin-bottom: -75px; 
+	padding: 0;
+}
+#wrapper:after {
+  content: "";
+  display: block;
+}
+footer {
+	padding: 0;
+	margin: 0 auto;
+	width: 90%;
+	max-width: 960px;
+}
+footer, #wrapper:after {
+	/* .push must be the same height as footer */
+	height: 75px; 
+}
+footer #copyright {
+	font-size: 12px;
+	padding-top: 10px;
+	border-top: 1px solid #ddd;
+}
+.clear {
+	clear: both;
+}
+/* @end */
+
+/* @group Basic Style */
+
+body {
+	color: #616161;
+	background: rgb(250,250,250);	
+	font-family: Helvetica, Verdana, Arial, Geneva, sans-serif;
+	font-size: 16px;
+}
+
+body a {
+	color: #181818;
+}
+
+body a:hover, body a:active {
+	color: #41aac7;
+}
+#about-us.entry-content {
+	width: 60%;
+	max-width: 960px;
+	float: left;
+	padding: 0;
+}
+
+#about-us h3.sub-entry-title {
+	display: block;
+}
+.archive #content {
+	width: 100%;
+	max-width: 960px;
+}
+.archive.woocommerce #content {
+	width: auto;
+}
+hr.fancy {
+	display: block; 
+	height: 2px;
+	border: 0;
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6; 
+    margin: 0 0 1em 0; 
+    padding: 0;
+    background-color: transparent;
+}
+/* @end */
+
+/* @group Article and Comment styling */
+
+/* =Main content and comment content
+-------------------------------------------------------------- */
+
+.entry-meta {
+	clear: both;
+}
+.entry-header {
+	margin-bottom: 24px;
+}
+.entry-header img.wp-post-image {
+	margin-bottom: 24px;
+}
+.entry-header .entry-title {
+	font-size: 20px;
+	line-height: 1.2;
+	font-weight: normal;
+}
+.entry-header .entry-title a {
+	text-decoration: none;
+}
+.entry-header .entry-format {
+	margin-top: 24px;
+	font-weight: normal;
+}
+.entry-header .comments-link {
+	margin-top: 24px;
+	font-size: 13px;
+	line-height: 1.846153846;
+	color: #181818;
+}
+.comments-link a,
+.entry-meta a {
+	color: #181818;
+	text-decoration: none;
+}
+.comments-link a:hover,
+.entry-meta a:hover {
+	color: #41aac7;
+}
+.entry-footer {
+	display: block;
+	text-align: right;
+	margin: 5px 0 20px 0;
+}
+.entry-footer a {
+	font-size: 10px;
+	color: #30303f;
+	padding: 3px 5px;
+	text-decoration: none;
+}
+article.sticky .featured-post {
+	color: #757575;
+	font-size: 13px;
+	line-height: 3.692307692;
+	margin-bottom: 24px;
+	text-align: center;
+}
+.entry-content,
+.entry-summary,
+.mu_register {
+	line-height: 1.714285714;
+}
+.entry-content h1,
+.comment-content h1,
+.entry-content h2,
+.comment-content h2,
+.entry-content h3,
+.comment-content h3,
+.entry-content h4,
+.comment-content h4,
+.entry-content h5,
+.comment-content h5,
+.entry-content h6,
+.comment-content h6 {
+	margin: 24px 0;
+	line-height: 1.714285714;
+	color: #30303f;
+}
+h1,
+.entry-content h1,
+.comment-content h1 {
+	font-size: 28px;
+	line-height: 1.5;
+	font-weight: bold;
+}
+h2,
+.entry-content h2,
+.comment-content h2,
+.mu_register h2 {
+	font-size: 24px;
+	line-height: 2.6;
+	padding: 0 0 3px 0;
+	margin: 10px 0 15px 0;
+}
+h3,
+.entry-content h3,
+.comment-content h3 {
+	font-size: 20px;
+	line-height: 1.846153846;
+	padding: 0 0 3px 0;
+	margin: 10px 0 15px 0;
+}
+h4,
+.entry-content h4,
+.comment-content h4 {
+	font-size: 16px;
+	line-height: 1.846153846;
+	font-weight: bold;
+}
+h5,
+.entry-content h5,
+.comment-content h5 {
+	font-size: 14px;
+	line-height: 1.846153846;
+	font-weight: bold;
+}
+h6,
+entry-content h6,
+.comment-content h6 {
+	font-size: 12px;
+	line-height: 1.846153846;
+	font-weight: bold;
+}
+.entry-content p,
+.entry-summary p,
+.comment-content p,
+.mu_register p {
+	margin: 0 0 24px;
+	line-height: 1.1;
+}
+.entry-content ol,
+.comment-content ol,
+.entry-content ul,
+.comment-content ul,
+.mu_register ul {
+	margin: 0 0 24px;
+	line-height: 1.314285714;
+}
+.entry-content ul ul,
+.comment-content ul ul,
+.entry-content ol ol,
+.comment-content ol ol,
+.entry-content ul ol,
+.comment-content ul ol,
+.entry-content ol ul,
+.comment-content ol ul {
+	margin-bottom: 0;
+}
+.entry-content ul,
+.comment-content ul,
+.mu_register ul {
+	list-style: disc outside;
+}
+.entry-content ol,
+.comment-content ol {
+	list-style: decimal outside;
+}
+.entry-content li,
+.comment-content li,
+.mu_register li {
+	margin: 0 0 0 36px;
+}
+.entry-content blockquote,
+.comment-content blockquote {
+	margin-bottom: 24px;
+	padding: 24px;
+	font-style: italic;
+	background-color: #eeeeea;
+	border: 1px solid #fafafa;
+}
+.entry-content blockquote p:last-child,
+.comment-content blockquote p:last-child {
+	margin-bottom: 0;
+}
+.entry-content code,
+.comment-content code {
+	font-family: Consolas, Monaco, Lucida Console, monospace;
+	font-size: 12px;
+	line-height: 2;
+}
+.entry-content pre,
+.comment-content pre {
+	border: 1px solid #ededed;
+	color: #666;
+	font-family: Consolas, Monaco, Lucida Console, monospace;
+	font-size: 12px;
+	line-height: 1.714285714;
+	margin: 24px 0;
+	overflow: auto;
+	padding: 24px;
+}
+.entry-content pre code,
+.comment-content pre code {
+	display: block;
+}
+.entry-content abbr,
+.comment-content abbr,
+.entry-content dfn,
+.comment-content dfn,
+.entry-content acronym,
+.comment-content acronym {
+	border-bottom: 1px dotted #666;
+	cursor: help;
+}
+.entry-date abbr {
+	cursor: default;
+}
+.entry-content address,
+.comment-content address {
+	display: block;
+	line-height: 1.714285714;
+	margin: 0 0 24px;
+}
+img.alignleft {
+	margin: 0 24px 12px 0;
+}
+img.alignright {
+	margin: 0 0 12px 24px;
+}
+img.aligncenter {
+	margin-top: 0;
+	margin-bottom: 12px;
+}
+.entry-content embed,
+.entry-content iframe,
+.entry-content object,
+.entry-content video {
+	margin-bottom: 24px;
+}
+.entry-content dl,
+.comment-content dl {
+	margin: 0 24px;
+}
+.entry-content dt,
+.comment-content dt {
+	font-weight: bold;
+	line-height: 1.714285714;
+}
+.entry-content dd,
+.comment-content dd {
+	line-height: 1.714285714;
+	margin-bottom: 24px;
+}
+.entry-content table,
+.comment-content table {
+	border-bottom: 1px solid #ededed;
+	color: #757575;
+	font-size: 12px;
+	line-height: 2;
+	margin: 0 0 24px;
+	width: 100%;
+}
+.entry-content table caption,
+.comment-content table caption {
+	font-size: 16px;
+	margin: 24px 0;
+}
+.entry-content td,
+.comment-content td {
+	border-top: 1px solid #ededed;
+	padding: 6px 10px 6px 0;
+}
+
+/* Comment form */
+#respond {
+	margin-top: 48px;
+}
+#respond h3#reply-title {
+	font-size: 24px;
+	line-height: 1.5;
+}
+#respond h3#reply-title #cancel-comment-reply-link {
+	margin-left: 10px;
+	font-weight: normal;
+	font-size: 12px;
+}
+#respond form {
+	margin: 24px 0;
+}
+#respond form p {
+	margin: 11px 0;
+}
+#respond form p.logged-in-as {
+	margin-bottom: 24px;
+}
+#respond form label {
+	display: block;
+}
+#respond form input[type="text"],
+#respond form textarea {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-size: 12px;
+	line-height: 1.714285714;
+	padding: 10px;
+	width: 100%;
+}
+#respond form p.form-allowed-tags {
+	display: none;
+}
+.required {
+	
+}
+/* @end */
+/* @group Nav Style */
+
+.nav-check {
+	border: none;
+    cursor: pointer;
+    display: none;
+    left: -20px;
+    height: 40px;
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    width: 40px;
+    z-index: 1003;
+}
+
+.nav-check:checked {
+	outline: none;
+}
+
+.nav-check:checked ~ .nav-check-label:before {
+	background: #fff;
+	color: $aqua;
+}   
+
+.nav-check:checked ~ #menu-header-mobile { 
+	top: 55px;
+	bottom: auto;
+	background: #FFF;
+}
+
+.nav-check-label {
+	display: none;
+	left: -1px;
+	height: 0;
+	position: absolute;
+	top: 5px;
+	width: 0;
+	z-index: 1002;
+}
+
+.nav-check-label:before {
+  	color: $purple;
+	content: '|||';
+	font-size: 1.5rem;
+	line-height: 30px;
+	left: 5px;
+	position: absolute;
+	top: 0;
+  	transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	transition: 0.1s all ease;
+	-webkit-transition: 0.1s all ease;
+	-ms-transition: 0.1s all ease;
+	-moz-transition: 0.1s all ease;
+	-o-transition: 0.1s all ease;
+}
+
+nav#menu-header-mobile{
+	display: none;
+	background: #FFF;
+}
+
+nav#menu-header-mobile .menu-item a,
+nav#menu-header-mobile .createaccount a,
+nav#menu-header-mobile .login a{
+	padding: 12px;
+	border-bottom: 1px solid #555;
+	display: block;
+	text-decoration: none;
+}
+	nav#menu-header-mobile .sub-menu .menu-item a,
+	nav#menu-header-mobile .sub-menu .createaccount a,
+	nav#menu-header-mobile .sub-menu .login a{
+		padding: 12px 12px 12px 20px;
+		color: #636363;
+	}
+
+nav#menu-header {
+	width: 67%;
+	max-width: 650px;
+	height: 26px;
+	display: inline-block;
+	margin: 0;
+	vertical-align: middle;
+	text-align: right;
+	z-index:3;
+}
+
+/****** Main Tabs ******/
+#menu-header ul.menu, #menu-header div.menu ul.defaultMenu, #menu-header .menu ul  { list-style:none; margin-bottom:0px; display:inline-block; z-index: 999; position: absolute; right: 0;
+}
+#menu-header ul.menu li, #menu-header ul.defaultMenu li, #menu-header .menu ul li {
+	margin: 0; 
+	padding: 0; 
+	width: auto; 
+	float: left;
+	border: 1px solid transparent;
+	border-right: 1px solid #ddd;
+	border-bottom-width: 1px;
+}
+#menu-header ul.menu li:last-of-type, #menu-header ul.defaultMenu li:last-of-type, #menu-header .menu ul li:last-of-type {
+	border-right: none;
+}
+#menu-header ul.menu li:hover, ul.menu li:active,  #menu-header ul.defaultMenu li:hover,  #menu-header ul.defaultMenu li:active, #menu-header .menu ul li:active, #menu-header .menu li.createaccount, #menu-header .menu li.login {
+	border: 1px solid #ddd;
+	background:#fcfcfc;
+	margin: -10px 0px 0 -2px;
+	padding: 10px 0px 1px 2px;
+}
+#menu-header ul.menu li.noBottom, #menu-header ul.defaultMenu li.noBottom,#menu-header .menu ul li.noBottom {
+	border-bottom: none !important;
+}
+#menu-header ul.menu li a, #menu-header ul.defaultMenu li a, #menu-header .menu ul li a {
+	margin:0; 
+	display:block; 
+	overflow:hidden;
+	color: #6c6c78; 
+	text-align:center; 
+	text-decoration:none;
+	font-size: 15px;
+	font-weight: bold;
+	margin: -10px 0px 0 -2px;
+	padding: 10px 16px 11px 16px;
+}
+#menu-header ul.menu li a:hover, ul.menu li a:active, #menu-header ul.defaultMenu li a:hover,  #menu-header ul.defaultMenu li a:active, #menu-header .menu ul li a:active { 
+	color: #31313f;
+}
+#menu-header ul.menu li.current-menu-item a, #menu-header ul.menu li.current_page_item a, #menu-header ul.menu li.current-menu-ancestor a, #menu-header .menu ul li.current-menu-ancestor a {
+	color: #31313f; 
+}
+
+ #menu-header .menu li.login a, #menu-header .menu li.createaccount a {
+	display:block; 
+	overflow:hidden;
+	color: #6c6c78; 
+	text-align:center; 
+	text-decoration:none;
+	font-size: 12px;
+	line-height: 14px;
+	font-weight: 200;
+	padding-top: 11px;
+}
+ #menu-header .menu li.login a:hover, #menu-header .menu li.createaccount a:hover {
+	color: #fcfcfc;
+}
+ #menu-header .menu li.login:hover a, #menu-header .menu li.createaccount:hover a {
+	color: #fcfcfc;
+}
+#menu-header .menu li.login, #menu-header .menu li.createaccount {
+	border: 1px solid #ddd !important;
+	background:#fcfcfc;
+}
+#menu-header .menu li.login {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+#menu-header .menu li.login.right {
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	-webkit-border-top-right-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-moz-border-radius-topright: 5px;
+	-moz-border-radius-bottomright: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+#menu-header .menu li.createaccount {
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+#menu-header .menu li.login:hover, #menu-header .menu li.createaccount:hover {
+	border: 1px solid transparent !important;
+	background:#6c6c78;
+}
+/****** SUB MENU ******/
+#menu-header ul.menu ul.sub-menu, #menu-header div.menu ul.defaultMenu ul.children, #menu-header .menu ul ul.children { 
+	width: auto;
+	position: absolute; 
+	overflow:hidden;
+	border: 1px solid #ddd;
+	white-space: nowrap;
+	min-width: 120px;
+	max-width: 240px;
+	z-index: -1;
+	margin: -1px -1px 0 -3px;
+	padding: 0;
+	background: rgb(252,252,252);
+	right: initial;
+}
+#menu-header ul.menu li:last-of-type ul.sub-menu, #menu-header div.menu ul.defaultMenu li:last-of-type ul.children, #menu-header .menu ul li:last-of-type ul.children { 
+	right: 0; 
+}
+#menu-header ul li ul.sub-menu li,  #menu-header ul li ul.defaultMenu li ul.children li, #menu-header .menu ul li ul.children li { 
+	border: 1px solid transparent;
+	display:block; 
+	margin:-1px; 
+	padding:0; 
+	width:auto; 
+	float: none;
+}
+#menu-header ul li ul.sub-menu li a, #menu-header ul.defaultMenu li ul.children li a, #menu-header .menu ul li ul.children li a {
+	line-height:1.3em; 
+	font-size:13px; 
+	font-weight: normal;
+	color:#333; 
+	text-shadow: none;
+	margin:0px; 
+	padding: 9px 18px 8px 17px;  
+	text-align: left;
+}
+#menu-header ul ul.sub-menu a:hover, #menu-header ul.defaultMenu li ul.children a:hover, #menu-header ul li ul.sub-menu li.current-menu-item a, #menu-header ul.defaultMenu li ul.children li.current-menu-item a, #menu-header .menu ul ul.children li.current-menu-item a {
+	color:#41aac7; 
+	margin: 0;
+	padding: 9px 18px 8px 17px; 
+}
+#menu-header ul.menu ul.sub-menu li:hover, ul.menu ul.sub-menu li:active, #menu-header ul.defaultMenu li ul.children li:hover, #menu-header ul.defaultMenu li ul.children li:active, #menu-header .menu ul li ul.current-menu-item li:active {
+	border: none;
+	background: none;
+}
+
+#menu-header ul ul.sub-menu, #menu-header ul.defaultMenu li ul.children, #menu-header .menu ul li ul.children {
+	display: none;
+	list-style:none;
+	z-index: 9;
+}
+
+.border-gone {
+	border-right: none !important;
+	padding-right: 1px !important;
+}
+
+/* FOOTER MENU */
+
+.footerright {
+	float: right;
+	margin-top: 10px;
+	
+}
+
+nav#menu-footer { 
+	height:21px;
+	z-index:3; 
+	position: relative; 
+	margin: 0; 
+	display: block;
+	right: 0;
+}
+
+/****** Main Tabs ******/
+nav#menu-footer ul.menu, nav#menu-footer div.menu ul.defaultMenu  {list-style:none; margin-bottom:0px; display:inline-block; z-index: 999;
+}
+#menu-footer ul.menu li, #menu-footer ul.defaultMenu li {
+	margin: 0; 
+	padding:0; 
+	width:auto; 
+	display: inline-block;
+	border-right: 1px solid #ddd;
+}
+#menu-footer ul.menu li:last-of-type, #menu-footer ul.defaultMenu li:last-of-type {
+	border-right: none;
+}
+
+#menu-footer ul.menu li a, #menu-footer ul.defaultMenu li a{
+	padding: 3px 16px 9px 16px; 
+	margin:0; 
+	display:block; 
+	overflow:hidden;
+	color: #6c6c78; 
+	text-align:center; 
+	text-decoration:none; 
+	font-size:12px; 
+	font-weight: lighter;
+}
+#menu-footer ul.menu li a:hover, ul.menu li a:active, #menu-footer ul.defaultMenu li a:hover,  #menu-footer ul.defaultMenu li a:active { 
+	color: #31313f;
+}
+
+/* ----- Pagination Style ------- */
+
+div.pagination {
+	margin: 0 0 55px 0;
+}
+
+.nav-previous, .nav-next {
+	height: 31px;
+	line-height: 31px;
+	vertical-align: middle;
+}
+.nav-previous a, .nav-next a {
+	color: #131313;
+	line-height: 20px;
+	height: 20px;
+	padding: 5px 10px;
+	border: 1px solid #ddd;
+	text-decoration: none;
+	vertical-align: middle;
+	display: inline-block;
+}
+.nav-previous a:before {
+	line-height: 20px;
+	content: "\f177";
+	font-family: FontAwesome;
+	height: 20px;
+	margin-right: 5px;
+	vertical-align: middle;
+}
+.nav-next a:after {
+	line-height: 20px;
+	content: "\f178";
+	font-family: FontAwesome;
+	height: 20px;
+	margin-left: 5px;
+	vertical-align: middle;
+}
+.nav-previous a:hover, .nav-next a:hover {
+	border: 1px solid rgba(0,0,0,.2);
+}
+
+/* @end */
+
+/* @group Header Style*/
+
+header#header {
+	border-bottom: 1px solid #ddd;
+}
+
+#site-title a {
+	font-size: 36px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #313140;
+	vertical-align: middle;
+	display: inline-block;
+}
+#site-title a:hover {
+	color: #6b6b78;
+}
+#site-description {
+	text-align: left;
+	padding: 30px 0;
+	clear: left;
+	position: relative;
+	border-bottom: 1px solid #ddd;
+}
+.ignition_project #site-description {
+	border-bottom: none;
+	padding: 20px 0;
+}
+#site-description h1 {
+	font-size: 32px;
+	line-height: 38px;
+	color: #404246;
+	width: auto;
+	max-width: 55%;
+	display: inline-block;
+	height: auto;
+	max-height: 112px;
+	vertical-align: middle;
+}
+#site-description h2 {
+	font-size: 12px;
+	line-height: 14px;
+	color: #777;
+	display: inline-block;
+	width: auto;
+	max-width: 40%;
+	height: auto;
+	max-height: 28px;
+	vertical-align: middle;
+	border-left: 1px solid #ddd;
+	padding: 3px 0 3px 10px;
+	margin: 0 0 0 8px;
+}
+.home #site-description h1 {
+	font-size: 22px;
+	line-height: 22px;
+	color: #404246;
+	width: auto;
+	height: auto;
+	max-height: 64px;
+	vertical-align: middle;
+	max-width: 960px;
+}
+
+.home .container-home .article-home #site-description h1 {
+	font-size: 32px;
+}
+/* @end */
+
+/* @group Content Style */
+
+#content, .author #content {
+	width: 65%;
+	float: left;
+}
+#content.fullwidth {
+	width: 100%;
+	max-width: 960px;
+}
+#content.ignition_project {
+	width: 100%;
+	max-width: 960px;
+}
+.home #content {
+	width: 100%;
+	max-width: 960px;
+	padding: 0;
+	margin: 0 auto;
+}
+#content p {
+	margin-bottom: 1em;
+}
+#content blockquote p:last-of-type {
+	margin-bottom: 0;
+}
+#content h1.entry-title {
+	font-size: 2.2em;
+	color: #333;
+	padding: 0 0 3px 0;
+	border-bottom: 1px solid #ccc;
+	margin: 10px 0 15px 0;
+}
+h2.entry-title {
+	font-size: 1.6em;
+	color: #30303f;
+	padding: 0;
+	margin: 10px 0;
+	border-bottom: 1px solid #ddd;
+	clear: both;
+}
+.home h2.entry-title {
+	margin: 0 0 15px 0;
+	border: none;
+}
+
+h2.entry-title a {
+	color: inherit;
+	text-decoration: none;
+}
+h2.entry-title a:hover {
+	color: #41aac7;
+}
+h3.sub-entry-title {
+	font-size: 1.3em;
+	color: #30303f;
+	margin: 20px 0;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #ddd;
+	text-shadow: none;
+}
+.entry-meta {
+	text-align: left;
+	margin: 0 0 10px 0;
+	font-size: 11px;
+}
+.entry-content {
+	padding: 10px 0;
+	margin: 0 0 10px 0;
+}
+h2.entry-title.featuredimage {
+	width: auto;
+	position: relative;
+	border-bottom: none !important;
+	margin: 0 0 20px 0 !important;
+	line-height: 1.1em !important;
+	height: 100px;
+  }
+h2.entry-title.featuredimage .headlinewrapper {
+	position: absolute;
+    bottom: 0;
+	display: block;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+	background-color: rgba(248, 249, 248, 0.15);
+}
+h2.entry-title.featuredimage span.entry-title {
+	position: absolute;
+    left: 2.5%;
+    padding: 4px 0 4px 5px;
+    bottom: 20px;
+    width: 95%;
+	background-color: rgba(249, 250, 249, 0.9);
+}
+h2.entry-title.featuredimage .entry-meta {
+	position: absolute;
+    left: 2.5%;
+	display: block;
+    padding: 2px;
+    bottom: -25px;
+    width: 47.5%;
+    text-align: left;
+    background: rgba(249, 250, 249, 0.9);
+}
+.entry-meta a.url.fn {
+	border-bottom: 1px dotted rgba(22, 22, 25, 0.5);
+}
+.entry-meta a.url.fn:hover {
+	border-bottom: 1px dotted rgba(65, 169, 198, 0.55);
+}
+/* @end */
+
+/* @group Sidebar Style */
+
+#sidebar {
+	width: 30%;
+	float: right;
+	margin: 0 0 0 5%;
+}
+/* @end */
+
+/* @group Project Page Specifics */
+
+.ignition_project #site-description {
+	border-bottom: none;
+}
+#ign-project-content {
+	width: 100%;
+	max-width: 960px;
+}
+#ign-project-content #sidebar {
+	width: 35%;
+	float: right;
+	margin: 0 0 0 5%;
+}
+#ign-project-content .entry-content {
+	width: 60%;
+	float: left;
+}
+#content.ignition_project {
+	width: 100%;
+}
+#ign-hDeck-wrapper {
+	width: 100%;
+	height: 390px;
+	margin: 10px auto 10px auto;
+	padding: 0;
+	overflow: visible;
+	position: static;
+}
+#ign-hDeck-wrapper #ign-hdeck-wrapperbg {
+	width: 100%;
+	min-width: 320px;
+	margin: 0 auto;
+	background: rgb(252,252,252);
+	position: absolute;
+	left: 0;
+	display: block;
+	border: 1px solid #ddd;
+	border-left: none;
+	border-right: none;
+}
+#ign-hDeck-header {
+	width: 90%;
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 10px 0 0 0;
+}
+#ign-hDeck-left {
+	display: block;
+	width: 60%;
+	float: left;
+	height: 380px;
+	vertical-align: top;
+}
+#ign-hDeck-left .video{
+	width: 100%;
+	height: 90%;
+	background-size: 100% auto;
+	background-position-y: 50%;
+	background-repeat: no-repeat;
+}
+#ign-hDeck-left .video iframe{
+	width: 100%;
+	height: 100%;
+	display: none;
+	position: relative;
+	z-index: 99;
+}
+#ign-hDeck-left .video.hasvideo {
+	position: relative;
+	cursor: pointer;
+}
+#ign-hDeck-left .video.hasvideo:after {
+	content: "\f04b";
+	font-family: FontAwesome;
+	font-size: 60px;
+	line-height: 100px;
+	color: rgba(255,255,255,0.5);
+	padding-left: 5px;
+	text-align: center;
+	width: 100px;
+	height: 100px;
+	margin: auto;
+	position: absolute;
+	top: 0; right: 0; bottom: 0; left: 0;
+	border-radius: 100px;
+	background-color: rgba(255,255,255,0.2);
+}
+#ign-hDeck-left .video.hasvideo:hover:after {
+	color: rgba(255,255,255,0.8);
+	background-color: rgba(255,255,255,0.4);
+}
+
+#ign-hDeck-left .video img {
+	width: 100%;
+	height: auto;
+}
+#ign-hDeck-right {
+	height: 380px;
+	width: 35%;
+	float: right;
+	margin: 0 0 0 5%;
+	display: block;
+	position: relative;
+	color: #6E6E6E;
+	padding: 0;
+}
+#ign-hDeck-right .internal {
+	width: 100%;
+	height: 90%;
+	text-align: center;
+	position: relative;
+}
+
+#ign-hDeck-social {
+	margin: 10px 0;
+	z-index: 99;
+}
+#ign-hDeck-right .ign-progress-wrapper{
+	height: 46px;
+	line-height: 46px;
+	position: relative;
+	z-index: 9;
+	background: rgb(114,114,114);
+	width: auto;
+	padding: 0;
+	margin: 0 0 10px 0;
+}
+#ign-hDeck-right .ign-progress-bar {
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	margin: 0;
+	padding: 0;
+	max-width: 100%;
+	height: 46px;
+	background: rgb(0,212,255);
+}
+
+#ign-hDeck-right .ign-progress-percentage{
+	color: #fff;
+	font-size: 22px;
+	margin: 0 auto;
+	position: relative;
+	z-index: 9;
+	width: 100%;
+	text-align: center;
+}
+#ign-hDeck-right .ign-product-goal {
+	text-align: left;
+	margin: 0 0 5px 0;
+	display: inline-block;
+	float: left;
+}
+.ign-product-goal strong{
+	font-weight: normal;
+	display: inline-block;
+}
+.ign-goal {
+	border-bottom: none;
+	display: inline-block;
+}
+.ign-days-left {
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	display: inline-block;
+	opacity: 0.9;
+	float: right;
+}
+.ign-progress-raised {
+	text-align: center;
+	width: auto;
+	margin: 0 auto;
+}
+.ign-progress-raised strong{
+	letter-spacing: 0;
+	display: block;
+	color: #6f6f6f;
+	font-size: 64px;
+}
+.ign-raised {
+	text-align: center;
+}
+.ign-product-supporters {
+	text-align: center;
+	width: auto;
+	margin: 10px auto 0 auto;
+}
+.ign-product-supporters strong{
+	font-size: 64px;
+	color: #6f6f6f;
+	font-weight: normal;
+	letter-spacing: 2px;
+}
+
+#ign-hDeck-right .internal #hDeck-right-bottom {
+	width: 100%;
+	padding: 0;
+	position: absolute;
+	bottom: 0;
+}
+
+.ign-supportnow {
+	display: inline-block;
+	vertical-align: bottom;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 65%;
+}
+.ign-supportnow a {	
+	color: #9cdff6;
+	background: #525152;
+	font-weight: 400;
+	text-decoration: none;
+	line-height: 60px;
+	text-align: center;
+	font-size: 24px;
+	padding: 0;
+	height: 55px;
+	width: 100%;
+	border-radius: 25px;
+	display: inline-block;
+}
+.ign-supportnow a:hover, .ign-supportnow a:active {
+	color: #E9E9E9;
+	opacity: .9;
+}
+.ign-supportnow.mobile {
+	display: none;
+}
+
+/* @group Proposed End Date */
+
+.ign-product-proposed-end {
+    color: #333;
+    text-shadow: none;
+    font-size: 11px;
+    display: inline-block;
+	text-align: center;
+	line-height: 11px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+.ign-product-proposed-end #ign-widget-date {
+    color: #333;
+    width: 80px;
+    background-color: #52565D;
+    padding: 1px;
+    margin: 0;
+}
+.ign-product-proposed-end #ign-widget-date #ign-widget-month {
+    color: #A14A36;
+    font-weight: bold;
+    width: 80px;
+    display: block;
+    text-align: center;
+    line-height: 18px;
+	font-size: 10px;
+	background: rgb(246,164,127);
+	text-transform: uppercase;
+}
+.ign-product-proposed-end #ign-widget-date #ign-widget-day {
+	display: block;
+	font-size: 38px;
+	text-align: center;
+	line-height: 44px;
+	font-weight: 700;
+	color: #52565D;
+	background: #fefefe;
+}
+.ign-product-proposed-end #ign-widget-date #ign-widget-year {
+	color: #52565D;
+	background: #fefefe;
+}
+
+/* @end */
+#ign-product-levels {
+	margin: 0 0 20px 0;
+}
+
+#ign-product-levels a .level-group .ign-level-desc:hover {
+	background-color: rgba(13,187,242,0.1);
+}
+
+#ign-product-levels a {
+	text-decoration: none;
+}
+.level-group a {
+	text-decoration: underline;
+}
+#ign-product-levels .ign-level-title {
+	font-weight: normal;
+	font-size: 20px;
+	padding: 3px;
+	display: block;
+	margin: 15px 0 3px 0;
+	background-color: #D1E6F5;
+        border: 2px solid;
+        border-radius: 15px;
+}
+#ign-product-levels .ign-level-title span {
+	color: #30303f;
+	float: left;
+}
+#ign-product-levels .ign-level-title .level-price {
+	color: #0dbbf2;
+	float: right;
+}
+#ign-product-levels .ign-level-desc {
+	color: #606160;
+	font-weight: normal;
+	background-color: #fbfcfb;
+	padding: 8px 8px 8px 16px;
+	border: 1px solid #ddd;
+	font-size: 16px;
+	line-height: 1.4em;
+}
+#ign-product-levels .ign-level-counts {
+	color: #0bbbf2;
+	font-weight: normal;
+	background-color: #eee;
+	padding: 3px 8px 3px 8px;
+	margin: 0 10px;
+	font-size: 11px;
+	border-top: none;
+}
+#ign-project-content #updateslink, #ign-project-content #faqlink {
+	
+}
+#ign-project-content h3.product-dashed-heading, #ign-project-content h3.product-dashed-heading1 {
+	display: block;
+	border: 1px solid #e9e9e9;
+	padding: 5px 10px;
+	margin: 20px 0 0 0;
+	color: #38363a;
+	background-color: #fafcfa;
+}
+#ign-project-content #prodfaq, #ign-project-content #produpdates {
+	display: none;
+	background-color: #f5f5f7;
+	border: 1px solid #ddd;
+	border-top: 0;
+	padding: 5px 10px;
+	color: #6e6f6e;
+	text-shadow: none;
+	margin: 0 0 10px 0;
+}
+
+#ign-project-content #poweredbyID span a {
+	color: #333;
+	background: transparent url(http://ignitiondeck.com/id/skyscraper-poweredbyID.png) no-repeat center center !important;
+}
+
+#ign-project-content .idstretch .idstretch-container {
+	border: 1px solid #ddd;
+	border-top: 0;
+	color: #38363a;
+	background-color: #fafcfa;
+	text-shadow: none;
+	margin: 0 0 10px 0;
+}
+#ign-project-content .idstretch .idstretch-container .idstretch-progress {
+	background-color: #ddd;
+}
+#ign-project-content .idstretch .idstretch-container .idstretch-progressbar {
+	background-color: #0dbbf2;
+}
+#ign-project-content .idstretch .idstretch-container .idstretch-percentage span {
+	background-color: #0dbbf2;
+	color: #fff;
+}
+#ign-project-content .idstretch .idstretch-container .idstretch-text {
+	color: #3a3a3a;
+}
+#ign-project-content .idstretch .id-product-levels strong.title {
+	color: #3a3a3a;
+}
+#ign-project-content .idstretch .id-product-levels strong.title span{
+	color: #0bbbf2;
+}
+/* @end */
+
+/* Project Tabs */
+
+ul.content_tabs {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    font-size: 0;
+    width: 100%;
+    border-bottom: 3px solid;
+    margin: 10px 0;
+}
+ul.content_tabs li {
+    display: inline-block;
+    background-color: transparent;
+    padding: 10px 25px;
+    margin: 0 !important;
+    cursor: pointer;
+    font-size: 16px;
+}
+ul.content_tabs li:hover {
+    box-shadow: inset 0 0 0 1000px;
+}
+ul.content_tabs li.active {
+    box-shadow: inset 0 0 0 1000px;
+}
+ul.content_tabs li:hover span, ul.content_tabs li.active span {
+    color: #fff;
+}
+.content_tab_container {
+    margin: 0;
+    padding: 0;
+}
+.content_tab_container .content_tab {
+    display: none;
+}
+.content_tab_container .content_tab.active {
+    display: block;
+}
+
+/* @group Featured Project */
+
+.featured-wrap {
+	width: 100%;
+	box-sizing: border-box;
+	height: 360px;
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+
+.featured-wrap .featured-image {
+	width: 65%;
+	height: 360px;
+	float: left;
+	text-align: center;
+	background-size: 100% auto;
+	background-position-y: 50%;
+	background-repeat: no-repeat;
+}
+
+.featured-image:hover {
+}
+
+.featured-wrap .featured-image img {
+	vertical-align: middle;
+	border: 1px solid #ddd;
+	padding: 3px;
+	max-width: 98.5%;
+	max-height: 98%;
+}
+.featured-wrap .featured-image img:hover {
+}
+
+.featured-wrap .featured-info {
+	background: rgb(252,252,252);
+	width: 25.7%;
+	height: 363px;
+	float: left;
+	margin-left: 5%;
+	padding: 10px 2%;
+	position: relative;
+	border: 1px solid #ddd;
+}
+
+.featured-wrap .featured-info:hover {
+	border: 1px solid #ccc;
+}
+
+.featured-info .featured-inner {
+
+}
+
+.featured-info h3 {
+	color: #0091b0;
+	font-size: 24px;
+	font-weight: 400;
+	margin: 0 0 10px 0;
+}
+
+.featured-info p {
+	color: #333;
+	font-size: 14px;
+	line-height: 1.3em;
+	font-weight: normal;
+}
+
+.featured-info .featured-item {
+     /*	font-size: 18px;
+	line-height: 1.3em; */
+	font-weight: 200;
+	margin-top: 8px;
+}
+
+.featured-info i {
+	font-size: 12px;
+	vertical-align: middle;
+	display: inline-block;
+	line-height: 1.3em;
+}
+
+.featured-item strong {
+	margin-right: 5px;
+	font-weight: bold;
+}
+
+.featured-info span {
+	vertical-align: middle;
+}
+
+.featured-info .ign-progress-wrapper {
+	background-color: rgb(114,114,114);
+	width: 99.25%;
+	height: 20px;
+}
+
+.featured-info .ign-progress-bar {
+	opacity: 1;
+	background-color: rgb(0,212,255);
+	max-width: 100% !important;
+	height: 20px;
+}
+
+.featured-info .featured-button {
+	color: #3C474A;
+	background: #D64B4B;
+        /*background-image: -webkit-linear-gradient(top, #125786, #91943A); #525152 */
+        border-radius: 25px;
+	position: absolute;
+	bottom: 10px;
+	width: 86%;
+	margin: 0 auto;
+	padding: 10px 0;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.featured-button:hover {
+	color: #e9e9e9;
+	opacity: .9;
+}
+
+.featured-button span {
+	padding: 5px 10px;
+	text-align: center;
+	text-decoration: none;
+}
+
+/* @end */
+
+/* @group Projects List */
+
+
+.grid-header {
+    padding: 0;
+    margin: 10px 0;
+    width: auto;
+    display: block;
+}
+.grid-header ul {
+    display: inline-block;
+    list-style:none;
+    position: relative;
+}
+.grid-header ul li {
+    display: inline-block;
+    margin: 0 5px;
+    padding: 8px 0;
+    list-style:none;
+}
+.grid-header ul li a, .grid-header ul li.filter_submenu span{
+    display: inline-block;
+    margin: -8px 0;
+    padding: 8px 6px;
+    list-style:none;
+    text-decoration: none;
+}
+.grid-header ul li a i {
+    display: inline-block;
+    margin: -9px 0;
+}
+.grid-header ul li.filter_submenu span{
+    cursor: default;
+}
+.grid-header ul li a:hover, .grid-header ul li a.active, .grid-header ul li.filter_submenu:hover span {
+    background: #f8fafb;
+    border-top: none;
+    border-bottom: none;
+    margin: -9px 0;
+    color: #41aac7;
+}
+
+.grid-header ul ul {
+    display: none;
+    width: auto;
+	position: absolute;
+    border: none;
+    background: #f8fafb;
+    transition: all 100ms ease 0;
+    margin: 8px -1px;
+    padding: 0;
+    z-index: 99;
+    border: none;
+}
+.grid-header ul ul li {
+    display: block;
+    padding: 0;
+    margin: 0;
+    white-space: nowrap;
+    background: rgb(252,252,252);
+}
+.grid-header ul li:hover > ul {
+    display: block;
+}
+.grid-header ul li ul li a {
+    padding: 8px 9px;
+    margin: 0;
+    display: block;
+    background: rgb(252,252,252);
+}
+.grid-header ul li ul li a:hover {
+    background: #f8fafb;
+    border: none;
+    margin: 0;
+    padding: 8px 9px;
+    z-index: 100;
+}
+
+#project-grid, .project-grid {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.ign-project-summary {
+	width: 30%;
+	height: 360px;
+	float: left;
+	margin: 0 5% 30px 0;
+	position: relative;
+	
+}
+.ign-project-summary.success .ign-summary-container:after {
+	background: #75B83A;
+	width: 150px;
+	font-size: 11px !important;
+	line-height: 18px; 
+	font-weight: 700;
+	height: 16px;
+	position: absolute;
+	content: 'SUCCESS';
+	top: 22px;
+	right: -25px;
+	color: #fff;
+	text-align: center;
+	-webkit-transform: rotate(30deg);
+	-moz-transform: rotate(30deg);
+	-ms-transform: rotate(30deg);
+	-o-transform: rotate(30deg);
+	box-shadow: 0 1px 1px rgba(0,0,0,.65);
+}
+.ign-project-summary:nth-child(3n+3) {
+	margin: 0 0 30px 0;
+}
+.ign-project-summary a {
+	margin: 0;
+	text-decoration: none;
+	color: inherit;
+}
+.ign-project-summary .title {
+	height: 35px;
+	width: 100%;
+	position: relative;
+	text-align: center;
+	display: block;
+}
+.ign-project-summary .title h3 {
+	font-size: 16px !important;
+	line-height: 16px !important;
+	position: absolute;
+	bottom: 3px;
+	width: 100%;
+	color: #31313f;
+	margin: 0 !important;
+}
+.ign-project-summary .title h3:hover {
+	color: #41aac7;
+}
+.ign-project-summary .ign-summary-container {
+	padding: 0;
+	border: 1px solid #ddd;
+	height: 325px;
+	background: rgb(252,252,252); 
+	position: relative;
+	overflow: hidden;
+}
+.ign-project-summary .ign-summary-container:hover {
+	background-color: #f8fafb;
+	border: 1px solid #41aac7;
+}
+.ign-project-summary .ign-summary-container .ign-summary-image {
+	width: 100%;
+	height: 145px;
+	background-size: cover;
+	background-position-y: 50%;
+	background-repeat: no-repeat;
+	border-bottom: 1px solid #ccc;
+	margin: 0 0 3px 0;
+}
+.ign-project-summary .ign-summary-desc {
+	background: none;
+	font-size: 13px;
+	font-weight: normal;
+	line-height: 14px;
+	margin: 5px 0px;
+	padding: 3px 10px;
+	height: 115px;
+	display: block;
+	overflow: hidden;
+	text-transform: none;
+	color: #131313;
+	overflow: hidden;
+}
+.ign-project-summary .ign-progress-wrapper{
+	width: 100%;
+	height: 18px !important;
+	border: 0;
+	z-index: 5;
+	position: relative;
+	background-color: #e6e6e6;
+	margin: 0;
+}
+.ign-project-summary .ign-progress-bar{
+	float: left;
+	max-width: 100% !important;
+	height: 18px !important;
+	background-color: #93ddf2;
+}
+.ign-project-summary .ign-progress-raised{
+	position: absolute;
+	left: 5px;
+	margin: 0 auto;
+	font: normal 11px/18px Arial, sans-serif;
+	color: #333;
+	text-transform: uppercase;
+	text-align: right;
+}
+.ign-project-summary .ign-progress-percentage{
+	position: absolute;
+	right: 5px;
+	margin: 0 auto;
+	font-size: 11px;
+	line-height: 18px;
+	font-weight: normal;
+	color: #780000;
+	text-transform: uppercase;
+	text-align: right;
+}
+.ign-project-summary .ign-summary-days {
+	float: left;
+	font-size: 14px;
+	margin: 10px 0 5px 5px;
+	color: #9099A3;
+}
+.ign-project-summary .ign-summary-days strong {
+	color: #41aac7;
+	font-weight: bold;
+	font-size: 16px;
+}
+.ign-project-summary .ign-summary-learnmore {
+	float: right;
+	font-size: 14px;
+	margin: 10px 10px 5px 0;
+	text-transform: uppercase;
+	/*text-decoration: underline;*/
+	color: #31313f;
+	font-weight: bold;
+}
+.ign-project-summary .ign-summary-learnmore:hover {
+	color: #41aac7;
+	text-decoration: none;
+}
+
+.ign-project-summary .id-product-infobox .id-product-proposed-end {
+    background: none;
+	color: black;
+	margin: 0;
+    padding: 5px;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.ign-project-summary .id-product-infobox .learn-more-btn {
+	text-align: center;
+	margin: 0 auto;
+}
+#content #home-sharing {
+	display:table; 
+	width: 100%;
+	max-width: 960px;
+	margin: 40px 0 60px 0;
+}
+#content #home-sharing ul {
+	display:table-row; 
+	width: 100%;
+}
+#content #home-sharing ul li.twitter-btn a, #content #home-sharing ul li.linkedin-btn a, #content #home-sharing ul li.facebook-btn a, #content #home-sharing ul li.gplus-btn a {
+	display: block;
+	width: 70px;
+	height: 36px;
+	padding: 0;
+	line-height: 36px;
+	text-decoration: none;
+	font-size: 24px;
+	font-weight: bold;
+	color: #6C6C78;
+}
+#content #home-sharing ul li.twitter-btn a:hover, #content #home-sharing ul li.linkedin-btn a:hover, #content #home-sharing ul li.facebook-btn a:hover, #content #home-sharing ul li.gplus-btn a:hover {
+	color: #3EA9C6;
+}
+#content #home-sharing ul li {
+	display: table-cell; 
+	text-align: left; 
+	width: auto;
+}
+#home-sharing ul li.twitter-btn a:before {
+	content: "\f081";
+	font-family: FontAwesome;
+	font-size: 120%;
+	margin-right: 5px;
+}
+#home-sharing ul li.facebook-btn a:before {
+	content: "\f082";
+	font-family: FontAwesome;
+	font-size: 120%;
+	margin-right: 5px;
+}
+#home-sharing ul li.gplus-btn a:before {
+	content: "\f0d4";
+	font-family: FontAwesome;
+	font-size: 120%;
+	margin-right: 5px;
+}
+#home-sharing ul li.linkedin-btn a:before {
+	content: "\f08c";
+	font-family: FontAwesome;
+	font-size: 120%;
+	margin-right: 5px;
+}
+#content #home-sharing ul li.ign-more-projects {
+	text-align: right;
+	text-decoration: none;
+	font-size: 24px;
+	font-weight: bold;
+	width: 230px;
+	color: #6C6C78;
+}
+#content #home-sharing ul li.ign-more-projects a {
+	color: #6C6C78;
+	text-decoration: none;
+	background: transparent url('images/home-social.png') no-repeat right -293px;
+	padding-right: 16px;
+}
+#content #home-sharing ul li.ign-more-projects a:hover {
+	color: #3EA9C6;
+	background: transparent url('images/home-social.png') no-repeat right -329px;
+	padding-right: 16px;
+}
+h3#ign-levels-headline {
+	display: none;
+}
+#fivehundred .ignitiondeck.id-creatorprofile {
+		color: #606160;
+		background-color: #fbfcfb;
+		border: 1px solid #ddd;
+	}
+#fivehundred .ignitiondeck.id-creator-links a {
+	color: #fff;
+	}
+
+/* @end */
+
+/* @group Theme Settings in Admin */
+
+#logo-preview img {
+	max-width: 200px;
+	max-height: 50px;
+}
+
+/* @end */
+
+/* Purchase Form */
+
+#fivehundred .ignitiondeck form #stripe-input:after {
+  background: #75B83A;
+  color: #fff; }
+#fivehundred .ignitiondeck form #id-notifications .notification {
+  background-color: #cee2f2;
+  border-color: #2e82ae;
+  color: #04294b; }
+#fivehundred .ignitiondeck form #message-container .notification.error {
+  background-color: #F2D4CE;
+  border-color: #AE432E;
+  color: #4b0505; }
+#fivehundred .ignitiondeck form #message-container .close-notification {
+  color: #737373; }
+#fivehundred .ignitiondeck form .main-btn, #fivehundred .ignitiondeck form input[type=submit] {
+  -webkit-border-radius: 0;
+  width: 100%;
+  max-width: 600;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  border: none; }
+#fivehundred .ignitiondeck form .payment-errors {
+  color: rgba(255, 255, 255, 0.92);
+  background-color: rgba(183, 14, 14, 0.77); }
+
+
+#fivehundred .ignitiondeck form .dd-option-description {
+  border-width: 0;
+  border-style: solid;
+  border-left-width: 1px; }
+#fivehundred .ignitiondeck form .red-border {
+  border: 1px solid red; }
+#fivehundred .ignitiondeck form .form-item-error-msg {
+  font-size: 10.66667px;
+  font-weight: bold;
+  color: red; }
+#fivehundred .form-level:before	{
+	color: #333;
+}
+#fivehundred .project_disclaimer {
+	width: 98%;
+	margin: 0 auto;
+}
+/* Breakpoints */
+
+@media screen and (max-width: 1110px) {
+	.ign-project-summary .ign-summary-days strong {
+		font-size: 14px;
+		vertical-align: middle;
+	}
+	.ign-project-summary .ign-summary-days span {
+		vertical-align: middle;
+	}
+	.ign-project-summary .ign-summary-days, 
+	.ign-project-summary .ign-summary-learnmore {
+		font-size: 12px;
+		line-height: 20px;
+		vertical-align: middle;
+	}
+
+	.featured-wrap {
+		width: 90%;
+		box-sizing: border-box;
+		height: auto;
+	}
+	.featured-wrap .featured-image {
+		background: none;
+		height: 260px;
+		width: 65%;
+		margin: 0 auto;
+		background-size: 100% auto;
+		background-position-y: 50%;
+		background-repeat: no-repeat;
+	}
+	.featured-wrap .featured-image img{
+		width: 99%;
+		height: 99%;
+		max-height: initial;
+	}
+
+	.featured-wrap .featured-info {
+		font-size: 12px;
+		line-height: 12px;
+		width: 26%;
+		height: 263px;
+		margin: 0;
+		float: right;
+	}
+
+	.featured-info h3 {
+		font-size: 16px;
+		line-height: 12px;
+	}
+
+	.featured-info p {
+		font-size: 12px;
+		line-height: 1.1em;
+	}
+
+	.featured-info .featured-item {
+		font-size: 14px;
+		margin-top: 8px;
+		line-height: 10px;
+	}
+
+	.featured-item i {
+		font-size: 10px;
+		line-height: 10px
+	}
+
+	.featured-item:first-child {
+		margin-top: 10px;
+	}
+
+	.featured-info .ign-progress-wrapper {
+	height: 10px;
+	margin-top: 10px;
+	}
+
+	.featured-info .ign-progress-bar {
+		height: 10px;
+	}
+
+}
+/*		Between Desktop and Tablet Layout: 768px to 960px.     */
+@media screen and (min-width:769px) and (max-width:959px){
+	.ign-progress-raised strong {
+		font-size: 50px;
+	}
+}
+/*		Tablet Layout: 768px.     */
+@media only screen and (min-width: 681px) and (max-width: 768px) {
+
+	.ign-progress-raised strong {
+		font-size: 44px;
+	}
+
+	.ign-progress-raised .ign-raised {
+		font-size: 14px;
+	}
+
+	.ign-product-supporters strong {
+		font-size: 54px;
+	}
+
+	.ign-product-supporters .ign-supporters {
+		font-size: 14px;
+	}
+
+	#hDeck-right-bottom .ign-supportnow {
+		
+	}
+
+	#hDeck-right-bottom .ign-supportnow a {
+		font-size: 18px;
+	}
+	#content.fullwidth {
+		width: 95%;
+	}
+	header#header {
+			height: 100%;
+			width: 100%;
+			margin-left: 0;
+			margin-right: 0;
+	}
+	#branding {
+		width: 100%;
+		max-width: 100%;
+		display: block;
+		text-align: center;
+	}
+
+	#branding img {
+		margin: 0 auto;
+	}
+	h2.entry-title.featuredimage .entry-meta {
+		position: absolute;
+	    left: 2.5%;
+		display: block;
+	    padding: 2px;
+	    bottom: -25px;
+	    width: 95%;
+	    text-align: left;
+	    background: rgba(249, 250, 249, 0.9);
+	}
+	nav#menu-header {
+		width: auto;
+		display: block;
+		text-align: center;
+		margin: 0 auto;
+	}
+
+	#menu-header ul.menu {
+		position: relative;
+		padding: 10px 0;
+		width: auto;
+	}
+	#site-description {
+		text-align: center;
+		width: 100%;
+	}
+	#site-description h1 {
+		text-align: center;
+		display: block;
+		margin: 0 auto;
+		max-height: 300px;
+		max-width: 90%;
+	}
+
+	#site-description h2 {
+		display: block;
+		text-align: center;
+		border: none;
+		margin: 10px auto 0;
+		max-width: 90%;
+	}
+	.featured-wrap {
+		width: 90%;
+		box-sizing: border-box;
+		height: 400px;
+		margin: 0 auto;
+		position: relative;
+	}
+
+	.featured-wrap .featured-image {
+		width: 100%;
+		height: 400px;
+		float: none;
+		position: absolute;
+		margin: 0;
+		background-size: auto 100%;
+		background-position-y: 50%;
+		background-repeat: no-repeat;
+	}
+	.featured-wrap .featured-image img{
+		width: 100%;
+	}
+
+	.featured-wrap .featured-info {
+		color: #333;
+		background-color: rgba(255,255,255,0.8);
+		float: right;
+		margin: 0;
+		padding: 10px;
+		height: 380px;
+	}
+
+	.featured-info *{
+		font-size: 100%;
+		line-height: 100%;
+	}
+
+	.featured-info h3 {
+		color: #333;
+		font-size: 18px;
+		line-height: 14px;
+	}
+
+	.featured-info p {
+		color: #333;
+		font-size: 12px;
+		line-height: 10px;
+	}
+
+	.featured-info .featured-item {
+		font-size: 16px;
+		margin-top: 10px;
+	}
+
+	.featured-item:first-child {
+		margin-top: 10px;
+	}
+
+	.featured-item:last-child {
+		margin-top: 0;
+	}
+
+	.featured-info .ign-progress-wrapper {
+		height: 15px;
+		margin: 5px auto 10px auto;
+		opacity: 0.8;
+		background-color: #3A66A7;
+		width: 100%;
+	}
+
+	.featured-info .ign-progress-bar {
+		opacity: 1.0;
+		background-color: #e7e7e7;
+		height: 15px;
+	}
+
+	.featured-info .featured-button {
+		bottom: 10px;
+		width: 90%;
+		right: 5%;
+	}
+	.ign-project-summary .ign-summary-container {
+	   height: 300px;
+	}
+	.ign-project-summary .ign-summary-container .ign-summary-image {
+	   height: 110px;
+	}
+}
+/*		Mobile Layout: 320px to 680px.     */
+@media screen and (min-width:321px) and (max-width:680px){
+    header#header {
+		height: 100%;
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	#content.fullwidth {
+		width: 95%;
+	}
+	#branding {
+		width: 100%;
+		max-width: 100%;
+		display: block;
+		text-align: center;
+	}
+
+	#branding img {
+		margin: 0 auto;
+	}
+
+	nav#menu-header {
+		width: 100%;
+		display: block;
+		text-align: center;
+	}
+
+	#menu-header ul.menu {
+		position: relative;
+		padding: 10px 0;
+		width: auto;
+	}
+
+	#menu-header ul.menu li a,
+	#menu-header ul.defaultMenu li a {
+		font-size: 12px;
+	}
+
+	#site-description {
+		text-align: center;
+		width: 100%;
+	}
+
+	#site-description h1 {
+		text-align: center;
+		display: block;
+		margin: 0 auto;
+		max-height: 300px;
+		max-width: 90%;
+	}
+
+	#site-description h2 {
+		display: block;
+		text-align: center;
+		border: none;
+		margin: 10px auto 0;
+		max-width: 90%;
+	}
+
+	.featured-wrap {
+		width: 90%;
+		height: auto;
+		margin: 0 auto;
+		position: relative;
+		box-sizing: border-box;
+	}
+
+	.featured-wrap .featured-image {
+		width: 100%;
+		height: 240px;
+		float: none;
+		position: relative;
+		margin: 0;
+		background-size: 100% auto;
+		background-position-y: 50%;
+		background-repeat: no-repeat;
+	}
+	.featured-wrap .featured-image img{
+		width: 100%;
+		height: auto;
+	}
+
+	.featured-wrap .featured-info {
+		color: #333;
+		background-color: rgba(255,255,255,0.8);
+		float: none;
+		margin: 0 auto;
+		padding: 10px;
+		height: auto;
+		width: auto;
+	}
+
+	.featured-info *{
+		font-size: 100%;
+		line-height: 100%;
+	}
+
+	.featured-info h3 {
+		color: #333;
+		font-size: 18px;
+		line-height: 14px;
+	}
+
+	.featured-info p {
+		color: #333;
+		font-size: 12px;
+	}
+
+	.featured-info .featured-item {
+		font-size: 16px;
+	}
+
+	.featured-item:first-child {
+		margin-top: 10px;
+	}
+
+	.featured-item:last-child {
+		margin-top: 0;
+	}
+
+	.featured-info .ign-progress-wrapper {
+		margin: 5px auto 10px auto;
+		opacity: 1.0;
+	}
+
+	.featured-info .ign-progress-bar {
+		opacity: 0.8;
+	}
+
+	.featured-info .featured-button {
+		position: static;
+		display: block;
+		width: 100%;
+		margin: 0 auto;
+	}
+	
+	#container {
+		margin-top: 20px;
+		width: 100%;
+	}
+	.constrainedwrapper {
+		width: 100%;
+		margin: 0;
+	}
+	.constrained {
+		width: 90%;
+		max-width: 960px;
+		margin: 0 auto;
+	}
+	.entry-content img {
+		max-width: 100%;
+		height: auto;
+	}
+	
+	#about-us.entry-content {
+		width: 90%;
+		padding: 0 5%;
+		text-align: center;
+	}
+
+	#content, #content.ignition_project {
+		width: 90%;
+		padding: 0 5%;
+	}
+	.post-type-archive-ignition_product #content {
+		width: 100%;
+		margin: 0 auto;
+		padding: 0;
+	}
+	
+	#ign-project-content .entry-content {
+		width: 100%;
+		padding: 0;
+		float: none;
+	}
+	h3#ign-levels-headline {
+		display: block;
+		margin-top: 50px;
+		font-size: 28px;
+		border-bottom: 1px solid #ddd;
+	}
+	#home-widget {
+		width: 90%;
+		padding: 0 5%;
+	}
+	#home-widget #sidebar {
+		width: 100%;
+		margin: 0 auto 0 auto;
+	}
+	#sidebar h3 {
+		width: 100%;
+		text-align: center;
+	}
+	#sidebar, #ign-project-content aside#sidebar {
+		width: 100%;
+		float: none;
+		margin: 0;
+	}
+	
+	footer {
+		text-align: center;
+	}
+
+	.home #content {
+		width: 90%;
+		padding: 0 5%;
+	}
+
+	.home h2.entry-title {
+		margin: 15px 0;
+	}
+
+	footer {
+		border: none;
+		padding: 0;
+	}
+
+	footer #copyright {
+		width: 90%;
+		margin: 0 auto;
+		padding: 20px 0 0 0;
+		border-top: 1px solid #ccc;
+	}
+
+	.home h2.entry-title {
+		text-align: center;
+	}
+
+	#project-grid .ign-project-summary, .project-grid .ign-project-summary {
+		width: 80%;
+		max-width: 360px;
+		margin: 0 auto 30px auto;
+		float: none;
+		display: block;
+		height: auto;
+	}
+
+	#project-grid .ign-project-summary a, .project-grid .ign-project-summary a {
+		height: auto;
+		float: none;
+	}
+
+    .ign-project-summary .ign-summary-desc {
+	   height: auto;
+	}
+	.ign-project-summary .ign-summary-container {
+	   height: auto;
+	   min-height: 300px;
+    }
+
+    #about-us.entry-content {
+        text-align: left;
+    }
+    #about-us.entry-content h3.sub-entry-title {
+        text-align: center;
+    }
+	#content #home-sharing {
+		margin: 10px auto 20px auto;
+	}
+
+	#content #home-sharing ul {
+		text-align: center;
+		display: block;
+		width: 60%;
+		margin: 0 auto;
+	}
+
+	#content #home-sharing ul li {
+		display: block;
+		margin: 15px 0;
+		padding: 0 20%;
+	}
+
+	#content #home-sharing ul li.ign-more-projects {
+		text-align: left;
+	}
+
+	#home-sharing ul li a span {
+		display: visible;
+	}
+    #ign-hDeck-wrapperbg {
+		width: 100%;
+		margin: 0;
+	}
+	#ign-hDeck-wrapper {
+		width: 100%;
+		height: 690px;
+		margin: 10px auto 10px auto;
+		padding: 0;
+		overflow: visible;
+		position: static;
+	}
+	#ign-hDeck-header #ign-hDeck-left {
+		width: 100%;
+		height: auto;
+		float: none;
+	}
+	#ign-hDeck-header #ign-hDeck-right {
+		width: 100%;
+		float: none;
+		margin: 40px 0 0 0;
+	}
+	#ign-hDeck-header #ign-hDeck-left .video {
+		width: 100%; 
+		height: 240px;
+		background-size: 100% auto;
+		background-position-y: 50%;
+		background-repeat: no-repeat;
+	}
+
+	#ign-hDeck-right .internal {
+		width: 100%;
+		margin-left: 0;
+	}
+    .ign-progress-raised strong {
+        font-size: 64px;
+    }
+	.ign-supportnow {
+		max-width: 300px;
+		width: 60%;
+	}
+
+	.ign-supportnow a{
+		width: 100%;
+	}
+	.ign-supportnow.mobile {
+		display: block;
+		position: static;
+		width: 85%;
+		margin: 10px auto;
+	}
+}
+
+@media screen and (max-width: 320px) {
+
+	header#header {
+		height: 100%;
+		width: 320px;
+		margin-left: 0;
+		margin-right: 0;
+		padding: 25px 0 0 !important;
+	}
+
+	#branding {
+		width: 100%;
+		max-width: 100%;
+		display: block;
+		text-align: center;
+	}
+
+	#branding img {
+		margin: 0 auto;
+	}
+
+	#branding img#logo {
+		max-height: 50px;
+		max-width: 175px;
+	}
+
+	.nav-check {
+    	display: block;
+    }
+
+    .nav-check-label {
+		display: block;
+	}
+
+	nav#menu-header-mobile{
+		display: block;
+		left: 0;
+		bottom: 100px;
+		position: absolute;
+		width: 100%;
+		background: #FFF;
+		z-index: 1001;	
+	}
+
+
+	nav#menu-header {
+		width: 100%;
+		display: none;
+		text-align: center;
+	}
+
+	#menu-header ul.menu {
+		position: relative;
+		padding: 10px 0;
+	}
+
+	#menu-header ul.menu li:nth-child(4n + 3) {
+		border-right: none;
+	}
+
+	#menu-header ul.menu li:nth-child(4n + 4) {
+		margin-top: 10px;
+	}
+
+	#menu-header ul.menu li:nth-child(1n + 5) {
+		margin-top: 10px;
+	}
+
+	#menu-header ul.menu li a,
+	#menu-header ul.defaultMenu li a {
+		font-size: 12px;
+	}
+
+	#site-description {
+		text-align: center;
+		width: 100%;
+	}
+
+	#site-description h1 {
+			text-align: center;
+			display: block;
+			margin: 0 auto;
+			max-height: 300px;
+			max-width: 90%;
+	}
+
+	#site-description h2 {
+		display: block;
+		text-align: center;
+		border: none;
+		margin: 10px auto 0;
+		max-width: 90%;
+	}
+
+	.featured-wrap {
+		width: 320px;
+		height: auto;
+		margin: 0;
+		position: relative;
+	}
+
+	.featured-wrap .featured-image {
+		width: 100%;
+		height: 180px;
+		float: none;
+		position: relative;
+		margin: 0;
+		border: none;
+		padding: 0;
+		background-size: 100% auto;
+		background-position-y: 50%;
+		background-repeat: no-repeat;
+	}
+	.featured-wrap .featured-image img{
+		width: 100%;
+		height: auto;
+	}
+
+	.featured-wrap .featured-info {
+		color: #333;
+		background-color: rgba(255,255,255,0.8);
+		float: none;
+		margin: 0 auto;
+		padding: 10px;
+		height: auto;
+		width: auto;
+	}
+
+	.featured-info *{
+		font-size: 100%;
+		line-height: 100%;
+	}
+
+	.featured-info h3 {
+		color: #333;
+		font-size: 18px;
+		line-height: 14px;
+	}
+
+	.featured-info p {
+		color: #333;
+		font-size: 12px;
+	}
+
+	.featured-info .featured-item {
+		font-size: 16px;
+	}
+
+	.featured-item:first-child {
+		margin-top: 10px;
+	}
+
+	.featured-item:last-child {
+		margin-top: 0;
+	}
+
+	.featured-info .ign-progress-wrapper {
+		margin: 5px auto 10px auto;
+		opacity: 1.0;
+	}
+
+	.featured-info .ign-progress-bar {
+		opacity: 0.8;
+	}
+
+	.featured-info .featured-button {
+		position: static;
+		display: block;
+		width: 86%;
+		margin: 0 auto;
+	}
+	
+	#container {
+		margin-top: 20px;
+		width: 320px;
+	}
+	
+	#about-us.entry-content {
+		width: 90%;
+		padding: 0 5%;
+	}
+
+	#content, #content.ignition_project {
+		width: 90%;
+		padding: 0 5%;
+	}
+	
+	#ign-project-content .entry-content {
+		width: 100%;
+		padding: 0;
+		float: none;
+	}
+    .post-type-archive-ignition_product #content {
+		width: 100%;
+		margin: 0 auto;
+		padding: 0 !important;
+	}
+	h3#ign-levels-headline {
+		display: block;
+		margin-top: 50px;
+		font-size: 22px;
+		border-bottom: 1px solid #ddd;
+		text-align: center;
+	}
+	
+	#sidebar, #ign-project-content aside#sidebar {
+		width: 100%;
+		float: none;
+		margin: 0;
+	}
+
+	footer {
+		text-align: center;
+	}
+
+	.home #content {
+		width: 95%;
+		padding: 0;
+		margin: 0 auto;
+	}
+
+	.home h2.entry-title {
+		margin: 15px 0;
+	}
+
+	footer {
+		border: none;
+		padding: 0;
+		width: 100%
+	}
+
+	footer #copyright {
+		width: 90%;
+		margin: 0 auto;
+		padding: 20px 0 0 0;
+		border-top: 1px solid #ccc;
+	}
+
+	.home h2.entry-title {
+		text-align: center;
+	}
+
+	#project-grid .ign-project-summary, .project-grid .ign-project-summary {
+		width: 90%;
+		margin: 0 auto 30px auto;
+		float: none;
+		display: block;
+	}
+
+	#content #home-sharing {
+		margin: 10px auto 20px auto;
+	}
+
+	#content #home-sharing ul {
+		text-align: center;
+		display: block;
+		width: 60%;
+		margin: 0 auto;
+	}
+
+	#content #home-sharing ul li {
+		display: block;
+		margin: 15px 0;
+		padding: 0 20%;
+	}
+
+	#content #home-sharing ul li.ign-more-projects {
+		text-align: left;
+	}
+
+	#home-sharing ul li a span {
+		display: visible;
+	}
+    #ign-hDeck-wrapperbg {
+		width: 320px;
+		margin: 0;
+	}
+	#ign-hDeck-wrapper {
+		width: 100%;
+		height: 640px;
+		margin: 10px auto 10px auto;
+		padding: 0;
+		overflow: visible;
+		position: static;
+	}
+	#ign-hDeck-header #ign-hDeck-left {
+		width: 100%;
+		height: 190px;
+		margin-left: -5%;
+		float: none;
+	}
+	#ign-hDeck-header #ign-hDeck-right {
+		width: 100%;
+		float: none;
+		margin: 40px 0 0 0;
+	}
+	#ign-hDeck-header #ign-hDeck-left .video {
+		width: 320px; 
+		height: 180px;
+		background-size: 100% auto;
+		background-position-y: 50%;
+		background-repeat: no-repeat;
+	}
+
+	#ign-hDeck-right .internal {
+		width: 100%;
+		margin-left: 0;
+	}
+    .ign-progress-raised strong {
+        font-size: 44px;
+    }
+	.ign-supportnow {
+		max-width: 300px;
+		width: 60%;
+	}
+	
+	.ign-supportnow a{
+		width: 100%;
+	}
+	.ign-supportnow.mobile {
+		display: block;
+		position: static;
+		width: 90%;
+		margin: 10px auto;
+	}
+}

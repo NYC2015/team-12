@@ -1,0 +1,750 @@
+# Copyright (C) 2013
+# This file is distributed under the same license as the  package.
+# Translators:
+# brendonboshell <brendonboshell@gmail.com>, 2014
+# Piexl <pierfroi@gmail.com>, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: Thank Me Later\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/thank-me-later\n"
+"POT-Creation-Date: 2013-08-04 15:17:47+00:00\n"
+"PO-Revision-Date: 2014-04-27 20:58-0000\n"
+"Last-Translator: brendonboshell <brendonboshell@gmail.com>\n"
+"Language-Team: French (France) (http://www.transifex.com/projects/p/thank-me-"
+"later/language/fr_FR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.6.4\n"
+
+#: Message.php:765 Message.php:777
+msgid "This must be fewer than 250 letters long."
+msgstr "Ceci doit être plus petit que 250 lettres."
+
+#: Message.php:769 Message.php:781 Message.php:785
+#: admin/AdminScreenOptOut.php:84 admin/AdminScreenOptOut.php:92
+msgid "This must not be blank."
+msgstr "Ceci ne doit pas être vide."
+
+#: Message.php:773
+msgid "This must be a real email address."
+msgstr "Ceci doit être une vraie adresse E-mail."
+
+#: Message.php:789 Message.php:836
+msgid "This must be a number."
+msgstr "Ceci doit être un chiffre."
+
+#: Message.php:793
+msgid "This must be a real length of time."
+msgstr "Ceci doit être une durée réelle."
+
+#: Message.php:797 Message.php:803
+msgid "You must select some tags."
+msgstr "Vous devez sélectionner quelques tags."
+
+#: Message.php:808 Message.php:814
+msgid "You must select some categories."
+msgstr "Vous devez sélectionner quelques catégories."
+
+#: Message.php:819 Message.php:831
+msgid "You must select some posts."
+msgstr "Vous devez sélectionner quelques articles."
+
+#: admin/AdminScreenMessage.php:86 upgrade/Upgrade3_0.php:52
+msgctxt "post title - blog name"
+msgid "%s - %s"
+msgstr "%s - %s "
+
+#: admin/AdminScreenMessage.php:92 upgrade/Upgrade3_0.php:58
+msgid "Hi %s,"
+msgstr "Bonjour %s,"
+
+#. translators: the string "[post_title]" will be replaced with the blog
+#. post's
+#. title. Please do not remove this string.
+#: admin/AdminScreenMessage.php:95 upgrade/Upgrade3_0.php:61
+msgid ""
+"Thank you for your comment on [post_title]. Please check back soon for a "
+"response."
+msgstr ""
+"Merci de votre commentaire sur [post_title]. Merci de bientôt revenir pour "
+"vérifier si vous n'avez pas reçu de réponse."
+
+#: admin/AdminScreenMessage.php:100 upgrade/Upgrade3_0.php:66
+msgid "Return to your comment."
+msgstr "Accéder à votre commentaire."
+
+#. translators: the string "[comment_url]" will be replaced with the URL to
+#. the
+#. user's comment. Please do not remove this string.
+#: admin/AdminScreenMessage.php:105 upgrade/Upgrade3_0.php:71
+msgid "Return to your comment: [comment_url]"
+msgstr "Accedez à votre commentaire: [comment_url]"
+
+#: admin/AdminScreenMessage.php:110 upgrade/Upgrade3_0.php:76
+msgid "You posted this comment on %s: %s"
+msgstr "Vous avez posté ce commentaire sur %s: %s"
+
+#: admin/AdminScreenMessage.php:114 upgrade/Upgrade3_0.php:80
+msgid "Thank you!"
+msgstr "Merci !"
+
+#: admin/AdminScreenMessage.php:259
+msgid "This is a sample post created by Thank Me Later."
+msgstr "Ceci est un exemple d'article créé grâce à Thank Me Later."
+
+#: admin/AdminScreenMessage.php:261
+msgid "Sample post title"
+msgstr "Exemple de titre d'article"
+
+#: admin/AdminScreenMessage.php:275
+msgctxt "placeholder name"
+msgid "John Doe"
+msgstr "John Doe"
+
+#: admin/AdminScreenMessage.php:276
+msgctxt "placeholder e-mail"
+msgid "john.doe@example.com"
+msgstr "john.doe@example.com"
+
+#: admin/AdminScreenMessage.php:277
+msgid ""
+"This is a sample comment used by Thank Me Later. It is not displayed on any "
+"blog posts."
+msgstr "Ceci est un exemple de commentaire utilisé par Thank Me Later."
+
+#: admin/AdminScreenMessage.php:323 admin/messages/MessageListTable.php:77
+msgctxt "separator in list of post names"
+msgid ", "
+msgstr ","
+
+#: admin/AdminScreenMessage.php:328 admin/messages/MessageListTable.php:81
+msgid "Targets 0 posts"
+msgstr "Cible 0 article"
+
+#. translators: %2$s will be replaced with post name. In plural version, the
+#. first %s is a seperated list of post titles, the second %s is the title of
+#. the last post
+#: admin/AdminScreenMessage.php:344 admin/messages/MessageListTable.php:96
+msgid "Targets %2$s"
+msgid_plural "Targets %s and %s"
+msgstr[0] "Cible %2$s"
+msgstr[1] "Cible %s et %s"
+
+#: admin/AdminScreenMessage.php:364 admin/messages/MessageListTable.php:116
+msgid "Targets %s and %s%d other post%s"
+msgid_plural "Targets %s and %s%d other posts%s"
+msgstr[0] "Cible %s et %s%d autre article%s"
+msgstr[1] "Cible %s et %s%d autres articles%s"
+
+#: admin/AdminScreenMessage.php:373 admin/messages/MessageListTable.php:125
+msgid "Targets all posts"
+msgstr "Cibler tous les articles."
+
+#: admin/AdminScreenOptOut.php:70 admin/AdminScreenOptOut.php:75
+#: admin/AdminScreenOptOut.php:80 admin/AdminScreenOptOut.php:88
+msgid "You must select an option."
+msgstr "Vous devez choisir une option."
+
+#: admin/messages/MessageListTable.php:37
+msgctxt "verb"
+msgid "Edit"
+msgstr "Modifier"
+
+#: admin/messages/MessageListTable.php:38
+#: admin/messages/MessageListTable.php:170
+msgctxt "verb"
+msgid "Delete"
+msgstr "Supprimer"
+
+#: admin/messages/MessageListTable.php:149 admin/messages/edit.php:67
+#: thankmelater.php:370
+msgctxt "noun"
+msgid "Subject"
+msgstr "Sujet"
+
+#: admin/messages/MessageListTable.php:150 admin/messages/edit.php:153
+msgctxt "noun"
+msgid "Targeting"
+msgstr "Ciblage"
+
+#: admin/messages/edit.php:28
+msgid "Edit Message"
+msgstr "Modifier le message"
+
+#: admin/messages/edit.php:30
+msgid "New Message"
+msgstr "Nouveau message"
+
+#: admin/messages/edit.php:34 admin/messages/overview.php:19
+msgid "Add New"
+msgstr "Ajouter"
+
+#: admin/messages/edit.php:41
+msgid "Your message was not saved. Correct the errors below."
+msgstr "Votre message n'a pas été sauvegardé. Corrigez les erreurs ci-dessous."
+
+#: admin/messages/edit.php:51
+msgid "From Name"
+msgstr "Nom de l'expéditeur"
+
+#: admin/messages/edit.php:59
+msgid "From Email"
+msgstr "Adresse E-mail affichée "
+
+#: admin/messages/edit.php:75
+msgctxt "noun"
+msgid "Message"
+msgstr "Message"
+
+#: admin/messages/edit.php:86
+msgctxt "noun"
+msgid "Preview"
+msgstr "Prévisualisation"
+
+#: admin/messages/edit.php:90
+msgctxt "noun"
+msgid "HTML"
+msgstr "HTML"
+
+#: admin/messages/edit.php:93
+msgctxt "noun"
+msgid "Text"
+msgstr "Texte"
+
+#: admin/messages/edit.php:98
+msgid "Enable Javascript to see this preview."
+msgstr "Activez Javascript afin de voir la prévisualisation."
+
+#: admin/messages/edit.php:111
+msgid "Show shortcode list"
+msgstr "Montrer la liste des balises"
+
+#: admin/messages/edit.php:112
+msgid "Hide shortcode list"
+msgstr "Cacher la liste des balises"
+
+#: admin/messages/edit.php:121
+msgid "When to send emails"
+msgstr "Quand envoyer les E-mails"
+
+#: admin/messages/edit.php:125
+msgid "Send after time"
+msgstr "Envoyer après"
+
+#: admin/messages/edit.php:133
+msgid "minutes"
+msgstr "minutes"
+
+#: admin/messages/edit.php:134
+msgid "hours"
+msgstr "heures"
+
+#: admin/messages/edit.php:135
+msgid "days"
+msgstr "jours"
+
+#: admin/messages/edit.php:136
+msgid "weeks"
+msgstr "semaines"
+
+#: admin/messages/edit.php:138
+msgid "The email will be sent this amount of time after the comment is posted."
+msgstr ""
+"L'E-mail sera envoyé le temps que vous avez sélectionné après la création du "
+"commentaire."
+
+#: admin/messages/edit.php:143
+msgid "Send limit"
+msgstr "Envoyer une limite"
+
+#: admin/messages/edit.php:147
+msgid ""
+"The email will be sent no more than this number of times. Enter '0' for no "
+"limit."
+msgstr ""
+"L'E-mail sera envoyé pas plus de fois que sélectionné. Entrez '0' pour "
+"désactiver cette limite."
+
+#: admin/messages/edit.php:168
+msgctxt "noun"
+msgid "Tags"
+msgstr "Tags"
+
+#: admin/messages/edit.php:191
+msgid "The email will be sent for posts with any of the chosen tags."
+msgstr ""
+"L'E-mail sera envoyé pour les articles contenant au moins un des tags "
+"choisis."
+
+#: admin/messages/edit.php:193
+msgid "Your blog does not have any tags."
+msgstr "Votre blog n'a aucun tag."
+
+#: admin/messages/edit.php:199
+msgctxt "noun"
+msgid "Categories"
+msgstr "Catégories"
+
+#: admin/messages/edit.php:222
+msgid "The email will be sent for posts in any of the chosen categories."
+msgstr ""
+"L'E-mail sera envoyé pour les articles contenus dans au moins une de ces "
+"catégories."
+
+#: admin/messages/edit.php:224
+msgid "Your blog does not have any categories."
+msgstr "Votre blog n'a aucune catégorie."
+
+#: admin/messages/edit.php:230
+msgctxt "noun"
+msgid "Posts"
+msgstr "Articles"
+
+#: admin/messages/edit.php:253
+msgid "The email will be sent for any chosen posts."
+msgstr "L'E-mail sera envoyé pour tous les articles choisis."
+
+#: admin/messages/edit.php:255
+msgid "Your blog does not have any posts."
+msgstr "Votre blog ne contient aucun article."
+
+#: admin/messages/edit.php:264
+msgid "Save Message"
+msgstr "Sauvegarder le message"
+
+#: admin/messages/overview.php:16 thankmelater.php:320 thankmelater.php:321
+msgctxt "noun"
+msgid "Messages"
+msgstr "Messages"
+
+#: admin/messages/overview.php:26
+msgid "Message deleted."
+msgid_plural "%d messages deleted."
+msgstr[0] "Message supprimé."
+msgstr[1] "%d messages supprimés."
+
+#: admin/messages/overview.php:34
+msgid "Message updated!"
+msgid_plural "%d messages updated!"
+msgstr[0] "Message mis à jour !"
+msgstr[1] "%d messages ont été mis à jour !"
+
+#: admin/messages/overview.php:48
+msgid "Created by %s"
+msgstr "Créé par %s"
+
+#: admin/messages/overview.php:51
+msgid "Mailing List"
+msgstr "Liste de diffusion "
+
+#: admin/messages/overview.php:52
+msgid "Rate This Plugin"
+msgstr "Notez ce Plugin"
+
+#: admin/messages/overview.php:53
+msgid "Help"
+msgstr "Aide"
+
+#: admin/messages/shortcode_reference.php:1
+msgid "Shortcode List"
+msgstr "Liste des balises"
+
+#: admin/messages/shortcode_reference.php:2
+msgid ""
+"You can use the following shortcodes in the from name, from email, subject "
+"and message:"
+msgstr ""
+"Vous pouvez utiliser ces balises dans les champs suivants : Nom de "
+"l'expéditeur, E-mail de l'expéditeur, Sujet, et le message:"
+
+#: admin/messages/shortcode_reference.php:7
+#: admin/messages/shortcode_reference.php:218
+msgctxt "noun"
+msgid "Shortcode"
+msgstr "Balise"
+
+#: admin/messages/shortcode_reference.php:8
+#: admin/messages/shortcode_reference.php:219
+msgctxt "noun"
+msgid "Options"
+msgstr "Options"
+
+#: admin/messages/shortcode_reference.php:9
+#: admin/messages/shortcode_reference.php:221
+msgid "Description"
+msgstr "Description"
+
+#: admin/messages/shortcode_reference.php:17
+msgid "Set to 1 if used in HTML attribute"
+msgstr "Mettre 1 si un attribut HTML est utilisé"
+
+#: admin/messages/shortcode_reference.php:21
+msgid "The URL for the post author's page."
+msgstr "L'URL pour la page de l'auteur de l'article."
+
+#: admin/messages/shortcode_reference.php:28
+#: admin/messages/shortcode_reference.php:40
+#: admin/messages/shortcode_reference.php:51
+#: admin/messages/shortcode_reference.php:64
+#: admin/messages/shortcode_reference.php:123
+#: admin/messages/shortcode_reference.php:161
+#: admin/messages/shortcode_reference.php:202
+msgid "Set to 1 if used in HTML attribute."
+msgstr "Mettre 1 si un attribut HTML est utilisé."
+
+#: admin/messages/shortcode_reference.php:29
+msgid "Maximum number of characters to show."
+msgstr "Maximum de caractères à montrer."
+
+#: admin/messages/shortcode_reference.php:33
+msgid "The comment content."
+msgstr "Le contenu du commentaire."
+
+#: admin/messages/shortcode_reference.php:44
+msgid "The URL for the comment."
+msgstr "L'URL du commentaire."
+
+#: admin/messages/shortcode_reference.php:52
+msgid "%sDate format%s. e.g. 'd M Y' for '14 Jan 2013'."
+msgstr "%sFormat de date%s. Par exemple : 'd M Y' pour '14 Jan 2014'."
+
+#: admin/messages/shortcode_reference.php:53
+msgid "Set to 1 for GMT date/time."
+msgstr "Mettre 1 pour la date GMT."
+
+#: admin/messages/shortcode_reference.php:57
+msgid "The date of the comment."
+msgstr "Date du commentaire."
+
+#: admin/messages/shortcode_reference.php:68
+msgid "The email address of the commenter."
+msgstr "L'adresse E-mail du commentateur."
+
+#: admin/messages/shortcode_reference.php:76
+msgid "Insert a h1-h6 heading."
+msgstr "Insérer un titre h1-h6."
+
+#: admin/messages/shortcode_reference.php:83
+#: admin/messages/shortcode_reference.php:191
+msgid "Set to 1 to apply shortcodes inside of tag."
+msgstr "Mettre 1 pour activer les balises à l'intérieur des tags."
+
+#: admin/messages/shortcode_reference.php:87
+msgid "Content to show in HTML messages only."
+msgstr "Contenu à afficher uniquement dans les messages HTML."
+
+#: admin/messages/shortcode_reference.php:95
+msgid "The ID of the comment."
+msgstr "Commentaire N°."
+
+#: admin/messages/shortcode_reference.php:102
+msgid "URL of the image."
+msgstr "URL de l'image."
+
+#: admin/messages/shortcode_reference.php:103
+msgid "Width in pixels."
+msgstr "Largeur en pixels."
+
+#: admin/messages/shortcode_reference.php:104
+msgid "Height in pixels."
+msgstr "Hauteur en pixels."
+
+#: admin/messages/shortcode_reference.php:108
+msgid "Inserts an image."
+msgstr "Insérer une image."
+
+#: admin/messages/shortcode_reference.php:116
+msgid "The IP address of the commenter."
+msgstr "Adresse IP du commentateur."
+
+#: admin/messages/shortcode_reference.php:127
+msgid "The name of the commenter."
+msgstr "Nom du commentateur."
+
+#: admin/messages/shortcode_reference.php:134
+msgid "Set to 1 if you want the opt out URL only. Default: '1'"
+msgstr ""
+"Mettre 1 si vous souhaitez seulement l'URL de désabonnement. Par défaut : "
+"'1' "
+
+#: admin/messages/shortcode_reference.php:138
+msgid "Get opt out message/URL"
+msgstr "Voir le message/ l'url de désabonnement"
+
+#: admin/messages/shortcode_reference.php:146
+msgid ""
+"A paragraph of text (paragraphs are added automatically when leaving two "
+"blank lines between text)."
+msgstr ""
+"Un paragraphe de texte ( les paragraphes sont ajoutés automatiquement quand "
+"deux lignes sont laissées entre deux textes)."
+
+#: admin/messages/shortcode_reference.php:154
+msgid "The ID of the post."
+msgstr "Article N°."
+
+#: admin/messages/shortcode_reference.php:165
+msgid "The post title."
+msgstr "Titre de l'article."
+
+#: admin/messages/shortcode_reference.php:173
+msgid "Hide a section of message (keeping for future reference)."
+msgstr "Cacher une partie du message (en la gardant pour une future mention)."
+
+#: admin/messages/shortcode_reference.php:180
+msgid "Name of the template part. Default: 'main'"
+msgstr "Nom de la partie du thème. Par défaut : 'main' "
+
+#: admin/messages/shortcode_reference.php:184
+msgid "A template part."
+msgstr "Une partie du thème."
+
+#: admin/messages/shortcode_reference.php:195
+msgid "Content to show in text messages only."
+msgstr "Contenu à montrer uniquement dans les messages textes."
+
+#: admin/messages/shortcode_reference.php:206
+msgid "The user agent of the commenter."
+msgstr "Navigateur utilisé par le commentateur."
+
+#: admin/messages/shortcode_reference.php:212
+msgid "Templates"
+msgstr "Thèmes"
+
+#: admin/messages/shortcode_reference.php:213
+msgid ""
+"You can wrap your message in one of the following tags to use a HTML "
+"template:"
+msgstr ""
+"Vous pouvez convertir votre message en un des tags suivant afin d'utiliser "
+"un thème HTML:"
+
+#: admin/messages/shortcode_reference.php:220
+msgid "Template parts"
+msgstr "Parties du thème"
+
+#: admin/messages/shortcode_reference.php:229
+#: admin/messages/shortcode_reference.php:250
+msgid "Background color for email, in hexadecimal format. Default: '#F6F6F6'"
+msgstr ""
+"Couleur du fond de l'E-mail, en format hexadécimal. Par défaut: '#F6F6F6' "
+
+#: admin/messages/shortcode_reference.php:230
+#: admin/messages/shortcode_reference.php:251
+msgid "Background color for content, in hexadecimal format. Default: '#FFFFFF'"
+msgstr ""
+"Couleur du fond du contenu, en format hexadécimal. Par défaut: '#FFFFFF'"
+
+#: admin/messages/shortcode_reference.php:235
+#: admin/messages/shortcode_reference.php:256
+msgid ""
+"Content for the pre-header banner. You can insert a 600px width banner image "
+"here."
+msgstr ""
+"Contenu pour la bannière du pre-header. Vous pouvez insérer une image de 600 "
+"pixels de hauteur ici."
+
+#: admin/messages/shortcode_reference.php:236
+#: admin/messages/shortcode_reference.php:257
+msgid "Header content"
+msgstr "Contenu de l'header"
+
+#: admin/messages/shortcode_reference.php:237
+#: admin/messages/shortcode_reference.php:258
+msgid "Main page content"
+msgstr "Contenu de la page principale"
+
+#: admin/messages/shortcode_reference.php:238
+#: admin/messages/shortcode_reference.php:260
+msgid "Footer content"
+msgstr "Contenu du footer"
+
+#: admin/messages/shortcode_reference.php:242
+msgid "A simple template with header, main body and footer."
+msgstr "Un simple thème avec header, main body et footer."
+
+#: admin/messages/shortcode_reference.php:249
+msgid ""
+"Set to 'left' for a left sidebar. Set to 'right' for a right sidebar. "
+"Default: 'right'"
+msgstr ""
+"Mettre 'left' pour une colonne à gauche. Mettre 'right' pour une colonne à "
+"droite. Par défaut: 'right' "
+
+#: admin/messages/shortcode_reference.php:259
+msgid "Sidebar content"
+msgstr "Contenu de la colonne"
+
+#: admin/messages/shortcode_reference.php:264
+msgid "A template with a sidebar."
+msgstr "Un thème avec une colonne."
+
+#: admin/messages/targets.php:16
+msgctxt "noun"
+msgid "Target Posts"
+msgstr "Articles ciblés"
+
+#: admin/messages/targets.php:20
+msgid "Return to messages"
+msgstr "Retourner aux messages"
+
+#: admin/messages/targets.php:22
+msgid "The following posts are targeted by this message:"
+msgstr "Les articles suivants sont concernés par ce message:"
+
+#: admin/messages/targets.php:31
+msgid "%s (ID: %d)"
+msgstr "%s (Identifiant: %d)"
+
+#: admin/opt-out/options.php:52
+msgctxt "noun"
+msgid "Opt out options"
+msgstr "Se retirer des options"
+
+#: admin/opt-out/options.php:59
+msgid "Your options were not saved. Correct the errors below."
+msgstr ""
+"Vos options n'ont pas été sauvegardées. Corrigez les erreurs ci-dessous."
+
+#: admin/opt-out/options.php:67
+msgid "Your options were saved."
+msgstr "Vos options ont été enregistrées."
+
+#: admin/opt-out/options.php:77 admin/opt-out/options.php:80
+msgid "Level"
+msgstr "Niveau"
+
+#: admin/opt-out/options.php:90
+msgid "Disabled"
+msgstr "Désactivé"
+
+#: admin/opt-out/options.php:101
+msgid "Show opt out link in email (recommended)"
+msgstr "Montrer le lien de désabonnement dans l'E-mail (recommandé)"
+
+#: admin/opt-out/options.php:112
+msgid "Give readers a choice on the comment form"
+msgstr "Donner le choix aux visiteurs sur le formulaire de commentaire."
+
+#: admin/opt-out/options.php:120 admin/opt-out/options.php:123
+msgid "Comment form choice"
+msgstr "Choix du formulaire de commentaire"
+
+#: admin/opt-out/options.php:133
+msgid "Ask readers to opt out (recommended)"
+msgstr "Demander aux visiteurs si ils souhaitent se désabonner ( recommandé )"
+
+#: admin/opt-out/options.php:144
+msgid "Ask readers to opt in"
+msgstr "Demander aux visiteurs de s'abonner"
+
+#: admin/opt-out/options.php:152 admin/opt-out/options.php:155
+#: admin/opt-out/options.php:189
+msgid "Choice message"
+msgstr "Choix du message"
+
+#: admin/opt-out/options.php:165
+msgid "Do not email me about this comment"
+msgstr "Ne pas m'envoyer d'E-mail à la suite de ce commentaire"
+
+#: admin/opt-out/options.php:176 admin/opt-out/options.php:210
+msgid "Custom:"
+msgstr "Personnalisé:"
+
+#: admin/opt-out/options.php:199
+msgid "You can email me about this comment"
+msgstr "Vous pouvez m'envoyer un E-mail à propos de ce commentaire"
+
+#: admin/opt-out/options.php:227
+msgid "Save Options"
+msgstr "Sauvegarder les options"
+
+#: admin/opt-out/options.php:234
+msgid "Opt out list"
+msgstr "Liste de désabonnement "
+
+#: admin/opt-out/options.php:236
+msgid "The following email addresses have opted out of your thank you emails:"
+msgstr ""
+"Les adresses E-mail suivantes ont été désabonnées de votre liste d'E-mails "
+"de remerciements:"
+
+#: admin/opt-out/options.php:251
+msgid "Remove email"
+msgstr "Supprimer l'E-mail"
+
+#: admin/statistics/index.php:18
+msgctxt "noun"
+msgid "Stats"
+msgstr "Statistiques"
+
+#: admin/statistics/index.php:25
+msgid "total emails sent"
+msgstr "Total des E-mails envoyés"
+
+#: admin/statistics/index.php:29
+msgid "due to be sent"
+msgstr "En attente d'envoi"
+
+#: admin/statistics/index.php:35
+msgid "Emails sent in the last 30 days"
+msgstr "E-mails envoyés dans les 30 derniers jours"
+
+#: opt_out_success.php:10 opt_out_success.php:15 thankmelater.php:336
+#: thankmelater.php:337
+msgid "Opt out"
+msgstr "Se désabonner"
+
+#: opt_out_success.php:16
+msgid ""
+"You have opted out of future emails. We will no longer send you emails after "
+"you comment."
+msgstr ""
+"Vous vous êtes désabonné de nos futurs E-mails. Vous ne recevrez plus d'E-"
+"mail de notre part à la suite de vos commentaires."
+
+#: opt_out_success.php:17
+msgid "Continue to website."
+msgstr "Continuer vers le site."
+
+#: shortcodes/date.php:12
+msgctxt "date syntax"
+msgid "d M Y"
+msgstr "d M Y"
+
+#: shortcodes/opt_out.php:22
+msgid ""
+"We sent you this email because you left a comment on our blog. %sUnsubscribe "
+"from future emails%s."
+msgstr ""
+"Nous vous envoyons cet E-mail car vous avez laissé un commentaire sur notre "
+"blog. %sSe désabonner de futurs E-mails%s."
+
+#: shortcodes/opt_out.php:23
+msgid ""
+"We sent you this email because you left a comment on our blog. Click this "
+"URL to unsubscribe from future emails: %s"
+msgstr ""
+"Nous vous envoyons cet E-mail car vous avez laissé un commentaire sur notre "
+"blog. Cliquez sur cet URL afin de vous désabonner de nos futurs E-mails: %s"
+
+#: strings.php:5 thankmelater.php:311 thankmelater.php:312
+msgid "Thank Me Later"
+msgstr "Thank Me Later"
+
+#: strings.php:6
+msgid "Send a 'thank you' email to your blog's commenters."
+msgstr "Envoyer un E-mail de remerciement aux commentateurs de votre blog."
+
+#: thankmelater.php:328 thankmelater.php:329
+msgid "Stats"
+msgstr "Statistiques"
+
+#: thankmelater.php:369
+msgctxt ""
+"'From' header in e-mail client, preceding from name and e-mail address"
+msgid "From"
+msgstr "De"

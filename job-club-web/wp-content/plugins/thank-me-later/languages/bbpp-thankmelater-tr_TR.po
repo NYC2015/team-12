@@ -1,0 +1,647 @@
+# Copyright (C) 2013 
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/thank-me-later\n"
+"POT-Creation-Date: 2013-06-21 20:32:04+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2013-07-06 17:43-0000\n"
+"Last-Translator: \n"
+"Language-Team: www.adobewordpress.com <adobewordpress@gmail.com>\n"
+"Language: Turkish\n"
+"X-Generator: Poedit 1.5.4\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+
+#: Message.php:765 Message.php:777
+msgid "This must be fewer than 250 letters long."
+msgstr "250 karakterden az olmalı."
+
+#: Message.php:769 Message.php:781 Message.php:785
+#: admin/AdminScreenOptOut.php:84 admin/AdminScreenOptOut.php:92
+msgid "This must not be blank."
+msgstr "Bu alan boş bırakılmamalı."
+
+#: Message.php:773
+msgid "This must be a real email address."
+msgstr "Bu alana gerçek bir e-mail adresi girilmeli."
+
+#: Message.php:789 Message.php:836
+msgid "This must be a number."
+msgstr "Bu alan rakamlardan oluşmalı."
+
+#: Message.php:793
+msgid "This must be a real length of time."
+msgstr "Bu alan gerçek bir zaman dilimi belirtmeli."
+
+#: Message.php:797 Message.php:803
+msgid "You must select some tags."
+msgstr "Birkaç etiket seçimi yapmalısınız."
+
+#: Message.php:808 Message.php:814
+msgid "You must select some categories."
+msgstr "Birkaç kategori seçimi yapmalısınız."
+
+#: Message.php:819 Message.php:831
+msgid "You must select some posts."
+msgstr "Birkaç konu seçimi yapmalısınız."
+
+#: admin/AdminScreenMessage.php:86 upgrade/Upgrade3_0.php:52
+msgctxt "post title - blog name"
+msgid "%s - %s"
+msgstr "%s - %s"
+
+#: admin/AdminScreenMessage.php:91 upgrade/Upgrade3_0.php:57
+msgid "Hi %s,"
+msgstr "Merhaba %s,"
+
+#. translators: the string "[post_title]" will be replaced with the blog post's
+#. title. Please do not remove this string.
+#: admin/AdminScreenMessage.php:94 upgrade/Upgrade3_0.php:60
+msgid ""
+"Thank you for your comment on [post_title]. Please check back soon for a "
+"response."
+msgstr ""
+"[post_title] başlığına attığınız yorum için teşekkür ederiz. Yazılan yeni "
+"yorumlar için makaleyi kontrol etmeyi unutmayın."
+
+#: admin/AdminScreenMessage.php:99 upgrade/Upgrade3_0.php:65
+msgid "Return to your comment."
+msgstr "Yoruma geri dön."
+
+#. translators: the string "[comment_url]" will be replaced with the URL to the
+#. user's comment. Please do not remove this string.
+#: admin/AdminScreenMessage.php:104 upgrade/Upgrade3_0.php:70
+msgid "Return to your comment: [comment_url]"
+msgstr "Yoruma geri dön: [comment_url]"
+
+#: admin/AdminScreenMessage.php:109 upgrade/Upgrade3_0.php:75
+msgid "You posted this comment on %s: %s"
+msgstr "Yorumu %s makalesine yazdınız : %s"
+
+#: admin/AdminScreenMessage.php:113 upgrade/Upgrade3_0.php:79
+msgid "Thank you!"
+msgstr "Teşekkürler!"
+
+#: admin/AdminScreenMessage.php:256
+msgid "This is a sample post created by Thank Me Later."
+msgstr "Bu Thank Me Later tarafından üretilen örnek mesajdır."
+
+#: admin/AdminScreenMessage.php:258
+msgid "Sample post title"
+msgstr "Örnek mesaj başlığı"
+
+#: admin/AdminScreenMessage.php:272
+msgctxt "placeholder name"
+msgid "John Doe"
+msgstr "John Doe"
+
+#: admin/AdminScreenMessage.php:273
+msgctxt "placeholder e-mail"
+msgid "john.doe@example.com"
+msgstr "john.doe@example.com"
+
+#: admin/AdminScreenMessage.php:274
+msgid ""
+"This is a sample comment used by Thank Me Later. It is not displayed on any "
+"blog posts."
+msgstr ""
+"Bu Thank Me Later tarafından yaratılan örnek amaçlı bir yorumdur. "
+"Sayfalarınızda gözükmeyecektir."
+
+#: admin/AdminScreenMessage.php:320 admin/messages/MessageListTable.php:77
+msgctxt "separator in list of post names"
+msgid ", "
+msgstr ", "
+
+#: admin/AdminScreenMessage.php:325 admin/messages/MessageListTable.php:81
+msgid "Targets 0 posts"
+msgstr "0 gönderim"
+
+#. translators: %2$s will be replaced with post name. In plural version, the
+#. first %s is a seperated list of post titles, the second %s is the title of
+#. the last post
+#: admin/AdminScreenMessage.php:341 admin/messages/MessageListTable.php:96
+msgid "Targets %2$s"
+msgid_plural "Targets %s and %s"
+msgstr[0] "Gönderimler %2$s"
+msgstr[1] "Gönderimler %s ve %s"
+
+#: admin/AdminScreenMessage.php:361 admin/messages/MessageListTable.php:116
+msgid "Targets %s and %s%d other post%s"
+msgid_plural "Targets %s and %s%d other posts%s"
+msgstr[0] "Gönderilecek alanlar %s ve %s%d diğer konular%s"
+msgstr[1] "Gönderilecek alanlar %s ve %s%d diğer konular%s"
+
+#: admin/AdminScreenMessage.php:370 admin/messages/MessageListTable.php:125
+msgid "Targets all posts"
+msgstr "Tüm konuları gönder"
+
+#: admin/AdminScreenOptOut.php:70 admin/AdminScreenOptOut.php:75
+#: admin/AdminScreenOptOut.php:80 admin/AdminScreenOptOut.php:88
+msgid "You must select an option."
+msgstr "Bu ayarlardan bir seçim yapmanız gerekmektedir."
+
+#: admin/messages/MessageListTable.php:37
+msgctxt "verb"
+msgid "Edit"
+msgstr "Düzenle"
+
+#: admin/messages/MessageListTable.php:38
+#: admin/messages/MessageListTable.php:170
+msgctxt "verb"
+msgid "Delete"
+msgstr "Sil"
+
+#: admin/messages/MessageListTable.php:149 admin/messages/edit.php:67
+#: thankmelater.php:370
+msgctxt "noun"
+msgid "Subject"
+msgstr "Konu"
+
+#: admin/messages/MessageListTable.php:150 admin/messages/edit.php:153
+msgctxt "noun"
+msgid "Targeting"
+msgstr "Gönderim"
+
+#: admin/messages/edit.php:28
+msgid "Edit Message"
+msgstr "Mesajı Düzenle"
+
+#: admin/messages/edit.php:30
+msgid "New Message"
+msgstr "Yeni Mesaj"
+
+#: admin/messages/edit.php:34 admin/messages/overview.php:19
+msgid "Add New"
+msgstr "Yeni Ekle"
+
+#: admin/messages/edit.php:41
+msgid "Your message was not saved. Correct the errors below."
+msgstr "Mesajınız kaydedilemedi. Alttaki hataları düzeltin."
+
+#: admin/messages/edit.php:51
+msgid "From Name"
+msgstr "Gönderen Adı"
+
+#: admin/messages/edit.php:59
+msgid "From Email"
+msgstr "Gönderen E-mail"
+
+#: admin/messages/edit.php:75
+msgctxt "noun"
+msgid "Message"
+msgstr "Mesaj"
+
+#: admin/messages/edit.php:86
+msgctxt "noun"
+msgid "Preview"
+msgstr "Önizleme"
+
+#: admin/messages/edit.php:90
+msgctxt "noun"
+msgid "HTML"
+msgstr "HTML"
+
+#: admin/messages/edit.php:93
+msgctxt "noun"
+msgid "Text"
+msgstr "Metin"
+
+#: admin/messages/edit.php:98
+msgid "Enable Javascript to see this preview."
+msgstr "Önizlemeyi görüntülemek için JavaScript aktifleştirmesi yap."
+
+#: admin/messages/edit.php:111
+msgid "Show shortcode list"
+msgstr "Shortcode listesini göster"
+
+#: admin/messages/edit.php:112
+msgid "Hide shortcode list"
+msgstr "Shortcode listesini gizle"
+
+#: admin/messages/edit.php:121
+msgid "When to send emails"
+msgstr "Mesajlar ne zaman gönderilsin"
+
+#: admin/messages/edit.php:125
+msgid "Send after time"
+msgstr "Şu kadar süres onra"
+
+#: admin/messages/edit.php:133
+msgid "minutes"
+msgstr "dakika"
+
+#: admin/messages/edit.php:134
+msgid "hours"
+msgstr "saat"
+
+#: admin/messages/edit.php:135
+msgid "days"
+msgstr "gün"
+
+#: admin/messages/edit.php:136
+msgid "weeks"
+msgstr "hafta"
+
+#: admin/messages/edit.php:138
+msgid "The email will be sent this amount of time after the comment is posted."
+msgstr ""
+"Bu mesaj yorum yazıldıktan belirttiğiniz süre kadar sonra gönderilecektir."
+
+#: admin/messages/edit.php:143
+msgid "Send limit"
+msgstr "Gönderim limiti"
+
+#: admin/messages/edit.php:147
+msgid ""
+"The email will be sent no more than this number of times. Enter '0' for no "
+"limit."
+msgstr ""
+"Bu email sadece bir seferlik gönderilsin istiyorsanız Limit alanına '0' "
+"girin."
+
+#: admin/messages/edit.php:168
+msgctxt "noun"
+msgid "Tags"
+msgstr "Etiketler"
+
+#: admin/messages/edit.php:191
+msgid "The email will be sent for posts with any of the chosen tags."
+msgstr ""
+"Bu email seçtiğiniz konularda ilgili etiketlerle birlikte gönderilecektir."
+
+#: admin/messages/edit.php:193
+msgid "Your blog does not have any tags."
+msgstr "Sitenizde hiç etiket yok."
+
+#: admin/messages/edit.php:199
+msgctxt "noun"
+msgid "Categories"
+msgstr "Kategoriler"
+
+#: admin/messages/edit.php:222
+msgid "The email will be sent for posts in any of the chosen categories."
+msgstr "Bu email seçtiğiniz kategori konuları için gönderilecektir."
+
+#: admin/messages/edit.php:224
+msgid "Your blog does not have any categories."
+msgstr "Sitenizde hiç yazı kategorisi yok."
+
+#: admin/messages/edit.php:230
+msgctxt "noun"
+msgid "Posts"
+msgstr "Konular"
+
+#: admin/messages/edit.php:253
+msgid "The email will be sent for any chosen posts."
+msgstr "Bu email seçtiğiniz konular için gönderilecektir."
+
+#: admin/messages/edit.php:255
+msgid "Your blog does not have any posts."
+msgstr "Sitenizde hiç yazı yok."
+
+#: admin/messages/edit.php:264
+msgid "Save Message"
+msgstr "Mesajı Kaydet"
+
+#: admin/messages/overview.php:16 thankmelater.php:320 thankmelater.php:321
+msgctxt "noun"
+msgid "Messages"
+msgstr "Mesajlar"
+
+#: admin/messages/overview.php:26
+msgid "Message deleted."
+msgid_plural "%d messages deleted."
+msgstr[0] "Mesaj silindi."
+msgstr[1] "%d mesaj silindi."
+
+#: admin/messages/overview.php:34
+msgid "Message updated!"
+msgid_plural "%d messages updated!"
+msgstr[0] "Mesaj güncellendi!"
+msgstr[1] "%d mesaj güncellendi!"
+
+#: admin/messages/overview.php:48
+msgid "Created by %s"
+msgstr "%s tarafından oluşturuldu"
+
+#: admin/messages/overview.php:51
+msgid "Mailing List"
+msgstr "Mail Listesi"
+
+#: admin/messages/overview.php:52
+msgid "Rate This Plugin"
+msgstr "Eklentiyi Değerlendir"
+
+#: admin/messages/overview.php:53
+msgid "Help"
+msgstr "Yardım"
+
+#: admin/messages/shortcode_reference.php:1
+msgid "Shortcode List"
+msgstr "Shortcode Listesi"
+
+#: admin/messages/shortcode_reference.php:2
+msgid ""
+"You can use the following shortcodes in the from name, from email, subject "
+"and message:"
+msgstr ""
+"Buradaki shortcodeları gönderen ismi, gönderen e-maili, konu ve ya mesaj "
+"olarak kullanabilirsiniz."
+
+#: admin/messages/shortcode_reference.php:7
+msgctxt "noun"
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: admin/messages/shortcode_reference.php:8
+msgctxt "noun"
+msgid "Options"
+msgstr "Ayarlar"
+
+#: admin/messages/shortcode_reference.php:9
+#: admin/messages/shortcode_reference.php:176
+msgid "Description"
+msgstr "Açıklama"
+
+#: admin/messages/shortcode_reference.php:17
+msgid "Set to 1 if used in HTML attribute"
+msgstr "Eğer HTML tagı kullanacaksanız 1 olarak ayarlayın"
+
+#: admin/messages/shortcode_reference.php:21
+msgid "The URL for the post author's page."
+msgstr "Konu yazarının sayfasının URLsi."
+
+#: admin/messages/shortcode_reference.php:28
+#: admin/messages/shortcode_reference.php:40
+#: admin/messages/shortcode_reference.php:51
+#: admin/messages/shortcode_reference.php:64
+#: admin/messages/shortcode_reference.php:102
+#: admin/messages/shortcode_reference.php:129
+#: admin/messages/shortcode_reference.php:159
+msgid "Set to 1 if used in HTML attribute."
+msgstr "Eğer HTML tagı kullanacaksanız 1 olarak ayarlayın"
+
+#: admin/messages/shortcode_reference.php:29
+msgid "Maximum number of characters to show."
+msgstr "Gösterilecek maksimum karakter sayısı."
+
+#: admin/messages/shortcode_reference.php:33
+msgid "The comment content."
+msgstr "Yorum içeriği."
+
+#: admin/messages/shortcode_reference.php:44
+msgid "The URL for the comment."
+msgstr "Yorumun linki."
+
+#: admin/messages/shortcode_reference.php:52
+msgid "%sDate format%s. e.g. 'd M Y' for '14 Jan 2013'."
+msgstr "%sDate format%s. e.g. 'd M Y' for '14 Jan 2013'."
+
+#: admin/messages/shortcode_reference.php:53
+msgid "Set to 1 for GMT date/time."
+msgstr "GMT zaman dilimi için 1 olarak bırakın."
+
+#: admin/messages/shortcode_reference.php:57
+msgid "The date of the comment."
+msgstr "Yorum tarihi."
+
+#: admin/messages/shortcode_reference.php:68
+msgid "The email address of the commenter."
+msgstr "Yorumu yazanın e-mail adresi."
+
+#: admin/messages/shortcode_reference.php:75
+#: admin/messages/shortcode_reference.php:148
+msgid "Set to 1 to apply shortcodes inside of tag."
+msgstr "Shortcodeları tag içerisinde kullanmak için 1 olarak girin."
+
+#: admin/messages/shortcode_reference.php:79
+msgid "Content to show in HTML messages only."
+msgstr "İçeriği sadece HTML mesaj içerisinde göster."
+
+#: admin/messages/shortcode_reference.php:87
+msgid "The ID of the comment."
+msgstr "Yorum ID numarası."
+
+#: admin/messages/shortcode_reference.php:95
+msgid "The IP address of the commenter."
+msgstr "Yorum yazarının IP adresi."
+
+#: admin/messages/shortcode_reference.php:106
+msgid "The name of the commenter."
+msgstr "Yorum yazarının adı."
+
+#: admin/messages/shortcode_reference.php:114
+msgid ""
+"A paragraph of text (paragraphs are added automatically when leaving two "
+"blank lines between text)."
+msgstr ""
+"Yazı paragrafı (paragraflar iki satır boşluk bırakıldığında otomatik olarak "
+"oluşturulmakta.)"
+
+#: admin/messages/shortcode_reference.php:122
+msgid "The ID of the post."
+msgstr "Konu ID numarası."
+
+#: admin/messages/shortcode_reference.php:133
+msgid "The post title."
+msgstr "Konu başlığı."
+
+#: admin/messages/shortcode_reference.php:141
+msgid "Hide a section of message (keeping for future reference)."
+msgstr "Mesaj bölümünü gizle (sonraki raferanslar için sakla)"
+
+#: admin/messages/shortcode_reference.php:152
+msgid "Content to show in text messages only."
+msgstr "Metin mesajın içerisinde gösterilecekler."
+
+#: admin/messages/shortcode_reference.php:163
+msgid "The user agent of the commenter."
+msgstr "Yorumcunun user agent değeri."
+
+#: admin/messages/shortcode_reference.php:169
+msgid "Templates"
+msgstr "Temalar"
+
+#: admin/messages/shortcode_reference.php:170
+msgid ""
+"You can wrap your message in one of the following tags to use a HTML "
+"template:"
+msgstr ""
+"Mesajınızı buradaki taglardan birisinin arasına almanız onu HTML olarak "
+"göstermenizi sağlar."
+
+#: admin/messages/shortcode_reference.php:175
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: admin/messages/shortcode_reference.php:183
+msgid "A simple template."
+msgstr "Varsayılan tema."
+
+#: admin/messages/targets.php:16
+msgctxt "noun"
+msgid "Target Posts"
+msgstr "Hedef Yazılar"
+
+#: admin/messages/targets.php:20
+msgid "Return to messages"
+msgstr "Mesaja geri dön"
+
+#: admin/messages/targets.php:22
+msgid "The following posts are targeted by this message:"
+msgstr "Mesajınız buradaki konular için gönderilecektir."
+
+#: admin/messages/targets.php:31
+msgid "%s (ID: %d)"
+msgstr "%s (ID: %d)"
+
+#: admin/opt-out/options.php:58
+msgctxt "noun"
+msgid "Opt out options"
+msgstr "Liste dışı tercihleri"
+
+#: admin/opt-out/options.php:65
+msgid "Your options were not saved. Correct the errors below."
+msgstr "Ayarlarınız kaydedilemedi. Lütfen aşağıdaki hataları düzeltin."
+
+#: admin/opt-out/options.php:73
+msgid "Your options were saved."
+msgstr "Ayarlarınız kaydedildi."
+
+#: admin/opt-out/options.php:83 admin/opt-out/options.php:86
+msgid "Level"
+msgstr "Seviye"
+
+#: admin/opt-out/options.php:96
+msgid "Disabled"
+msgstr "Kullanım dışı"
+
+#: admin/opt-out/options.php:107
+msgid "Show opt out link in email (recommended)"
+msgstr "Listeden çıkış bağlantısını mail içinde gönder. (önerilir)"
+
+#: admin/opt-out/options.php:118
+msgid "Give readers a choice on the comment form"
+msgstr "Okuyuculara yorum formunda seçenek sun."
+
+#: admin/opt-out/options.php:126 admin/opt-out/options.php:129
+msgid "Comment form choice"
+msgstr "Yorum formu seçeneği"
+
+#: admin/opt-out/options.php:139
+msgid "Ask readers to opt out (recommended)"
+msgstr "Okuyuculara listeden çıkmak isterler mi diye sor (önerilir)"
+
+#: admin/opt-out/options.php:150
+msgid "Ask readers to opt in"
+msgstr "Okuyuculara listeye girmek isterler mi diye sor"
+
+#: admin/opt-out/options.php:158 admin/opt-out/options.php:161
+#: admin/opt-out/options.php:195
+msgid "Choice message"
+msgstr "Mesaj seç"
+
+#: admin/opt-out/options.php:171
+msgid "Do not email me about this comment"
+msgstr "Bu yorum hakkında bana email gönderme"
+
+#: admin/opt-out/options.php:182 admin/opt-out/options.php:216
+msgid "Custom:"
+msgstr "Varsayılan:"
+
+#: admin/opt-out/options.php:205
+msgid "You can email me about this comment"
+msgstr "Beni yeni yorumlar için email aracılığıyla uyar"
+
+#: admin/opt-out/options.php:233
+msgid "Save Options"
+msgstr "Ayarları Kaydet"
+
+#: admin/opt-out/options.php:240
+msgid "Opt out list"
+msgstr "Liste dışı olanlar"
+
+#: admin/opt-out/options.php:242
+msgid "The following email addresses have opted out of your thank you emails:"
+msgstr "Teşekkürler maili listenizden çıkmak isteyenler:"
+
+#: admin/opt-out/options.php:247
+msgid "Remove email"
+msgstr "Maili sil"
+
+#: admin/statistics/index.php:18
+msgctxt "noun"
+msgid "Stats"
+msgstr "İstatistikler"
+
+#: admin/statistics/index.php:25
+msgid "total emails sent"
+msgstr "toplam gönderilen email"
+
+#: admin/statistics/index.php:29
+msgid "due to be sent"
+msgstr "gönderilecekler"
+
+#: admin/statistics/index.php:35
+msgid "Emails sent in the last 30 days"
+msgstr "Son 30 gün içerisinde gönderilen emaillar"
+
+#: opt_out_success.php:10 opt_out_success.php:15 thankmelater.php:336
+#: thankmelater.php:337
+msgid "Opt out"
+msgstr "Liste dışı"
+
+#: opt_out_success.php:16
+msgid ""
+"You have opted out of future emails. We will no longer send you emails after "
+"you comment."
+msgstr ""
+"E-mail listesinden çıkarıldınız. Artık yorumlar hakkında bildiri "
+"almayacaksınız."
+
+#: opt_out_success.php:17
+msgid "Continue to website."
+msgstr "Web sayfasını görüntüle"
+
+#: shortcodes/date.php:12
+msgctxt "date syntax"
+msgid "d M Y"
+msgstr "g A Y"
+
+#: shortcodes/opt_out.php:22
+msgid ""
+"We sent you this email because you left a comment on our blog. %sUnsubscribe "
+"from future emails%s."
+msgstr ""
+"Web sayfamıza yaptığınız yorumdan ötürü bu bildiriyi alıyorsunuz. %sBeni "
+"listeden çıkar%s."
+
+#: shortcodes/opt_out.php:23
+msgid ""
+"We sent you this email because you left a comment on our blog. Click this "
+"URL to unsubscribe from future emails: %s"
+msgstr ""
+"Web sayfamıza yaptığınız yorumdan ötürü bu bildiriyi alıyorsunuz. Beni "
+"listeden çıkar: %s"
+
+#: strings.php:5 thankmelater.php:311 thankmelater.php:312
+msgid "Thank Me Later"
+msgstr "Thank Me Later"
+
+#: strings.php:6
+msgid "Send a 'thank you' email to your blog's commenters."
+msgstr "Sitenize yorum yazanlara 'Teşekkürler' maili ilet."
+
+#: thankmelater.php:328 thankmelater.php:329
+msgid "Stats"
+msgstr "İstatistikler"
+
+#: thankmelater.php:369
+msgctxt ""
+"'From' header in e-mail client, preceding from name and e-mail address"
+msgid "From"
+msgstr "Gönderen"

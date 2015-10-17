@@ -1,0 +1,557 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: mb.YTPlayer background video\n"
+"POT-Creation-Date: 2015-03-24 22:02+0100\n"
+"PO-Revision-Date: 2015-03-24 22:02+0100\n"
+"Last-Translator: Matteo Bicochi <matteo@open-lab.com>\n"
+"Language-Team: Open Lab srl <info@open-lab.com>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: mbYTPlayer-admin.php:54 ytptinymce/ytplayertinymce.php:63
+msgid ""
+"If you like it and you are using it then you should consider a donation <br> "
+"(€15,00 or more) :-)"
+msgstr ""
+"Si le gusta y lo está utilizando, entonces debería considerar una <br> "
+"donación (€ 15,00 o más) :-)"
+
+#: mbYTPlayer-admin.php:61 ytptinymce/ytplayertinymce.php:70
+msgid "I already donate"
+msgstr "Ya done"
+
+#: mbYTPlayer-admin.php:102
+msgid "mb.YTPlayer Settings"
+msgstr "Configuración mb.YTPlayer"
+
+#: mbYTPlayer-admin.php:103
+#, php-format
+msgid "You’re using mb.YTPlayer v. %s"
+msgstr "Estás usando mb.YTPlayer v. %s"
+
+#: mbYTPlayer-admin.php:103
+msgid "by"
+msgstr "Por"
+
+#: mbYTPlayer-admin.php:120
+msgid "Thanks for downloading mb.YTPlayer!"
+msgstr "¡Gracias por descargar mb.YTPlayer!"
+
+#: mbYTPlayer-admin.php:122
+msgid ""
+"If you like it and you are using it<br>then you should consider a donation "
+"(€15,00 or more) :-)"
+msgstr ""
+"Si le gusta y lo está utilizando <br> entonces usted debería considerar una "
+"donación (€ 15,00 o más) :-)"
+
+#: mbYTPlayer-admin.php:124
+msgid "If you donate, the start popup will nevermore display"
+msgstr "Si usted dona, el popup de inicio nunca más se mostrará"
+
+#: mbYTPlayer-admin.php:127
+msgid "Don’t forget to follow me on twitter"
+msgstr "No te olvides de seguirme en Twitter"
+
+#: mbYTPlayer-admin.php:128
+msgid "Visit my site"
+msgstr "Visita mi sitio"
+
+#: mbYTPlayer-admin.php:129
+msgid "Visit my blog"
+msgstr "Visita mi  Blog"
+
+#: mbYTPlayer-admin.php:130
+msgid "donate"
+msgstr "Donar"
+
+#: mbYTPlayer-admin.php:136
+msgid "Subscribe to my mailing list<br>to stay in touch"
+msgstr "Suscribirse a mi lista de correo <br> para mantenerse en contacto"
+
+#: mbYTPlayer-admin.php:137
+msgid "your email address"
+msgstr "su dirección de correo electrónico"
+
+#: mbYTPlayer-admin.php:138
+msgid "Subscribe"
+msgstr "Suscribirse"
+
+#: mbYTPlayer-admin.php:148
+msgid "Reference"
+msgstr "Referencia"
+
+#: mbYTPlayer-admin.php:150
+msgid ""
+"Leave the <b>home video url</b> blank if you don’t want to display a "
+"background video on your homepage."
+msgstr ""
+"Deje la <b> URL del video de página de inicio</b> en blanco si no desea "
+"mostrar un fondo con vídeo en su página de inicio."
+
+#: mbYTPlayer-admin.php:152
+msgid ""
+"You can add a mb.YTPlayer to any of your posts via the shortcode editor "
+"available by clicking the button placed on the button-bar of the post "
+"content editor"
+msgstr ""
+"Puede añadir un mb.YTPlayer a cualquiera de sus mensajes a través del editor "
+"de shortcode haciendo clic en el botón situado en la barra de botones del "
+"editor de contenido de publicaciones"
+
+#: mbYTPlayer-admin.php:154
+msgid "Home page background video properties"
+msgstr "Propiedades del video de fondo de la Página de Inicio"
+
+#: mbYTPlayer-admin.php:155
+msgid ""
+"These settings are used only for the Home istance of the mb.YTPlayer "
+"component"
+msgstr ""
+"Estos ajustes sólo se utilizan para la versión de Inicio del componente mb."
+"YTPlayer"
+
+#: mbYTPlayer-admin.php:162
+msgid "activate the background video"
+msgstr "﻿activar el vídeo de fondo"
+
+#: mbYTPlayer-admin.php:165
+msgid ""
+"Check to activate the background video for the Homepage or the blog index "
+"page"
+msgstr ""
+"﻿Marcar para activar el vídeo de fondo para la página de inicio o la página "
+"de índice del blog"
+
+#: mbYTPlayer-admin.php:170
+msgid "The Youtube vudeo url is:"
+msgstr "﻿La url vudeo Youtube es:"
+
+#: mbYTPlayer-admin.php:174
+msgid ""
+"Copy and paste here the URL of the Youtube video you want as your homepage "
+"background. Adding more then one URL comma separated it will be chosen one "
+"randomly each time you reach the page."
+msgstr ""
+"Copia y pega aquí la URL del vídeo de YouTube que desea como página de "
+"inicio fondo. Adición de más de una URL separados por comas que se elegirá "
+"uno al azar cada vez que llegue a la página."
+
+#: mbYTPlayer-admin.php:179
+msgid "The page where to show the background video is:"
+msgstr "﻿La página en la que muestra el vídeo de fondo es:"
+
+#: mbYTPlayer-admin.php:184
+msgid "Choose on which page you want the background video to be shown"
+msgstr "﻿Elige en qué página desea que el vídeo de fondo que se muestra"
+
+#: mbYTPlayer-admin.php:189
+msgid "Set the opacity:"
+msgstr "﻿Opacidad :"
+
+#: mbYTPlayer-admin.php:197
+msgid "Set the opacity of the background video"
+msgstr "Establecer la opacidad del fondo de vídeo"
+
+#: mbYTPlayer-admin.php:202
+msgid "Set the quality:"
+msgstr "﻿Ajuste la calidad:"
+
+#: mbYTPlayer-admin.php:205
+msgid "default"
+msgstr "por defecto"
+
+#: mbYTPlayer-admin.php:206 ytptinymce/ytplayertinymce.php:155
+msgid "small"
+msgstr "Pequeño"
+
+#: mbYTPlayer-admin.php:207 ytptinymce/ytplayertinymce.php:156
+msgid "medium"
+msgstr "Mediano"
+
+#: mbYTPlayer-admin.php:208 ytptinymce/ytplayertinymce.php:157
+msgid "large"
+msgstr "Grande"
+
+#: mbYTPlayer-admin.php:209 ytptinymce/ytplayertinymce.php:158
+msgid "hd720"
+msgstr "HD720"
+
+#: mbYTPlayer-admin.php:210 ytptinymce/ytplayertinymce.php:159
+msgid "hd1080"
+msgstr "HD1080"
+
+#: mbYTPlayer-admin.php:211 ytptinymce/ytplayertinymce.php:160
+msgid "highres"
+msgstr "Highres"
+
+#: mbYTPlayer-admin.php:213
+msgid ""
+"Set the quality of the background video (\"default\" YouTube selects the "
+"appropriate playback quality)"
+msgstr ""
+"Configurar la calidad del vídeo de fondo (\"default\" YouTube selecciona la "
+"calidad de reproducción apropiada)"
+
+#: mbYTPlayer-admin.php:218
+msgid "Set the aspect ratio:"
+msgstr "﻿Relación de aspecto:"
+
+#: mbYTPlayer-admin.php:221
+msgid "auto"
+msgstr "Automático"
+
+#: mbYTPlayer-admin.php:222 ytptinymce/ytplayertinymce.php:169
+#: ytptinymce/ytplayertinymce.php:188
+msgid "4/3"
+msgstr "4/3"
+
+#: mbYTPlayer-admin.php:223 ytptinymce/ytplayertinymce.php:170
+#: ytptinymce/ytplayertinymce.php:189
+msgid "16/9"
+msgstr "16/9"
+
+#: mbYTPlayer-admin.php:225
+msgid ""
+"Set the aspect-ratio of the background video. If \"auto\" the plug in will "
+"try to retrieve the aspect ratio from Youtube. If you have problems on "
+"viewing the background video try setting this manually."
+msgstr ""
+"Ajuste la relación de aspecto del vídeo de fondo. Si\"auto\" el plugin "
+"tratará de recuperar la relación de aspecto de Youtube. Si usted tiene "
+"problemas en la visualización del fondo de vídeo establecer este ajuste de "
+"forma manual."
+
+#: mbYTPlayer-admin.php:231
+msgid "The video should start at:"
+msgstr "﻿El video debe comenzar en:"
+
+#: mbYTPlayer-admin.php:234
+msgid "Set the seconds the video should start at"
+msgstr "Ajustar los segundos donde debe comenzar el video"
+
+#: mbYTPlayer-admin.php:239
+msgid "The video should stop at:"
+msgstr "﻿El video debe parar en:"
+
+#: mbYTPlayer-admin.php:242
+msgid "Set the seconds the video should stop at"
+msgstr "Configurar los segundos donde el vídeo debe parar"
+
+#: mbYTPlayer-admin.php:247
+msgid "Show the control bar:"
+msgstr "﻿Mostrar la barra de control:"
+
+#: mbYTPlayer-admin.php:250
+msgid "Check to show controls at the bottom of the page"
+msgstr "Marcar para mostrar los controles en la parte inferior de  página"
+
+#: mbYTPlayer-admin.php:253
+msgid "Check to show the link to the original YouTube® video"
+msgstr "Marcar para mostrar el enlace al video original de YouTube ®"
+
+#: mbYTPlayer-admin.php:270
+msgid "The full screen behavior is:"
+msgstr "El comportamiento de la pantalla completa es:"
+
+#: mbYTPlayer-admin.php:273 ytptinymce/ytplayertinymce.php:209
+msgid "Full screen containment is the screen"
+msgstr "Contención de pantalla completa es la pantalla"
+
+#: mbYTPlayer-admin.php:275 ytptinymce/ytplayertinymce.php:213
+msgid "Full screen containment is the browser window"
+msgstr "Contención de pantalla completa es la ventana del navegador"
+
+#: mbYTPlayer-admin.php:280
+msgid "Set the audio volume:"
+msgstr "Establecer el volumen del audio:"
+
+#: mbYTPlayer-admin.php:283
+msgid "Set the volume for the video (from 0 to 100)"
+msgstr "Ajuste el volumen del vídeo (de 0 a 100)"
+
+#: mbYTPlayer-admin.php:288
+msgid "Mute the video:"
+msgstr "﻿Silenciar el video:"
+
+#: mbYTPlayer-admin.php:291
+msgid "Check to mute the audio of the video"
+msgstr "Marcar para silenciar el audio del vídeo"
+
+#: mbYTPlayer-admin.php:296
+msgid "The video should loop:"
+msgstr "﻿El vídeo debe reproducirse:"
+
+#: mbYTPlayer-admin.php:299
+msgid "Check to loop the video once ended"
+msgstr "Marcar para hacer bucle en el vídeo una vez que terminó"
+
+#: mbYTPlayer-admin.php:304
+msgid "Add the raster image:"
+msgstr "﻿Añadir la imagen de trama:"
+
+#: mbYTPlayer-admin.php:307
+msgid "Check to add a raster effect to the video"
+msgstr "Marcar para añadir un efecto de trama al video"
+
+#: mbYTPlayer-admin.php:312
+msgid "Track the video views on Google Analytics"
+msgstr "﻿Google Analytics:"
+
+#: mbYTPlayer-admin.php:315
+msgid "Check to track this video on Google Analytics if played"
+msgstr "Revise el seguimiento de este video en Google Analytics si se juega"
+
+#: mbYTPlayer-admin.php:320
+msgid "Pause the player if the windows blur:"
+msgstr "﻿Pausa el jugador si las ventanas desdibujan:"
+
+#: mbYTPlayer-admin.php:323
+msgid "Check to pause the player once the window blur"
+msgstr "Marcar para hacer bucle en el vídeo si las ventanas desdibujan"
+
+#: mbYTPlayer-admin.php:328
+msgid "Stop the player if a link is clicked:"
+msgstr "﻿Detenga el jugador si se hace clic en un enlace:"
+
+#: mbYTPlayer-admin.php:331
+msgid ""
+"Check to stop the player once clicked on a link<br>(firefox has problems "
+"catching the event and this speedup the action)"
+msgstr ""
+"Marcar para detener al reproductor una vez que se hace clic en un vínculo "
+"<br> (firefox tiene problemas para controlar el evento y este aumento de "
+"velocidad de la acción)"
+
+#: mbYTPlayer-admin.php:336
+msgid "Save Changes"
+msgstr "Guardar Cambios"
+
+#: ytptinymce/ytplayertinymce.php:20
+msgid "Add a shortcode for mb.YTPlayer"
+msgstr "Añadir un shortcode para mb.YTPlayer"
+
+#: ytptinymce/ytplayertinymce.php:130
+msgid "mb.YTPlayer video parameters:"
+msgstr "Parámetros video mb.YTPlayer:"
+
+#: ytptinymce/ytplayertinymce.php:135
+msgid "Video url"
+msgstr "Url del vídeo"
+
+#: ytptinymce/ytplayertinymce.php:137
+msgid "YouTube video URLs (comma separated)"
+msgstr "URL de video de YouTube (separadas por comas)"
+
+#: ytptinymce/ytplayertinymce.php:141
+msgid "Opacity"
+msgstr "Opacidad"
+
+#: ytptinymce/ytplayertinymce.php:148
+msgid "YouTube video opacity"
+msgstr "Opacidad vídeo YouTube"
+
+#: ytptinymce/ytplayertinymce.php:152
+msgid "Quality"
+msgstr "Calidad"
+
+#: ytptinymce/ytplayertinymce.php:154 ytptinymce/ytplayertinymce.php:168
+msgid "auto detect"
+msgstr "Auto detectar"
+
+#: ytptinymce/ytplayertinymce.php:162
+msgid "YouTube video quality"
+msgstr "calidad de vídeo YouTube"
+
+#: ytptinymce/ytplayertinymce.php:166 ytptinymce/ytplayertinymce.php:186
+msgid "Aspect ratio"
+msgstr "Relación de aspecto"
+
+#: ytptinymce/ytplayertinymce.php:172
+msgid "YouTube video aspect ratio"
+msgstr "Relación de aspecto video de YouTube"
+
+#: ytptinymce/ytplayertinymce.php:173
+msgid "If \"auto\" the plug in will try to get it from Youtube"
+msgstr "Si \"auto\" el plugin tratará de obtenerlo de Youtube"
+
+#: ytptinymce/ytplayertinymce.php:177
+msgid "Is inline"
+msgstr "Está en línea"
+
+#: ytptinymce/ytplayertinymce.php:179
+msgid "Show the player inline"
+msgstr "Mostrar el reproductor en línea"
+
+#: ytptinymce/ytplayertinymce.php:183
+msgid "Player width"
+msgstr "Ancho del reproductor"
+
+#: ytptinymce/ytplayertinymce.php:185
+msgid "Set the width of the inline player"
+msgstr "Establecer el ancho del reproductor en línea"
+
+#: ytptinymce/ytplayertinymce.php:191
+msgid "To get the suggested height for the player"
+msgstr "Para obtener la altura sugerida para el reproductor"
+
+#: ytptinymce/ytplayertinymce.php:193
+msgid "Player height"
+msgstr "Altura reproductor"
+
+#: ytptinymce/ytplayertinymce.php:195
+msgid "Set the height of the inline player"
+msgstr "Ajuste la altura del reproductor en línea"
+
+#: ytptinymce/ytplayertinymce.php:201
+msgid "Show controls"
+msgstr "Mostrar controles"
+
+#: ytptinymce/ytplayertinymce.php:203
+msgid "show controls for this player"
+msgstr "Mostrar los controles para este reproductor"
+
+#: ytptinymce/ytplayertinymce.php:207
+msgid "full screen"
+msgstr "pantalla completa"
+
+#: ytptinymce/ytplayertinymce.php:216
+msgid "show the link to the original YouTube® video"
+msgstr "mostrar el enlace al vídeo de YouTube® original"
+
+#: ytptinymce/ytplayertinymce.php:220
+msgid "Autoplay"
+msgstr "Auto reproducir"
+
+#: ytptinymce/ytplayertinymce.php:222
+msgid "The player starts on page load"
+msgstr "El reproductor comienza al cargar la página"
+
+#: ytptinymce/ytplayertinymce.php:226
+msgid "Start at"
+msgstr "Iniciar en"
+
+#: ytptinymce/ytplayertinymce.php:228
+msgid "Set the seconds you want the player starts at"
+msgstr "Establecer los segundos en que desea que el jugador comience"
+
+#: ytptinymce/ytplayertinymce.php:232
+msgid "stop at"
+msgstr "detener en"
+
+#: ytptinymce/ytplayertinymce.php:234
+msgid "Set the seconds you want the player stops at"
+msgstr "Establecer los segundos en que desea que el jugador se detenga"
+
+#: ytptinymce/ytplayertinymce.php:238
+msgid "Audio volume"
+msgstr "Volumen de audio"
+
+#: ytptinymce/ytplayertinymce.php:240
+msgid "Set the audio volume (from 0 to 100)"
+msgstr "Ajuste el volumen del vídeo (de 0 a 100)"
+
+#: ytptinymce/ytplayertinymce.php:244
+msgid "Mute video"
+msgstr "Silenciar vídeo"
+
+#: ytptinymce/ytplayertinymce.php:246
+msgid "mute the audio of the video"
+msgstr "silenciar el audio del video"
+
+#: ytptinymce/ytplayertinymce.php:250
+msgid "Loop video"
+msgstr "Volver a reproducir el video"
+
+#: ytptinymce/ytplayertinymce.php:252
+msgid "loop the video once ended"
+msgstr "Volver a reproducir el video una vez que terminó"
+
+#: ytptinymce/ytplayertinymce.php:256
+msgid "Add raster"
+msgstr "Añadir efecto de trama"
+
+#: ytptinymce/ytplayertinymce.php:258
+msgid "add a raster effect"
+msgstr "añadir un efecto de trama"
+
+#: ytptinymce/ytplayertinymce.php:262
+msgid "pause on window blur"
+msgstr "Pausa el jugador si las ventanas desdibujan"
+
+#: ytptinymce/ytplayertinymce.php:264
+msgid "pause the player on window blur"
+msgstr "pausar el reproductor en la ventana de desenfoque"
+
+#: ytptinymce/ytplayertinymce.php:268
+msgid "Add Google Analytics"
+msgstr "Utilice Google Analytics"
+
+#: ytptinymce/ytplayertinymce.php:270
+msgid "add the event \"play\" on Google Analytics track"
+msgstr "agregar el evento \"play\" en la pista de Google Analytics"
+
+#~ msgid ""
+#~ "Copy and paste here the URL of the Youtube video you want as your "
+#~ "homepage background"
+#~ msgstr ""
+#~ "Copia y pega aquí la URL del vídeo de YouTube que desea como fondo por la "
+#~ "página de inicio"
+
+#~ msgid "home video"
+#~ msgstr "Video de página de inicio"
+
+#~ msgid "url"
+#~ msgstr "url"
+
+#~ msgid "opacity"
+#~ msgstr "opacidad"
+
+#~ msgid "quality"
+#~ msgstr "calidad"
+
+#~ msgid "aspect ratio"
+#~ msgstr "relación de aspecto"
+
+#~ msgid "start at"
+#~ msgstr "Comenzar en"
+
+#~ msgid "show controls"
+#~ msgstr "mostrar los controles"
+
+#~ msgid "Full screen behavior"
+#~ msgstr "Comportamiento de la pantalla completa"
+
+#~ msgid "home video mute"
+#~ msgstr "Silenciar video de página de inicio"
+
+#~ msgid "loop"
+#~ msgstr "Bucle"
+
+#~ msgid "raster image"
+#~ msgstr "imágenes de trama"
+
+#~ msgid "track on Google Analytics"
+#~ msgstr "seguimiento en Google Analytics"
+
+#~ msgid "Pause the player if the windows blur"
+#~ msgstr "Pausa el jugador si las ventanas desdibujan"
+
+#~ msgid "Stop the player if a link is clicked"
+#~ msgstr "Detenga el reproductor si se hace clic en un enlace"
+
+#~ msgid "pause the video on window blur"
+#~ msgstr "Pausa el jugador si las ventanas desdibujan"
+
+#~ msgid "YouTube video URL"
+#~ msgstr "URL de vídeo de YouTube"

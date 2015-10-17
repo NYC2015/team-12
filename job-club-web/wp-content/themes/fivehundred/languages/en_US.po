@@ -1,0 +1,919 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: IgnitionDeck 500 Framework\n"
+"POT-Creation-Date: 2015-03-02 11:32-0500\n"
+"PO-Revision-Date: 2015-03-02 11:32-0500\n"
+"Last-Translator: Nathan Hangen <nhangen@gmail.com>\n"
+"Language-Team: Virtuous Giant <info@virtuousgiant.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPath-1: ../../fivehundred-classic\n"
+
+#: ../../fivehundred-classic/archive-ignition_product.php:7
+#: ../archive-ignition_product.php:5
+msgid "All Projects"
+msgstr ""
+
+#: ../../fivehundred-classic/footer-home.php:42 ../footer.php:24
+msgid "Theme 500 is a"
+msgstr ""
+
+#: ../../fivehundred-classic/footer-home.php:43 ../footer.php:25
+msgid "Crowdfunding Theme for WordPress"
+msgstr ""
+
+#: ../../fivehundred-classic/front-page.php:70
+msgid "Other Projects"
+msgstr ""
+
+#: ../../fivehundred-classic/front-page.php:100
+#: ../../fivehundred-classic/page-grid-template.php:67 ../front-page.php:92
+#: ../page-grid-template.php:59
+msgid "Follow"
+msgstr ""
+
+#: ../../fivehundred-classic/front-page.php:101
+#: ../../fivehundred-classic/page-grid-template.php:68 ../front-page.php:93
+#: ../page-grid-template.php:60
+msgid "Like"
+msgstr ""
+
+#: ../../fivehundred-classic/front-page.php:102
+#: ../../fivehundred-classic/page-grid-template.php:69 ../front-page.php:94
+#: ../page-grid-template.php:61
+msgid "+1"
+msgstr ""
+
+#: ../../fivehundred-classic/front-page.php:103
+#: ../../fivehundred-classic/page-grid-template.php:70 ../front-page.php:95
+#: ../page-grid-template.php:62
+msgid "Connect"
+msgstr ""
+
+#: ../../fivehundred-classic/front-page.php:105
+#: ../../fivehundred-classic/page-grid-template.php:72 ../front-page.php:97
+#: ../page-grid-template.php:64
+msgid "More"
+msgstr ""
+
+#: ../../fivehundred-classic/front-page.php:105
+msgid "Projects &raquo;"
+msgstr ""
+
+#: ../../fivehundred-classic/functions.php:72
+#: ../templates/admin/_themeSettings.php:32
+msgid "Featured Project on Home Page"
+msgstr ""
+
+#: ../../fivehundred-classic/functions.php:74
+msgid "Choose Post to Feature"
+msgstr ""
+
+#: ../../fivehundred-classic/loop-blog.php:19 ../loop-blog.php:15
+#: ../nav-below-single.php:3 ../nav-below.php:4
+msgid "Older Entries"
+msgstr ""
+
+#: ../../fivehundred-classic/loop-blog.php:20 ../loop-blog.php:16
+#: ../nav-below-single.php:4 ../nav-below.php:5
+msgid "Newer Entries"
+msgstr ""
+
+#: ../../fivehundred-classic/loop-levels-home.php:63
+#: ../../fivehundred-classic/loop-levels.php:59
+#: ../templates/_projectGrid.php:99
+msgid "of"
+msgstr ""
+
+#: ../../fivehundred-classic/loop-levels-home.php:63
+#: ../../fivehundred-classic/loop-levels.php:59 ../loop-levels-home.php:63
+#: ../loop-levels.php:61 ../templates/_projectGrid.php:99
+msgid "taken"
+msgstr ""
+
+#: ../../fivehundred-classic/nav-above-grid.php:22
+msgid "Sort By: Date"
+msgstr ""
+
+#: ../../fivehundred-classic/nav-above-grid.php:27 ../nav-above-grid.php:17
+msgid "Amount Raised"
+msgstr ""
+
+#: ../../fivehundred-classic/nav-above-grid.php:29
+#: ../../fivehundred-classic/project-featured.php:47
+#: ../../fivehundred-classic/project-hDeck-home.php:56
+#: ../../fivehundred-classic/project-hDeck.php:53
+#: ../../fivehundred-classic/project-summary.php:21
+#: ../classes/class-project-grid-widget.php:151 ../nav-above-grid.php:18
+#: ../project-featured.php:30 ../project-hDeck-home.php:40
+#: ../project-hDeck.php:38 ../project-summary.php:21
+msgid "Days Left"
+msgstr ""
+
+#: ../../fivehundred-classic/nav-above-grid.php:31 ../nav-above-grid.php:19
+msgid "Goal Amount"
+msgstr ""
+
+#: ../../fivehundred-classic/nav-above-grid.php:48 ../nav-above-grid.php:26
+msgid "All Categories"
+msgstr ""
+
+#: ../../fivehundred-classic/page-grid-template.php:57 ../front-page.php:66
+#: ../page-grid-template.php:51
+msgid "Featured Projects"
+msgstr ""
+
+#: ../../fivehundred-classic/page-grid-template.php:72 ../front-page.php:97
+#: ../page-grid-template.php:64
+msgid "Projects"
+msgstr ""
+
+#: ../../fivehundred-classic/page.php:19 ../page-fullwidth.php:24
+#: ../page.php:17
+msgid "Pages:"
+msgstr ""
+
+#: ../../fivehundred-classic/project-featured.php:21
+#: ../../fivehundred-classic/project-hDeck-home.php:33
+#: ../../fivehundred-classic/project-hDeck.php:29 ../project-featured.php:21
+#: ../project-hDeck-home.php:35 ../project-hDeck.php:33
+msgid "Goal"
+msgstr ""
+
+#: ../../fivehundred-classic/project-featured.php:28
+#: ../../fivehundred-classic/project-hDeck-home.php:41
+#: ../../fivehundred-classic/project-hDeck.php:38 ../project-featured.php:24
+#: ../project-hDeck-home.php:55 ../project-hDeck.php:53
+msgid "Raised"
+msgstr ""
+
+#: ../../fivehundred-classic/project-featured.php:51
+#: ../../fivehundred-classic/project-hDeck-home.php:60
+#: ../../fivehundred-classic/project-hDeck.php:57 ../project-featured.php:27
+#: ../project-hDeck-home.php:61 ../project-hDeck.php:59
+msgid "Supporters"
+msgstr ""
+
+#: ../../fivehundred-classic/project-featured.php:55
+#: ../../fivehundred-classic/project-summary.php:24 ../project-featured.php:43
+#: ../project-summary.php:24
+msgid "Learn More"
+msgstr ""
+
+#: ../../fivehundred-classic/project-hDeck-home.php:37
+#: ../../fivehundred-classic/project-hDeck.php:33
+msgid "BY"
+msgstr ""
+
+#: ../../fivehundred-classic/project-hDeck-home.php:66
+#: ../../fivehundred-classic/project-hDeck.php:63 ../project-hDeck-home.php:67
+#: ../project-hDeck.php:65
+msgid "Project Closed"
+msgstr ""
+
+#: ../../fivehundred-classic/project-hDeck-home.php:72
+#: ../../fivehundred-classic/project-hDeck-home.php:75
+#: ../../fivehundred-classic/project-hDeck.php:69
+#: ../../fivehundred-classic/project-hDeck.php:72
+#: ../../fivehundred-classic/project-sidebar-home.php:21
+#: ../../fivehundred-classic/project-sidebar.php:18
+#: ../project-hDeck-home.php:73 ../project-hDeck-home.php:76
+#: ../project-hDeck.php:69 ../project-hDeck.php:72
+#: ../project-sidebar-home.php:18 ../project-sidebar.php:15
+msgid "Support Now"
+msgstr ""
+
+#: ../../fivehundred-classic/project-sidebar-home.php:11
+msgid "Support This Project"
+msgstr ""
+
+#: ../../fivehundred-classic/project-summary.php:14 ../project-summary.php:14
+msgid "RAISED"
+msgstr ""
+
+#: ../../fivehundred-classic/project-summary.php:21
+msgid "Days Closed"
+msgstr ""
+
+#: ../archive.php:7
+msgid "Archives"
+msgstr ""
+
+#: ../archive.php:18 ../category.php:18
+msgid "&laquo; Older Entries"
+msgstr ""
+
+#: ../archive.php:19 ../category.php:19
+msgid "Newer Entries &raquo;"
+msgstr ""
+
+#: ../classes/class-content-alert-widget.php:12
+msgid "500 Content Alert Widget"
+msgstr ""
+
+#: ../classes/class-content-alert-widget.php:13
+msgid "Background image with headline overlay"
+msgstr ""
+
+#: ../classes/class-content-alert-widget.php:66
+#: ../classes/class-content-level-widget.php:56
+#: ../classes/class-content-wide-widget.php:84
+#: ../classes/class-project-grid-widget.php:130
+#: ../classes/class-project-grid-widget.php:154
+#: ../classes/class-video-widget.php:47
+msgid "Title"
+msgstr ""
+
+#: ../classes/class-content-alert-widget.php:70
+msgid "Image"
+msgstr ""
+
+#: ../classes/class-content-alert-widget.php:72
+msgid "Text Color (Hex Color including # - ie: #ffffff) "
+msgstr ""
+
+#: ../classes/class-content-alert-widget.php:75
+#: ../classes/class-content-wide-custom-widget.php:183
+#: ../classes/class-content-widget.php:154
+msgid "Add Image"
+msgstr ""
+
+#: ../classes/class-content-alert-widget.php:76
+#: ../classes/class-content-wide-widget.php:94
+msgid "Custom Class Name (not required)"
+msgstr ""
+
+#: ../classes/class-content-level-widget.php:12
+msgid "500 Content Level"
+msgstr ""
+
+#: ../classes/class-content-level-widget.php:13
+msgid "A widget to display full descriptions of your Reward Levels."
+msgstr ""
+
+#: ../classes/class-content-level-widget.php:60
+msgid "Level Price"
+msgstr ""
+
+#: ../classes/class-content-wide-custom-widget.php:12
+msgid "500 Content Wide (custom)"
+msgstr ""
+
+#: ../classes/class-content-wide-custom-widget.php:13
+msgid ""
+"A full browser-width content area. Fully customizable. Add images and "
+"background images, control text and background color, and more."
+msgstr ""
+
+#: ../classes/class-content-wide-custom-widget.php:166
+#: ../classes/class-content-widget.php:140
+msgid "Title (optional)"
+msgstr ""
+
+#: ../classes/class-content-wide-custom-widget.php:169
+#: ../classes/class-content-wide-widget.php:88
+msgid "Content Height (numbers only, measured in pixels)"
+msgstr ""
+
+#: ../classes/class-content-wide-custom-widget.php:171
+#: ../classes/class-content-wide-widget.php:90
+msgid ""
+"This must be set to ensure content below it does not roll up underneath it."
+msgstr ""
+
+#: ../classes/class-content-wide-custom-widget.php:174
+#: ../classes/class-content-widget.php:145
+msgid "Please Select a Layout"
+msgstr ""
+
+#: ../classes/class-content-wide-custom-widget.php:175
+#: ../classes/class-content-widget.php:146
+msgid "Image Left"
+msgstr ""
+
+#: ../classes/class-content-wide-custom-widget.php:176
+#: ../classes/class-content-widget.php:147
+msgid "Image Right"
+msgstr ""
+
+#: ../classes/class-content-wide-custom-widget.php:177
+#: ../classes/class-content-widget.php:148
+msgid "Image and Text Center"
+msgstr ""
+
+#: ../classes/class-content-wide-custom-widget.php:181
+#: ../classes/class-content-widget.php:152
+msgid "Image (optional)"
+msgstr ""
+
+#: ../classes/class-content-wide-custom-widget.php:186
+#: ../classes/class-content-widget.php:157
+msgid "Background Image (optional)"
+msgstr ""
+
+#: ../classes/class-content-wide-custom-widget.php:188
+#: ../classes/class-content-widget.php:159
+msgid "Add Background Image"
+msgstr ""
+
+#: ../classes/class-content-wide-custom-widget.php:191
+#: ../classes/class-content-widget.php:162
+msgid "Text Color (optional)"
+msgstr ""
+
+#: ../classes/class-content-wide-custom-widget.php:193
+#: ../classes/class-content-widget.php:164
+msgid "Background Color (optional)"
+msgstr ""
+
+#: ../classes/class-content-wide-custom-widget.php:196
+#: ../classes/class-content-widget.php:167
+msgid "Padding Top (optional)"
+msgstr ""
+
+#: ../classes/class-content-wide-custom-widget.php:198
+#: ../classes/class-content-widget.php:169
+msgid "Padding Bottom (optional)"
+msgstr ""
+
+#: ../classes/class-content-wide-custom-widget.php:200
+#: ../classes/class-content-widget.php:171
+msgid "Numbers only, measured in pixels."
+msgstr ""
+
+#: ../classes/class-content-wide-custom-widget.php:204
+#: ../classes/class-content-widget.php:175
+msgid "Custom Class Name  (optional)"
+msgstr ""
+
+#: ../classes/class-content-wide-custom-widget.php:206
+#: ../classes/class-content-widget.php:177
+msgid ""
+"you may add multiple classes by seperating with spaces <br> (ie: class "
+"class_two)"
+msgstr ""
+
+#: ../classes/class-content-wide-widget.php:12
+msgid "500 Content Wide"
+msgstr ""
+
+#: ../classes/class-content-wide-widget.php:13
+msgid ""
+"A full-width content area for your home page, with an automatic style based "
+"on your Color Customization preferences."
+msgstr ""
+
+#: ../classes/class-content-widget.php:12
+msgid "500 Content"
+msgstr ""
+
+#: ../classes/class-content-widget.php:13
+msgid ""
+"Fully customizable 500 Content Widget. Add images and background images, "
+"control text and background color, and more."
+msgstr ""
+
+#: ../classes/class-music-widget.php:12
+msgid "500 Music Widget"
+msgstr ""
+
+#: ../classes/class-music-widget.php:13
+msgid "Use to embed music on your home page"
+msgstr ""
+
+#: ../classes/class-music-widget.php:41
+msgid "Embed Code"
+msgstr ""
+
+#: ../classes/class-project-grid-widget.php:12
+msgid "500 Project Grid"
+msgstr ""
+
+#: ../classes/class-project-grid-widget.php:13
+msgid "A widget to display projects in a grid"
+msgstr ""
+
+#: ../classes/class-project-grid-widget.php:133
+msgid "Enter title to display above widget"
+msgstr ""
+
+#: ../classes/class-project-grid-widget.php:137
+msgid "Maximum Projects"
+msgstr ""
+
+#: ../classes/class-project-grid-widget.php:140
+msgid ""
+"The number of projects you want to show in the grid. Using -1 will show all "
+"filtered projects"
+msgstr ""
+
+#: ../classes/class-project-grid-widget.php:143
+msgid "Project Category (Optional)"
+msgstr ""
+
+#: ../classes/class-project-grid-widget.php:145
+msgid ""
+"Enter the slug of the Project Category to only show projects from certain "
+"categories"
+msgstr ""
+
+#: ../classes/class-project-grid-widget.php:149
+msgid "Order By (Optional)"
+msgstr ""
+
+#: ../classes/class-project-grid-widget.php:152
+msgid "Percent Raised"
+msgstr ""
+
+#: ../classes/class-project-grid-widget.php:153
+msgid "Funds Raised"
+msgstr ""
+
+#: ../classes/class-project-grid-widget.php:155
+msgid "Date"
+msgstr ""
+
+#: ../classes/class-project-grid-widget.php:158
+msgid ""
+"You can set what you want the projects to order by. Possible values are "
+"days_left, percent_raised, funds_raised, title, date (default)"
+msgstr ""
+
+#: ../classes/class-project-grid-widget.php:161
+msgid "Order (Optional)"
+msgstr ""
+
+#: ../classes/class-project-grid-widget.php:167
+msgid "You can set the orderby to order ascending or descending"
+msgstr ""
+
+#: ../classes/class-project-grid-widget.php:170
+msgid "Author (Optional)"
+msgstr ""
+
+#: ../classes/class-project-grid-widget.php:173
+msgid ""
+"Enter the username of the author for the post you wish to display. Only one "
+"author is allowed"
+msgstr ""
+
+#: ../classes/class-project-grid-widget.php:176
+msgid "Custom classes"
+msgstr ""
+
+#: ../classes/class-project-grid-widget.php:179
+msgid ""
+"List of custom classes to be applied to grid wrapper, separated via space"
+msgstr ""
+
+#: ../classes/class-video-widget.php:12
+msgid "500 Video Widget"
+msgstr ""
+
+#: ../classes/class-video-widget.php:13
+msgid "Use to embed a video on your home page"
+msgstr ""
+
+#: ../comments.php:29
+msgid "Comment navigation"
+msgstr ""
+
+#: ../comments.php:30
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: ../comments.php:31
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: ../comments.php:40
+msgid "Comments are closed."
+msgstr ""
+
+#: ../entry-footer.php:4
+msgid "Read More..."
+msgstr ""
+
+#: ../entry-meta.php:3
+msgid "By"
+msgstr ""
+
+#: ../entry-meta.php:4
+#, php-format
+msgid "View all articles by %s"
+msgstr ""
+
+#: ../functions.php:67
+msgid ""
+"An Unexpected HTTP Error occurred during the API request.</p> <p><a href=\"?"
+"\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+msgstr ""
+
+#: ../functions.php:71
+msgid "An unknown error occurred"
+msgstr ""
+
+#: ../functions.php:213
+msgid "Settings Saved"
+msgstr ""
+
+#: ../functions.php:233
+msgid "Grid Layout"
+msgstr ""
+
+#: ../functions.php:246
+msgid "Single Project"
+msgstr ""
+
+#: ../functions.php:749
+msgid "Main Menu"
+msgstr ""
+
+#: ../functions.php:750
+msgid "Footer Menu"
+msgstr ""
+
+#: ../functions.php:777
+msgid "Primary Color"
+msgstr ""
+
+#: ../functions.php:783
+msgid "Primary Light Color"
+msgstr ""
+
+#: ../functions.php:789
+msgid "Primary Dark Color"
+msgstr ""
+
+#: ../functions.php:795
+msgid "Secondary Color"
+msgstr ""
+
+#: ../functions.php:801
+msgid "Secondary Dark Color"
+msgstr ""
+
+#: ../functions.php:807
+msgid "Text Color"
+msgstr ""
+
+#: ../functions.php:813
+msgid "Subtle Text Color"
+msgstr ""
+
+#: ../functions.php:819
+msgid "Text Color On Primary Background"
+msgstr ""
+
+#: ../functions.php:825
+msgid "Container Background Color"
+msgstr ""
+
+#: ../functions.php:831
+msgid "Site Background Color"
+msgstr ""
+
+#: ../functions.php:986
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: ../functions.php:1004
+msgid "My Account"
+msgstr ""
+
+#: ../functions.php:1005
+msgid "Logout"
+msgstr ""
+
+#: ../functions.php:1008
+msgid "Create Account"
+msgstr ""
+
+#: ../functions.php:1009
+msgid "Login"
+msgstr ""
+
+#: ../functions.php:1053
+msgid "Pingback:"
+msgstr ""
+
+#: ../functions.php:1053
+msgid "(Edit)"
+msgstr ""
+
+#: ../functions.php:1069
+msgid "Post author"
+msgstr ""
+
+#: ../functions.php:1075
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: ../functions.php:1081
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../functions.php:1086
+msgid "Edit"
+msgstr ""
+
+#: ../functions.php:1090
+msgid "Reply"
+msgstr ""
+
+#: ../functions.php:1157
+msgid "Sidebar Widget Area"
+msgstr ""
+
+#: ../functions.php:1165
+msgid "Projects Sidebar Area"
+msgstr ""
+
+#: ../functions.php:1171
+msgid "This sidebar is located below the Levels on each Project page."
+msgstr ""
+
+#: ../functions.php:1174
+msgid "Home Sidebar Area"
+msgstr ""
+
+#: ../functions.php:1180
+msgid "This sidebar is located on the Home Page, to the right of About Us"
+msgstr ""
+
+#: ../functions.php:1183
+msgid "Home Top Content Widgets"
+msgstr ""
+
+#: ../functions.php:1184
+msgid ""
+"This is a widget area on Project Grid home, directly above the Project Grid"
+msgstr ""
+
+#: ../functions.php:1192
+msgid "Home Content Widgets"
+msgstr ""
+
+#: ../functions.php:1193
+msgid ""
+"This is a widget area on Project Grid home and Single Project home, below "
+"Featurd Projects or the Project Deck."
+msgstr ""
+
+#: ../functions.php:1201
+msgid "Top of Footer"
+msgstr ""
+
+#: ../functions.php:1202
+msgid "This is a widget area at top of the footer, on every page of the site."
+msgstr ""
+
+#: ../functions.php:1256
+msgid "This theme requires the"
+msgstr ""
+
+#: ../functions.php:1256
+msgid "IgnitionDeck WordPress Crowdfunding Plugin"
+msgstr ""
+
+#: ../loop-levels-home.php:63 ../loop-levels.php:61
+#: ../templates/_projectGrid.php:99
+msgid "Limit"
+msgstr ""
+
+#: ../nav-above-grid.php:15
+msgid "Sort By"
+msgstr ""
+
+#: ../nav-above-grid.php:16
+msgid "Oldest"
+msgstr ""
+
+#: ../nav-above-grid.php:16
+msgid "Newest"
+msgstr ""
+
+#: ../nav-above-grid.php:24
+msgid "Category"
+msgstr ""
+
+#: ../nav-above-project.php:8
+msgid "Description"
+msgstr ""
+
+#: ../nav-above-project.php:10
+msgid "Updates"
+msgstr ""
+
+#: ../nav-above-project.php:13
+msgid "FAQ"
+msgstr ""
+
+#: ../nav-above-project.php:16
+msgid "Comments"
+msgstr ""
+
+#: ../nav-above-project.php:19
+msgid "Backers"
+msgstr ""
+
+#: ../project-footer-single.php:4
+#, php-format
+msgid ""
+"This article was posted in %1$s%2$s. Bookmark the <a href=\"%3$s\" title="
+"\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>. Follow comments with "
+"the <a href=\"%5$s\" title=\"Comments RSS to %4$s\" rel=\"alternate\" type="
+"\"application/rss+xml\">RSS feed for this post</a>."
+msgstr ""
+
+#: ../project-footer-single.php:6
+msgid " and tagged "
+msgstr ""
+
+#: ../project-footer-single.php:11
+#, php-format
+msgid ""
+"<a class=\"comment-link\" href=\"#respond\" title=\"Post a Comment\">Post a "
+"Comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" "
+"title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr ""
+
+#: ../project-footer-single.php:13
+#, php-format
+msgid ""
+"Comments are closed, but you can leave a trackback: <a class=\"trackback-link"
+"\" href=\"%s\" title=\"Trackback URL for post\" rel=\"trackback\">Trackback "
+"URL</a>."
+msgstr ""
+
+#: ../project-footer-single.php:15
+msgid ""
+"Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond"
+"\" title=\"Post a Comment\">Post a Comment</a>."
+msgstr ""
+
+#: ../project-footer-single.php:17
+msgid "Both comments and trackbacks are closed."
+msgstr ""
+
+#: ../project-footer.php:5
+#, php-format
+msgid "Also posted in %s"
+msgstr ""
+
+#: ../project-footer.php:9
+msgid "Posted in "
+msgstr ""
+
+#: ../project-footer.php:13
+#, php-format
+msgid "Also tagged %s"
+msgstr ""
+
+#: ../project-footer.php:15
+msgid "Tagged "
+msgstr ""
+
+#: ../project-footer.php:17
+msgid "Leave a comment"
+msgstr ""
+
+#: ../project-footer.php:17
+msgid "1 Comment"
+msgstr ""
+
+#: ../project-footer.php:17
+msgid "% Comments"
+msgstr ""
+
+#: ../project-hDeck-home.php:83 ../project-hDeck.php:79
+msgid "Project Ends"
+msgstr ""
+
+#: ../project-sidebar-home.php:11
+msgid "Support Levels"
+msgstr ""
+
+#: ../project-social.php:23
+msgid "Tweet"
+msgstr ""
+
+#: ../search.php:5
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: ../search.php:13
+msgid "Nothing Found"
+msgstr ""
+
+#: ../search.php:15
+msgid "Sorry, nothing matched your search. Please try again."
+msgstr ""
+
+#: ../searchform.php:4
+msgid "Search"
+msgstr ""
+
+#: ../tag.php:5
+msgid "Tag Archives:"
+msgstr ""
+
+#: ../templates/_projectGrid.php:36
+msgid "Pledged of"
+msgstr ""
+
+#: ../templates/_projectGrid.php:36
+msgid "goal"
+msgstr ""
+
+#: ../templates/_projectGrid.php:40
+msgid "Pledgers"
+msgstr ""
+
+#: ../templates/_projectGrid.php:45
+msgid "Days to go"
+msgstr ""
+
+#: ../templates/_projectGrid.php:53
+msgid "Funded on"
+msgstr ""
+
+#: ../templates/_projectGrid.php:53
+msgid "Ended on"
+msgstr ""
+
+#: ../templates/_projectGrid.php:97
+msgid "level"
+msgstr ""
+
+#: ../templates/admin/_themeSettings.php:2
+msgid "500 Theme"
+msgstr ""
+
+#: ../templates/admin/_themeSettings.php:8
+msgid "Replace Site Name with your Logo"
+msgstr ""
+
+#: ../templates/admin/_themeSettings.php:9
+msgid "Maximum image dimensions are 300 pixels wide and/or 50 pixels high."
+msgstr ""
+
+#: ../templates/admin/_themeSettings.php:9
+msgid ""
+"Note: If you upload an image larger than this, it will automatically resize "
+"the image to fit, however we highly recommend you control the image "
+"dimensions prior to upload."
+msgstr ""
+
+#: ../templates/admin/_themeSettings.php:20
+msgid "Home Page Layout"
+msgstr ""
+
+#: ../templates/admin/_themeSettings.php:26
+msgid "Number of Projects to Display on Home Page"
+msgstr ""
+
+#: ../templates/admin/_themeSettings.php:34
+msgid "No Feature"
+msgstr ""
+
+#: ../templates/admin/_themeSettings.php:52
+msgid "Blog Page"
+msgstr ""
+
+#: ../templates/admin/_themeSettings.php:68
+msgid "About Us Text"
+msgstr ""
+
+#: ../templates/admin/_themeSettings.php:69
+msgid "This will appear below your featured projects on the home page."
+msgstr ""
+
+#: ../templates/admin/_themeSettings.php:79
+msgid "Custom CSS"
+msgstr ""
+
+#: ../templates/admin/_themeSettings.php:80
+msgid "Enter custom CSS here."
+msgstr ""
+
+#: ../templates/admin/_themeSettings.php:86
+msgid "Google Analytics Code"
+msgstr ""
+
+#: ../templates/admin/_themeSettings.php:87
+msgid "Enter your full Google Analytics code snippet here."
+msgstr ""
+
+#: ../templates/admin/_themeSettings.php:94
+msgid "Save Settings"
+msgstr ""
