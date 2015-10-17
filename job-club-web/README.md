@@ -1,11 +1,11 @@
-# City Tech Crowdfunding #
+# Job Club #
 
 Let the fun begin )))
 
 ### Setup in www directory of WAMP ###
 
 * cd <LOCAL WAMP WWW DIRECTORY>
-* git clone https://<YOUR USERNAME>@bitbucket.org/ctcf/crowdfunding.git
+* git clone https://github.com/NYC2015/team-12.git
 
 ### Development Process ###
 
@@ -15,6 +15,6 @@ Let the fun begin )))
 
 ### MYSQL Defaults ###
 
-* DB: wpctcf
-* User: wpctcf
-* Passwd: <pm me>
+* DB: code-for-good
+* User: admin
+* Passwd: 
