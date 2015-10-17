@@ -140,3 +140,11 @@ body {
   background: #F6F3E4;
 }
 
+.idea_img {
+  width: 272px;
+  height: 200px;
+}
+
+li.idea.list-group-item {
+  margin-bottom: 17px;
+}
