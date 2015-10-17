@@ -20,3 +20,7 @@
     bottom: 0;
     right: 0;
 }
+
+li.list-group-item {
+  color: black;
+}
