@@ -201,3 +201,14 @@ font-size: 2em;
 font-family: 'Advent Pro', sans-serif;
 color: rgba(132, 206, 66, 1);
 }
+.date_range {
+position: relative;
+bottom: 50%;
+left: 0;
+margin-bottom: -100px;
+text-align: center;
+width: 100%;
+font-size: 2em;
+font-family: 'Advent Pro', sans-serif;
+color: rgba(132, 206, 66, 1);
+}
