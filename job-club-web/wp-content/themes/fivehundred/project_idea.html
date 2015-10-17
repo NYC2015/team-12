@@ -1,0 +1,122 @@
+<html ng-app="timesheet">
+
+<head>
+  <title>Project Form</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/260783/bootstrap.min.css">
+  <link rel="stylesheet" href="css/form-project.css">
+  <link rel="stylesheet" href="css/form-money-slider.css">
+
+</head>
+
+<body>
+  <div ng-controller="FormController">
+
+    <section id="section-timesheet" ng-class="{ scale: success }">
+
+      <h1>Submit Your Project Plan</h1>
+
+      <div class="inner">
+
+        <form name="formTimesheet" novalidate>
+          <label data-tooltip="What product or service are you providing?">Product:</label>
+          <input ng-model="ele.email" type="text" placeholder="Product Type" required>
+
+          <label data-tooltip="Highlight reasons why people should buy your product. Some things that you can highlight are: features, price, time savings, ease of use, accessibility.">Product Description</label>
+          <textarea ng-model="ele.msg"></textarea>
+
+           <div id="swot">
+            <label data-tooltip="A SWOT (strengths, weaknesses, opportunities, threats) analysis helps you analyze your company's capabilities against the realities of your business environment so you can direct your business toward areas where your capabilities are strong and your opportunities are great.">SWOT Analysis: </label>
+            <div id="create-new">
+              <input type="text" ng-model="newType" placeholder="add strength, weakness, opportunity or threat">
+              <button class="button" type="button" ng-click="createNew(newType)">Add New</button>
+            </div>
+          
+          
+          <div id="projects">
+          <label data-tooltip="Strengths describe the positive attributes, tangible and intangible, internal to your product. They are within your control. Example: What advantages do you have over your competition?"> Strengths: </label>
+            <select id="dropDown" name="dropDown" ng-model="strengths" multiple required>
+              <option ng-repeat="type in ele.selectTypes" value="{{type}}">{{type}}</option>
+            </select>
+          </div>
+          
+          <div id="projects">
+            <label data-tooltip="Weaknesses are aspects of your business that detract from the value you offer or place you at a competitive disadvantage. You need to enhance these areas in order to compete with your best competitor."> Weaknesses: </label>
+            <select id="dropDown" name="dropDown" ng-model="weaknesses" multiple required>
+              <option ng-repeat="type in ele.selectTypes" value="{{type}}">{{type}}</option>
+            </select>
+          </div>
+             
+             <div id="projects">
+            <label data-tooltip="Opportunities are external attractive factors that represent reasons your product is likely to prosper.">Opportunities: </label>
+            <select id="dropDown" name="dropDown" ng-model="opportunities" multiple required>
+              <option ng-repeat="type in ele.selectTypes" value="{{type}}">{{type}}</option>
+            </select>
+          </div>
+             
+             <div id="projects">
+            <label data-tooltip="Threats include external factors beyond your control that could place your strategy, or the product itself, at risk. You have no control over these, but you may benefit by having contingency plans to address them if they should occur.">Threats: </label>
+            <select id="dropDown" name="dropDown" ng-model="threats" multiple required>
+              <option ng-repeat="type in ele.selectTypes" value="{{type}}">{{type}}</option>
+            </select>
+          </div>
+
+         
+          <label>What is your budget?</label>
+          </br>
+			<label for="range">
+      		<input type="range" name="range" id="range" min="0" max="100" step="1" value="1"/>
+			</label>
+ 			<output for="range" class="output"></output>
+ 			<br/><br/>
+
+ 			<label>How long do you expect to take to have a prototype done?</label>
+          </br>
+			<label for="range">
+      		<input type="range" name="date_range" id="date_range" min="0" max="12" step="1" value="6"/>
+			</label>
+ 			<output for="date_range" class="date_range"></output>
+ 			<br/>
+ 		
+
+          <div id="buttons">
+            <button class="button grey flex-item" type="reset" ng-click="clearInfo()">Clear</button>
+            <input ng-init="success = false" class="button flex-item" type="button" value="Next" ng-click="saveForm()" ng-disabled="formTimesheet.$invalid">
+          </div>
+
+        </form>
+
+      </div>
+
+      <div class="overlay" ng-class="{ animateShow:clicked }">
+        <div class="spinner">
+          <div class="double-bounce1"></div>
+          <div class="double-bounce2"></div>
+        </div>
+      </div>
+
+    </section>
+
+    <section id="section-thankyou" ng-class="{ hidden:!success, shown: success }">
+      <h1>Project Proposal Submitted</h1>
+
+      <div class="inner">
+
+        <p>Thank you <span class="green">Test User</span>.</p>
+        <p>You have submitted your project idea. You can view a list of other projects at:</p>
+
+        <button class="button" type="reset" ng-click="startAgain()">Start Again</button>
+
+      </div>
+    </section>
+
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/260783/angular.min.js"></script>
+  <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/260783/angular-animate.min.js"></script>
+  <script src="js/form-project.js"></script>
+  <script src="js/form-money-slider.js"></script>
+</body>
+</html>
