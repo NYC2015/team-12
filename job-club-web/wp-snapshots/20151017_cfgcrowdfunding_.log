@@ -1,0 +1,76 @@
+********************************************************************************
+PACKAGE-LOG: 2015-10-17 09:13:46
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	0.5.30
+WORDPRESS:	4.3
+PHP INFO:	5.3.28 | SAPI: apache2handler
+SERVER:		Apache/2.4.9 (Unix) PHP/5.3.28 mod_wsgi/3.4 Python/2.7.6 OpenSSL/1.0.1g 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 5000M (128M default) 
+MEMORY STACK: 27.5MB 
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   PHP(query limit - 100)
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Is Supported 
+TABLES: total:30 | filtered:0 | create:30 
+FILTERED: [] 
+SQL CREATED: 20151017_cfgcrowdfunding__database.sql 
+file size:1227163 
+SQL FILE SIZE: 1.17MB 
+SQL FILE TIME: 2015-10-17 09:13:46 
+SQL RUNTIME: 0.14 sec. 
+
+******************************************************************************** 
+ARCHIVE (ZIP): 
+******************************************************************************** 
+ARCHIVE DIR:  /Applications/AMPPS/www/cfg-crowdfunding 
+ARCHIVE FILE: 20151017_cfgcrowdfunding__archive.zip 
+FILTERS: *OFF* 
+DIRS:  not set 
+EXTS:  not set 
+---------------------------------------- 
+COMPRESSING 
+SIZE:	82.81MB 
+STATS:	Dirs 504 | Files 4,018 
+SQL ADDED: 20151017_cfgcrowdfunding__database.sql 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 4522
+    [filename] => /Applications/AMPPS/www/cfg-crowdfunding/wp-snapshots/tmp/20151017_cfgcrowdfunding__archive.zip
+    [comment] => 
+)
+ 
+COMPRESSION RESULT: '1' 
+COMPRESSED SIZE: 47.29MB 
+ARCHIVE RUNTIME: 6.85 sec. 
+MEMORY STACK: 29MB 
+
+******************************************************************************** 
+MAKE INSTALLER: 
+******************************************************************************** 
+Build Start 
+Build Finished 
+Preping for use 
+Template parsed with new data 
+Complete [/Applications/AMPPS/www/cfg-crowdfunding/wp-snapshots/tmp/20151017_cfgcrowdfunding__installer.php] 
+Added to archive 
+
+******************************************************************************** 
+INTEGRITY CHECKS: 
+******************************************************************************** 
+SQL File: 1.17MB 
+Installer File: 317.72KB 
+Archive File: 47.29MB  
+
+********************************************************************************
+RECORD ID:[6]
+TOTAL PROCESS RUNTIME: 7.76 sec.
+PEAK PHP MEMORY USED: 31MB
+DONE PROCESSING => 20151017_cfgcrowdfunding 2015-10-17 09:13:54
+ 
