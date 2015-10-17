@@ -419,3 +419,11 @@ select.ng-valid.ng-dirty {
   filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
 }
+
+.hidden {
+  display: none;
+}
+
+.item, .qty, .price {
+  width: 139px;
+}

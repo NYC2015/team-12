@@ -70,3 +70,19 @@
   });
 
 })();
+
+// sum accumulator price calc
+jQuery(function($) {
+
+$(".qty, .price").change(function() {
+    var total = 0;
+    $(".qty").each(function() {
+        var self = $(this),
+            price = self.next(".price"),
+            subtotal = parseInt(self.val(), 10) * parseFloat(price.val(), 10);
+        total += (subtotal || 0);
+    });
+    $("#total").text(total);
+});
+
+});
