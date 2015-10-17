@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="stylesheet" href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/260783/bootstrap.min.css">
-  <link rel="stylesheet" href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/260783/style.css">
+  <link rel="stylesheet" href="css/form-project.css">
   <link rel="stylesheet" href="css/form-money-slider.css">
 
 </head>
@@ -20,14 +20,14 @@
       <div class="inner">
 
         <form name="formTimesheet" novalidate>
-          <label>Product:</label>
+          <label data-tooltip="What product or service are you providing?">Product:</label>
           <input ng-model="ele.email" type="text" placeholder="Product Type" required>
 
-          <label>Product Description</label>
+          <label data-tooltip="Highlight reasons why people should buy your product. Some things that you can highlight are: features, price, time savings, ease of use, accessibility.">Product Description</label>
           <textarea ng-model="ele.msg"></textarea>
 
            <div id="swot">
-            <label>SWOT Analysis: <span
+            <label data-tooltip="A SWOT (strengths, weaknesses, opportunities, threats) analysis helps you analyze your company's capabilities against the realities of your business environment so you can direct your business toward areas where your capabilities are strong and your opportunities are great.">SWOT Analysis: </label>
             <div id="create-new">
               <input type="text" ng-model="newType" placeholder="add strength, weakness, opportunity or threat">
               <button class="button" type="button" ng-click="createNew(newType)">Add New</button>
@@ -35,28 +35,28 @@
           
           
           <div id="projects">
-            <label>Strengths: <span></span></label>
+          <label data-tooltip="Strengths describe the positive attributes, tangible and intangible, internal to your product. They are within your control. Example: What advantages do you have over your competition?"> Strengths: </label>
             <select id="dropDown" name="dropDown" ng-model="strengths" multiple required>
               <option ng-repeat="type in ele.selectTypes" value="{{type}}">{{type}}</option>
             </select>
           </div>
           
           <div id="projects">
-            <label>Weaknesses: <span></span></label>
+            <label data-tooltip="Weaknesses are aspects of your business that detract from the value you offer or place you at a competitive disadvantage. You need to enhance these areas in order to compete with your best competitor."> Weaknesses: </label>
             <select id="dropDown" name="dropDown" ng-model="weaknesses" multiple required>
               <option ng-repeat="type in ele.selectTypes" value="{{type}}">{{type}}</option>
             </select>
           </div>
              
              <div id="projects">
-            <label>Opportunities: <span></span></label>
+            <label data-tooltip="Opportunities are external attractive factors that represent reasons your product is likely to prosper.">Opportunities: </label>
             <select id="dropDown" name="dropDown" ng-model="opportunities" multiple required>
               <option ng-repeat="type in ele.selectTypes" value="{{type}}">{{type}}</option>
             </select>
           </div>
              
              <div id="projects">
-            <label>Threats: <span></span></label>
+            <label data-tooltip="Threats include external factors beyond your control that could place your strategy, or the product itself, at risk. You have no control over these, but you may benefit by having contingency plans to address them if they should occur.">Threats: </label>
             <select id="dropDown" name="dropDown" ng-model="threats" multiple required>
               <option ng-repeat="type in ele.selectTypes" value="{{type}}">{{type}}</option>
             </select>
